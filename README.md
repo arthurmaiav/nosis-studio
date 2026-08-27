@@ -1,181 +1,160 @@
 # Nosis Studio
 
-An open-source content miner and production pipeline for the public 9nosis archive.
+**Mine the public 9nosis archive and turn real incidents into evidence-backed production packages.**
 
-Nosis Studio turns the public [`9nosis.net/history`](https://9nosis.net/history/) archive into evidence-backed story leads, episode packets, and deterministic shot packages. Video models get one job: animate an already-correct composition.
+Nosis Studio helps creators:
 
-## Why this exists
+1. **Find stories** in public resident mail, events, journals, and profiles.
+2. **Prove the facts** with exact archive records and onchain receipts.
+3. **Prepare production** with organized shots, visual references, prompts, and review rules.
 
-AI video models are useful performers and unreliable scene engines. They should not own story logic, object permanence, readable text, transaction details, or continuity.
+It does not generate or publish media yet. It prepares the verified handoff for those steps.
 
-Nosis Studio separates those responsibilities:
+## Use cases and commands
 
-```text
-public archive
-  -> normalized SQLite index
-  -> ranked story leads
-  -> evidence packet
-  -> approved episode specification
-  -> state-locked shot manifest
-  -> first-frame animatic
-  -> controlled motion tests
-  -> final edit with receipts
-```
+| I want to... | Run this | What happens | Output |
+|---|---|---|---|
+| Download the latest public history | `bun run studio sync` | Downloads and indexes the 9nosis archive | Local archive files and `data/studio.sqlite` |
+| Find a specific incident | `bun run studio search "return the extra" --limit 10` | Searches all indexed history | Matching records with timestamps, archive locations, and evidence IDs |
+| Search only one source type | `bun run studio search "Worker" --type resident` | Searches only `mail`, `event`, `resident`, or `journal` records | Focused terminal results |
+| Discover content ideas | `bun run studio mine --limit 25` | Ranks incidents with conflict, payment, and receipt signals | Candidate reports in `data/generated/` |
+| Fact-check an episode | `bun run studio develop wallet-with-no-postage` | Verifies every required claim against the archive | `evidence.md` and `evidence.json` in the episode folder |
+| See available characters | `bun run studio characters` | Checks the cast and its approved or pending references | Character readiness in the terminal |
+| See reusable assets | `bun run studio assets` | Checks environments, tokens, props, and style references | Asset readiness in the terminal |
+| Prepare shots for generation | `bun run studio package wallet-with-no-postage` | Builds a complete handoff from the verified episode and shot plan | Timestamped take folders in `build/episodes/` |
 
-The result is a production workflow where every factual claim stays inspectable and every generated shot has explicit pass criteria.
-
-## What creators can do
-
-Anyone can use the public archive to:
-
-- search resident mail, events, journals, and profiles
-- discover incidents with conflict, reversals, and payoffs
-- trace story claims back to exact archive records
-- preserve finalized onchain receipts as part of the episode
-- develop an outsider-readable premise and narrator draft
-- package a storyboard into controlled image and motion takes
-
-Creators bring their own production assets and provider access. Nosis Studio does not hide provider credentials in the repository or spend credits without an explicit generation step.
-
-## Current case study
-
-The first episode is [The Wallet With No Postage](docs/case-study-wallet-with-no-postage.md).
-
-One payment authorization produced five onchain sends. Residents were asked to return duplicate settlements, then discovered their wallets held NOSIS but no SOL for network fees. The House funded every resident with `0.01 SOL`, and Worker returned `90,000 NOSIS` in a finalized transaction.
-
-The episode is designed around Worker, Treasurer, and Sentinel. Its nine-shot manifest keeps generated performance separate from editor-owned token counts, labels, state changes, and receipt copy.
-
-The repository includes an initial visual reference pack for those three residents, the base resident style, Settlement Hall, and the NOSIS and SOL token designs.
-
-## What is implemented
-
-- Archive sync from the public 9nosis history endpoint
-- Normalization into SQLite with FTS5 search
-- Stable evidence identifiers and archive locators
-- Ranked story candidate mining
-- Required-claim evidence gates
-- Structured character folders with machine-readable visual-reference state
-- Separated common libraries for style, environments, tokens, and reusable props
-- Episode and onchain receipt schemas with Zod
-- Deterministic first-frame briefs and motion prompts
-- Versioned take packages with SHA-256 reference hashes
-- Separate 480p test and 1080p final settings
-- Per-shot review checklists and approval state
-
-See [Architecture](docs/architecture.md) for the module boundaries and production contract.
+Use `bun run studio characters --json` or `bun run studio assets --json` when another tool needs structured output.
 
 ## Quick start
 
-Requirements:
-
-- [Bun](https://bun.sh/) 1.3 or newer
-
-Install and verify:
+Requires [Bun](https://bun.sh/) 1.3 or newer.
 
 ```bash
+git clone https://github.com/arthurmaiav/nosis-studio.git
+cd nosis-studio
 bun install
-bun run typecheck
-bun test
-```
-
-View the CLI:
-
-```bash
-bun run studio --help
-```
-
-Inspect the available recurring cast:
-
-```bash
-bun run studio characters
-bun run studio characters --json
-bun run studio assets
-bun run studio assets --json
-```
-
-Index the current public archive:
-
-```bash
 bun run studio sync
 ```
 
-Search it:
+## Common workflows
+
+### Find proof for something that happened
 
 ```bash
-bun run studio search "return the extra" --limit 10
-bun run studio search "Worker" --type resident
+bun run studio search "wallet held NOSIS but no SOL" --limit 10
 ```
 
-Mine and develop stories:
+Each result shows the source location, timestamp, residents involved, record excerpt, and stable evidence ID.
+
+### Find new story ideas
 
 ```bash
-bun run studio mine
+bun run studio mine --limit 25
+```
+
+This creates a readable report and machine-readable data:
+
+```text
+data/generated/candidates-<archive-id>.md
+data/generated/candidates-<archive-id>.json
+```
+
+These are research leads. A human still chooses which story to develop.
+
+### Verify a selected story
+
+```bash
 bun run studio develop wallet-with-no-postage
 ```
 
-The archive snapshot, SQLite index, evidence packet, production media, and generated builds stay local. They are deliberately excluded from Git.
+The command reads `episodes/wallet-with-no-postage/episode.json` and creates:
 
-## Production packaging
+```text
+episodes/wallet-with-no-postage/evidence.md
+episodes/wallet-with-no-postage/evidence.json
+```
 
-The public example includes the episode specification, storyboard, and shot manifest. To build production take folders, add your own locked character, token, and environment references at the paths declared by the manifest, then run:
+It fails if a required claim has no archive evidence. Archive facts, onchain receipts, adaptation notes, and narration stay separate.
+
+### Build the production handoff
 
 ```bash
+bun run studio characters
+bun run studio assets
 bun run studio package wallet-with-no-postage
 ```
 
-Each generated take contains:
+The result is one folder per shot with:
 
-- immutable references with content hashes
+- locked visual references and file hashes
 - an exact first-frame brief
-- one permitted motion action
-- provider settings for test and final output
+- a motion prompt
+- test and final provider settings
 - a pass or reject checklist
-- a machine-readable manifest for job and approval state
+- a machine-readable manifest
 
-No motion generation should begin until the complete silent animatic is understandable.
+The package is ready for image and video generation, but no provider job is submitted automatically.
 
-## Repository layout
+## Run the included example
 
-| Path | Purpose |
-|---|---|
-| `src/archive` | Sync, normalize, index, and search public history |
-| `src/story` | Rank leads and develop evidence-backed episodes |
-| `src/production` | Produce deterministic shot and take packages |
-| `episodes` | Human-authored episode specifications |
-| `references/characters` | Public cast metadata and local visual-reference slots |
-| `references/common` | Public shared-asset metadata and local world-reference slots |
-| `scenes` | Public storyboard and shot-manifest sources |
-| `test` | Archive and production contract tests |
-| `docs` | Architecture and case studies |
+The repository includes [The Wallet With No Postage](docs/case-study-wallet-with-no-postage.md) as a complete, runnable example.
 
-## Public and local boundaries
+```bash
+bun run studio sync
+bun run studio search "return the extra" --limit 10
+bun run studio mine --limit 25
+bun run studio develop wallet-with-no-postage
+bun run studio characters
+bun run studio assets
+bun run studio package wallet-with-no-postage
+```
 
-This repository contains code, original documentation, episode specifications, and public production manifests.
+```text
+public history
+  -> searchable records
+  -> ranked story leads
+  -> verified evidence
+  -> cast and asset selection
+  -> generation-ready shot folders
+```
 
-It does not publish:
+## Create your own community episode
 
-- downloaded archive snapshots
-- local SQLite databases
-- raw archive evidence packets
-- internal research notes
-- draft, rejected, or uncleared production media
-- provider outputs or generated builds
-- credentials or provider job history
+There is not yet a `studio create` command. Today, the workflow is:
 
-## Community content
+1. Add `episodes/<episode-id>/episode.json` with the story, claims, receipts, adaptation notes, and narration.
+2. Run `bun run studio develop <episode-id>` to verify the required claims.
+3. Add `scenes/<episode-id>/storyboard.md` and `scenes/<episode-id>/shot-manifest.json`.
+4. Choose visual references from `references/characters/` and `references/common/`.
+5. Run `bun run studio package <episode-id>`.
 
-The public archive makes Nosis available for community storytelling, but public access does not turn every adaptation into official canon.
+Label community work as `Community Adaptation`. Preserve archive and transaction provenance, and do not invent motives, amounts, transactions, or market claims.
 
-Community episodes should:
+## Visual references
 
-- identify themselves as `Community Adaptation`
-- preserve exact archive and transaction provenance
-- separate archive fact, onchain receipt, adaptation, and narration
-- avoid invented motives, amounts, transactions, or market claims
-- keep readable evidence and receipt details in the final edit
+Character references live in `references/characters/`. Shared styles, environments, tokens, and props live in `references/common/`. Each folder separates approved references from pending ones.
 
-The long-term goal is one guided command that mines an incident, develops the evidence packet, builds the production plan, and hands approved shots to creator-owned generation providers. See the [Roadmap](ROADMAP.md).
+See [the reference library guide](references/README.md) for the full structure.
 
-## License
+## Not implemented yet
 
-The original software and documentation in this repository are available under the [MIT License](LICENSE). Included visual references follow the separate [asset notice](ASSETS.md). Third-party brands and archive records remain subject to their own terms.
+- automatic episode creation
+- image or video generation
+- Higgsfield or other provider submission
+- final video assembly
+- publishing
+- a web interface
+
+See the [roadmap](ROADMAP.md) for planned work.
+
+## Development and license
+
+```bash
+bun run typecheck
+bun test
+bun run studio --help
+```
+
+Technical details are in [Architecture](docs/architecture.md). Contribution rules are in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Software and documentation use the [MIT License](LICENSE). Visual references follow the separate [asset notice](ASSETS.md).
