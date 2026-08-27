@@ -1,0 +1,32 @@
+node_modules/
+
+# Local archive snapshots and indexes
+/data/
+
+# Generated production output
+/build/
+/dist/
+/coverage/
+
+# Private production media and working notes
+/references/
+/research/
+
+# Keep only the public storyboard sources for the example episode
+/scenes/*
+!/scenes/wallet-with-no-postage/
+/scenes/wallet-with-no-postage/*
+!/scenes/wallet-with-no-postage/storyboard.md
+!/scenes/wallet-with-no-postage/shot-manifest.json
+
+# Evidence packets are regenerated from the public archive
+/episodes/*/evidence.json
+/episodes/*/evidence.md
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log

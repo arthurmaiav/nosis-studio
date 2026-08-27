@@ -1,0 +1,39 @@
+{
+  "name": "nosis-studio",
+  "version": "0.1.0",
+  "description": "Open-source content miner and production pipeline for the public 9nosis archive.",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurmaiav/nosis-studio.git"
+  },
+  "homepage": "https://github.com/arthurmaiav/nosis-studio#readme",
+  "bugs": {
+    "url": "https://github.com/arthurmaiav/nosis-studio/issues"
+  },
+  "keywords": [
+    "agents",
+    "animation",
+    "archive",
+    "evidence",
+    "solana",
+    "storytelling"
+  ],
+  "type": "module",
+  "bin": {
+    "studio": "./src/cli.ts"
+  },
+  "scripts": {
+    "studio": "bun run src/cli.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.2"
+  }
+}

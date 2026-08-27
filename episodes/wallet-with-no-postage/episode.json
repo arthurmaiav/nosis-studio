@@ -1,0 +1,111 @@
+{
+  "id": "wallet-with-no-postage",
+  "title": "The Wallet With No Postage",
+  "premise": "An AI village overpays its residents, asks them to return the money, then discovers their wallets hold NOSIS but no SOL to pay the network fee.",
+  "protagonist": "Worker",
+  "want": "Return the duplicate settlements exactly once.",
+  "obstacle": "Worker's wallet can receive NOSIS but holds no SOL for transaction fees.",
+  "reversal": "The House realizes every resident wallet has the same missing-postage problem and funds each one with 0.01 SOL.",
+  "payoff": "Worker returns 90,000 NOSIS and the repayment is proven by a finalized onchain transaction.",
+  "cast": ["worker", "treasurer", "sentinel"],
+  "claims": [
+    {
+      "id": "one-authorization-five-sends",
+      "statement": "One authorization produced five distinct sends totaling 75,000 NOSIS.",
+      "searchTerms": ["5 distinct sends 75,000 total ONE authorization at 21:17:12"],
+      "sourceTypes": ["mail"],
+      "actors": ["fable", "projectionist"],
+      "required": true
+    },
+    {
+      "id": "house-requests-returns",
+      "statement": "The House asked residents to return duplicate settlements and said the error was not theirs.",
+      "searchTerms": ["paid you twice for the same work", "not your error and not the treasurer's either"],
+      "sourceTypes": ["mail"],
+      "actors": ["the house", "scout"],
+      "required": true
+    },
+    {
+      "id": "puzzler-send-fails",
+      "statement": "Puzzler's attempt to return 15,000 NOSIS failed during transaction simulation.",
+      "searchTerms": ["Transaction simulation failed Attempt to debit an account", "return the 15,000 duplicate settlement"],
+      "sourceTypes": ["mail"],
+      "actors": ["puzzler", "treasurer"],
+      "required": true
+    },
+    {
+      "id": "false-sent-output",
+      "statement": "Worker caught a false SENT report because no receipt appeared and the onchain balance did not move.",
+      "searchTerms": ["pay tool bug printed SENT", "receipts worker was NOT updated", "on-chain balance stayed"],
+      "sourceTypes": ["mail"],
+      "actors": ["worker", "outfitter"],
+      "required": true
+    },
+    {
+      "id": "wallets-had-no-sol",
+      "statement": "Resident wallets held NOSIS but no SOL, so they could receive tokens but could not send them.",
+      "searchTerms": ["wallet held NOSIS but no SOL", "purse could receive forever and never spend once"],
+      "sourceTypes": ["mail"],
+      "actors": ["the house", "worker", "puzzler", "scout"],
+      "required": true
+    },
+    {
+      "id": "house-funds-fees",
+      "statement": "The House funded every resident with 0.01 SOL for transaction fees.",
+      "searchTerms": ["Every resident now holds 0.01 SOL for fees"],
+      "sourceTypes": ["mail"],
+      "actors": ["the house", "worker", "puzzler", "scout"],
+      "required": true
+    },
+    {
+      "id": "worker-repayment-receipt",
+      "statement": "Worker received an archive receipt for returning 90,000 NOSIS.",
+      "searchTerms": ["90000 returning duplicate settlements Filters 28 29 30 signature The coin is on chain"],
+      "sourceTypes": ["mail"],
+      "actors": ["the house", "worker"],
+      "required": true
+    },
+    {
+      "id": "puzzler-repayment-receipt",
+      "statement": "Puzzler received an archive receipt for returning 15,000 NOSIS.",
+      "searchTerms": ["15000 returning duplicate settlement of Kagero Hard-Rule Compliance signature The coin is on chain"],
+      "sourceTypes": ["mail"],
+      "actors": ["the house", "puzzler"],
+      "required": true
+    }
+  ],
+  "receipts": [
+    {
+      "label": "Worker returned 90,000 NOSIS",
+      "network": "Solana mainnet",
+      "signature": "5tMeBfMUxFaCdZHA16upi4WfbKkuPQZiYzCCWJSAJpRikhy3ye2AYEiS1nuZvjATFD92B8G4gco7bJdmYSMJ6ZVJ",
+      "url": "https://solscan.io/tx/5tMeBfMUxFaCdZHA16upi4WfbKkuPQZiYzCCWJSAJpRikhy3ye2AYEiS1nuZvjATFD92B8G4gco7bJdmYSMJ6ZVJ",
+      "verifiedAt": "2026-08-27",
+      "facts": [
+        "Finalized block time 1787537867.",
+        "Worker token balance decreased from 7,372,001 to 7,282,001 NOSIS.",
+        "The destination token balance increased by 90,000 NOSIS."
+      ]
+    },
+    {
+      "label": "Puzzler returned 15,000 NOSIS",
+      "network": "Solana mainnet",
+      "signature": "654Drkdn47RTDzTEFtjZGPaV9TXMLZxMexGwm2oyvjzNc27kJHspY6jradwcJwoSeBQAmtGVDMo9q1xQkMVUsn1n",
+      "url": "https://solscan.io/tx/654Drkdn47RTDzTEFtjZGPaV9TXMLZxMexGwm2oyvjzNc27kJHspY6jradwcJwoSeBQAmtGVDMo9q1xQkMVUsn1n",
+      "verifiedAt": "2026-08-27",
+      "facts": [
+        "Finalized block time 1787539903.",
+        "Puzzler token balance decreased from 250,000 to 235,000 NOSIS.",
+        "The destination token balance increased by 15,000 NOSIS."
+      ]
+    }
+  ],
+  "adaptationNotes": [
+    "Do not imply Treasurer intentionally paid five times.",
+    "Do not imply Worker tried to keep the money.",
+    "Keep the 75,000 NOSIS quintuple send separate from Worker's total 90,000 NOSIS repayment.",
+    "The House remains offscreen in the first episode.",
+    "Readable amounts, balances, and transaction details are editor overlays, not generated footage."
+  ],
+  "narratorDraft": "This AI village paid the same bounty five times onchain. Worker tried to send the extra back, but his wallet had NOSIS and literally zero SOL for gas. Bro could receive forever and could not send once. The House had to give every resident 0.01 SOL just so they could return the money. Worker eventually sent all 90,000 NOSIS back. The receipt is onchain."
+}
