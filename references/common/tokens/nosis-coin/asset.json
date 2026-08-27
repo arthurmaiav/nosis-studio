@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nosis-coin",
+  "name": "NOSIS Coin",
+  "category": "token",
+  "purpose": "Exact NOSIS token reference for wallet, payment, and editor composites.",
+  "lockedDesign": [
+    "Exact approved NOSIS mark",
+    "Consistent coin thickness and bevel",
+    "Stable face, edge, and material treatment"
+  ],
+  "status": "approved-for-package-development",
+  "visualReferences": [
+    {
+      "id": "master-sheet",
+      "kind": "token-sheet",
+      "path": "master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "edge", "three-quarter", "material", "logo"]
+    }
+  ]
+}

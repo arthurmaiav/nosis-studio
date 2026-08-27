@@ -9,6 +9,8 @@ Nosis Studio begins as an open-source content miner for the public 9nosis histor
 - Rank high-signal story candidates
 - Require archive evidence for important claims
 - Preserve exact onchain receipt links
+- Catalog recurring characters and visual-reference readiness
+- Separate reusable styles, environments, tokens, and props from character identity
 - Generate episode evidence packets
 - Convert approved storyboards into strict take packages
 - Record first-frame, motion, and review state in machine-readable manifests

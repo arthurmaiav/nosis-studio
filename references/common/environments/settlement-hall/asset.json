@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "settlement-hall",
+  "name": "Settlement Hall",
+  "category": "environment",
+  "purpose": "Recurring location for wages, wallet diagnosis, repayments, and settlement receipts.",
+  "lockedDesign": [
+    "Warm ivory shell with teal and coral machines",
+    "Large curved windows overlooking the same retro-futurist skyline",
+    "Fixed left approval desk, center settlement station, and right inspection panel",
+    "Warm overhead light with clear readable floor zones"
+  ],
+  "status": "approved-for-package-development",
+  "visualReferences": [
+    {
+      "id": "master",
+      "kind": "environment-master",
+      "path": "master.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front composition", "palette", "materials", "lighting", "skyline"]
+    },
+    {
+      "id": "left-desk-axis",
+      "kind": "state-sheet",
+      "path": "left-desk-axis.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["approval lever", "receipt printer"]
+    },
+    {
+      "id": "center-station-axis",
+      "kind": "state-sheet",
+      "path": "center-station-axis.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["receiving hopper", "return hatch", "fee slot"]
+    },
+    {
+      "id": "right-panel-axis",
+      "kind": "state-sheet",
+      "path": "right-panel-axis.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["NOSIS wallet slot", "SOL fee slot"]
+    }
+  ]
+}

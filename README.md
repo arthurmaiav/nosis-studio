@@ -45,6 +45,8 @@ One payment authorization produced five onchain sends. Residents were asked to r
 
 The episode is designed around Worker, Treasurer, and Sentinel. Its nine-shot manifest keeps generated performance separate from editor-owned token counts, labels, state changes, and receipt copy.
 
+The repository includes an initial visual reference pack for those three residents, the base resident style, Settlement Hall, and the NOSIS and SOL token designs.
+
 ## What is implemented
 
 - Archive sync from the public 9nosis history endpoint
@@ -52,6 +54,8 @@ The episode is designed around Worker, Treasurer, and Sentinel. Its nine-shot ma
 - Stable evidence identifiers and archive locators
 - Ranked story candidate mining
 - Required-claim evidence gates
+- Structured character folders with machine-readable visual-reference state
+- Separated common libraries for style, environments, tokens, and reusable props
 - Episode and onchain receipt schemas with Zod
 - Deterministic first-frame briefs and motion prompts
 - Versioned take packages with SHA-256 reference hashes
@@ -78,6 +82,15 @@ View the CLI:
 
 ```bash
 bun run studio --help
+```
+
+Inspect the available recurring cast:
+
+```bash
+bun run studio characters
+bun run studio characters --json
+bun run studio assets
+bun run studio assets --json
 ```
 
 Index the current public archive:
@@ -129,6 +142,8 @@ No motion generation should begin until the complete silent animatic is understa
 | `src/story` | Rank leads and develop evidence-backed episodes |
 | `src/production` | Produce deterministic shot and take packages |
 | `episodes` | Human-authored episode specifications |
+| `references/characters` | Public cast metadata and local visual-reference slots |
+| `references/common` | Public shared-asset metadata and local world-reference slots |
 | `scenes` | Public storyboard and shot-manifest sources |
 | `test` | Archive and production contract tests |
 | `docs` | Architecture and case studies |
@@ -143,7 +158,7 @@ It does not publish:
 - local SQLite databases
 - raw archive evidence packets
 - internal research notes
-- character or environment source media
+- draft, rejected, or uncleared production media
 - provider outputs or generated builds
 - credentials or provider job history
 
@@ -163,4 +178,4 @@ The long-term goal is one guided command that mines an incident, develops the ev
 
 ## License
 
-The original software and documentation in this repository are available under the [MIT License](LICENSE). Third-party brands, archive records, and production assets remain subject to their own terms and are not licensed by this repository.
+The original software and documentation in this repository are available under the [MIT License](LICENSE). Included visual references follow the separate [asset notice](ASSETS.md). Third-party brands and archive records remain subject to their own terms.

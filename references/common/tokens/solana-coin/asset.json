@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "solana-coin",
+  "name": "SOL Coin",
+  "category": "token",
+  "purpose": "Exact SOL fee token reference for the missing-postage diagnosis and repair.",
+  "lockedDesign": [
+    "Exact approved SOL mark",
+    "Consistent coin thickness and bevel",
+    "Stable face, edge, and material treatment"
+  ],
+  "status": "approved-for-package-development",
+  "visualReferences": [
+    {
+      "id": "master-sheet",
+      "kind": "token-sheet",
+      "path": "master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "edge", "three-quarter", "material", "logo"]
+    }
+  ]
+}

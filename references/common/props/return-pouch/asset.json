@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "return-pouch",
+  "name": "Return Pouch",
+  "category": "prop",
+  "purpose": "Reusable physical shorthand for duplicate NOSIS being returned to the treasury.",
+  "lockedDesign": [
+    "One small closed black pouch",
+    "Sized for two resident hands",
+    "No visible logo or readable label",
+    "No loose coins or opening animation"
+  ],
+  "status": "draft",
+  "visualReferences": [
+    {
+      "id": "prop-sheet",
+      "kind": "prop-sheet",
+      "path": "master-sheet.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["front", "side", "held", "half-inserted"]
+    }
+  ]
+}

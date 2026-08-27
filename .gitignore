@@ -8,8 +8,29 @@ node_modules/
 /dist/
 /coverage/
 
-# Private production media and working notes
-/references/
+# Public character metadata, private production media
+/references/**
+!/references/README.md
+!/references/characters/
+!/references/characters/README.md
+!/references/characters/catalog.json
+!/references/characters/*/
+!/references/characters/*/character.md
+!/references/characters/*/character.json
+!/references/characters/*/master-sheet.png
+!/references/common/
+!/references/common/README.md
+!/references/common/catalog.json
+!/references/common/*/
+!/references/common/*/*/
+!/references/common/*/*/asset.md
+!/references/common/*/*/asset.json
+!/references/common/style/base-resident/master.png
+!/references/common/environments/settlement-hall/master.png
+!/references/common/tokens/nosis-coin/master-sheet.png
+!/references/common/tokens/solana-coin/master-sheet.png
+
+# Private working notes
 /research/
 
 # Keep only the public storyboard sources for the example episode

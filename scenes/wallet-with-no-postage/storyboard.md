@@ -127,9 +127,9 @@ Duplicate the first 6 to 8 frames of Shot 1 at the very end. Cut from the receip
 - `../../references/characters/worker/master-sheet.png`
 - `../../references/characters/treasurer/master-sheet.png`
 - `../../references/characters/sentinel/master-sheet.png`
-- `../../references/tokens/nosis-coin-3d-sheet.png`
-- `../../references/tokens/solana-coin-3d-sheet.png`
-- `../../references/environments/settlement-hall/master.png`
+- `../../references/common/tokens/nosis-coin/master-sheet.png`
+- `../../references/common/tokens/solana-coin/master-sheet.png`
+- `../../references/common/environments/settlement-hall/master.png`
 
 ## Approval gate
 

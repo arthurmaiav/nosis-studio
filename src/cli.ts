@@ -3,6 +3,8 @@
 import { access } from "node:fs/promises";
 import { resolve } from "node:path";
 import { ArchiveReader, syncArchive, type ArchiveSourceType } from "./archive/index.ts";
+import { loadCommonAssetCatalog } from "./assets/index.ts";
+import { loadCharacterCatalog } from "./characters/index.ts";
 import { studioDefaults } from "./config.ts";
 import { excerpt } from "./lib/markdown.ts";
 import { packageEpisode } from "./production/index.ts";
@@ -133,6 +135,39 @@ async function mineCommand(args: string[]): Promise<void> {
   }
 }
 
+async function charactersCommand(args: string[]): Promise<void> {
+  const catalogPath = resolve(optionValue(args, "--catalog") ?? studioDefaults.characterCatalogPath);
+  const result = await loadCharacterCatalog(catalogPath);
+  if (hasFlag(args, "--json")) {
+    console.log(JSON.stringify({
+      sourceArchive: result.catalog.sourceArchive,
+      characters: result.characters
+    }, null, 2));
+    return;
+  }
+  console.log(`Characters: ${result.characters.length}`);
+  for (const character of result.characters) {
+    const approved = character.visualReferences.filter((reference) => reference.status === "approved").length;
+    const pending = character.visualReferences.filter((reference) => reference.status === "pending").length;
+    console.log(`${character.name} (${character.id})  approved refs: ${approved}  pending refs: ${pending}`);
+  }
+}
+
+async function assetsCommand(args: string[]): Promise<void> {
+  const catalogPath = resolve(optionValue(args, "--catalog") ?? studioDefaults.assetCatalogPath);
+  const result = await loadCommonAssetCatalog(catalogPath);
+  if (hasFlag(args, "--json")) {
+    console.log(JSON.stringify({ assets: result.assets }, null, 2));
+    return;
+  }
+  console.log(`Common assets: ${result.assets.length}`);
+  for (const asset of result.assets) {
+    const approved = asset.visualReferences.filter((reference) => reference.status === "approved").length;
+    const pending = asset.visualReferences.filter((reference) => reference.status === "pending").length;
+    console.log(`${asset.name} (${asset.category})  approved refs: ${approved}  pending refs: ${pending}`);
+  }
+}
+
 async function developCommand(args: string[]): Promise<void> {
   const episodeId = positionalArgs(args)[0];
   if (!episodeId) {
@@ -178,11 +213,14 @@ Usage:
   bun run studio sync [--snapshot <directory>] [--force-index]
   bun run studio search <query> [--type <source>] [--limit <count>]
   bun run studio mine [--limit <count>]
+  bun run studio characters [--json]
+  bun run studio assets [--json]
   bun run studio develop <episode-id>
   bun run studio package <episode-id>
 
 Common options:
   --db <path>       Override the SQLite index
+  --catalog <path>  Override the character catalog
   --output <path>   Override generated output directory
 `);
 }
@@ -198,6 +236,12 @@ async function main(): Promise<void> {
       return;
     case "mine":
       await mineCommand(args);
+      return;
+    case "characters":
+      await charactersCommand(args);
+      return;
+    case "assets":
+      await assetsCommand(args);
       return;
     case "develop":
       await developCommand(args);

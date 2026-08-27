@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "sentinel",
+  "name": "Sentinel",
+  "archiveRole": "Tests what the machine believes against what its records actually show.",
+  "storyFunction": "The investigator who gives the audience proof rather than exposition alone.",
+  "lockedDesign": [
+    "Ivory diagonal inspection sash",
+    "One small plain brass clasp",
+    "Calm attentive posture with one eyebrow slightly raised",
+    "No police badge, weapon, or detective costume"
+  ],
+  "roleProp": "One chunky brass-rimmed magnifying lens",
+  "expressions": ["skeptical", "alert", "certain", "uncertain", "alarmed"],
+  "status": "approved-for-package-development",
+  "visualReferences": [
+    {
+      "id": "master-sheet",
+      "kind": "master-sheet",
+      "path": "master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "expressions"]
+    },
+    {
+      "id": "environment-poses",
+      "kind": "pose-sheet",
+      "path": "environment-poses.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["settlement-hall"]
+    },
+    {
+      "id": "role-prop",
+      "kind": "prop-sheet",
+      "path": "role-prop.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["brass-rimmed magnifying lens"]
+    }
+  ]
+}

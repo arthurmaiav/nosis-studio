@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "base-resident",
+      "category": "style",
+      "manifest": "style/base-resident/asset.json"
+    },
+    {
+      "id": "settlement-hall",
+      "category": "environment",
+      "manifest": "environments/settlement-hall/asset.json"
+    },
+    {
+      "id": "nosis-coin",
+      "category": "token",
+      "manifest": "tokens/nosis-coin/asset.json"
+    },
+    {
+      "id": "solana-coin",
+      "category": "token",
+      "manifest": "tokens/solana-coin/asset.json"
+    },
+    {
+      "id": "return-pouch",
+      "category": "prop",
+      "manifest": "props/return-pouch/asset.json"
+    }
+  ]
+}

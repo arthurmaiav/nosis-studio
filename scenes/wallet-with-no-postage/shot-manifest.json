@@ -10,15 +10,15 @@
   "location": {
     "id": "settlement-hall",
     "masterStatus": "locked",
-    "master": "../../references/environments/settlement-hall/master.png",
+    "master": "../../references/common/environments/settlement-hall/master.png",
     "layoutLocked": true
   },
   "references": {
     "worker": "../../references/characters/worker/master-sheet.png",
     "treasurer": "../../references/characters/treasurer/master-sheet.png",
     "sentinel": "../../references/characters/sentinel/master-sheet.png",
-    "nosisCoin": "../../references/tokens/nosis-coin-3d-sheet.png",
-    "solanaCoin": "../../references/tokens/solana-coin-3d-sheet.png"
+    "nosisCoin": "../../references/common/tokens/nosis-coin/master-sheet.png",
+    "solanaCoin": "../../references/common/tokens/solana-coin/master-sheet.png"
   },
   "testSettings": {
     "provider": "higgsfield",

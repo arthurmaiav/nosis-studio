@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "base-resident",
+  "name": "Base Nosis Resident",
+  "category": "style",
+  "purpose": "Locks the shared species, proportions, face, palette, and toy-like material language used by recurring residents.",
+  "lockedDesign": [
+    "Black rounded cat body",
+    "Large separate vertical oval eyes",
+    "White muzzle, bow tie, gloves, cuffs, and oversized shoes",
+    "One curved black tail",
+    "Soft tactile three-dimensional materials"
+  ],
+  "status": "approved-for-package-development",
+  "visualReferences": [
+    {
+      "id": "style-master",
+      "kind": "style-master",
+      "path": "master.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["species", "proportions", "face", "palette", "materials"]
+    }
+  ]
+}

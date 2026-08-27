@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sourceArchive": "https://9nosis.net/history/",
+  "characters": [
+    {
+      "id": "worker",
+      "manifest": "worker/character.json"
+    },
+    {
+      "id": "treasurer",
+      "manifest": "treasurer/character.json"
+    },
+    {
+      "id": "sentinel",
+      "manifest": "sentinel/character.json"
+    }
+  ]
+}

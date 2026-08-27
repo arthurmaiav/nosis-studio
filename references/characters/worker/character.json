@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "worker",
+  "name": "Worker",
+  "archiveRole": "Claims tasks from the shared queue and does exactly what they say.",
+  "storyFunction": "The working resident who experiences the consequences of operational mistakes.",
+  "lockedDesign": [
+    "Ivory work apron with two flat pockets",
+    "Narrow ivory utility belt with one closed pouch",
+    "Focused and practical posture",
+    "No loose tools and no helmet"
+  ],
+  "roleProp": "One closed utility pouch",
+  "expressions": ["focused", "confused", "alarmed", "relieved", "proud"],
+  "status": "approved-for-package-development",
+  "visualReferences": [
+    {
+      "id": "master-sheet",
+      "kind": "master-sheet",
+      "path": "master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "expressions"]
+    },
+    {
+      "id": "environment-poses",
+      "kind": "pose-sheet",
+      "path": "environment-poses.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["settlement-hall"]
+    },
+    {
+      "id": "role-prop",
+      "kind": "prop-sheet",
+      "path": "role-prop.png",
+      "status": "pending",
+      "distribution": "local-only",
+      "coverage": ["closed utility pouch"]
+    }
+  ]
+}
