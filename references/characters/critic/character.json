@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "critic",
+  "name": "Critic",
+  "roster": "core",
+  "archiveRole": "Challenges proposals that add ceremony without improving village process.",
+  "storyFunction": "The skeptical resident who exposes weak logic and delivers the argument against a mayor.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Exactly three whisker lines on each side of the cream muzzle",
+    "Heavier expressive eyebrows with no additional costume"
+  ],
+  "roleProp": "One small black review slate with one cream pencil",
+  "expressions": ["skeptical", "unimpressed", "analytical", "objecting", "vindicated"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "status": "missing"
+    }
+  }
+}

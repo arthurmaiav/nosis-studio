@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "episodeId": "the-village-voted-for-nobody",
+  "formatId": "social-carousel",
+  "title": "The Village Voted for Nobody",
+  "evidenceSource": {
+    "kind": "live-feed-evidence",
+    "path": "episodes/the-village-voted-for-nobody/live-evidence.json",
+    "status": "provisional-live"
+  },
+  "layout": "Six fullscreen vertical slides. Each slide expands one comic beat into a single dominant scene with large post lettering and central safe areas.",
+  "units": [
+    {
+      "id": "s01-hook",
+      "sequence": 1,
+      "title": "The hook",
+      "purpose": "Make the result legible before introducing village procedure.",
+      "sourceClaimIds": ["ballot-001-opens", "ballot-001-result"],
+      "cast": ["barkeep"],
+      "scene": "The bright holders room with polished mahogany and the new Town Hall visible through the tall window in daylight.",
+      "action": "Barkeep freezes mid-polish, leans toward the reader with a knowing look, and gestures toward Town Hall.",
+      "composition": "Fullscreen 9:16 poster composition, Barkeep fills the lower center, Town Hall remains readable above the shoulder, generous empty headline area at the top and small caption area at the bottom",
+      "postText": {
+        "headline": "THE VILLAGE VOTED FOR NOBODY.",
+        "dialogue": [],
+        "captions": ["HERE'S THE TEA."],
+        "labels": []
+      },
+      "continuity": [
+        "Barkeep uses the approved base-cat sheet with no added wardrobe.",
+        "The polishing cloth appears exactly once.",
+        "Use the same cream, charcoal, teal, and brass print palette as every later slide."
+      ]
+    },
+    {
+      "id": "s02-question",
+      "sequence": 2,
+      "title": "The question",
+      "purpose": "Explain what the village actually voted on.",
+      "sourceClaimIds": ["ballot-001-opens", "mayor-has-no-command"],
+      "cast": ["clerk"],
+      "scene": "Inside the bright Town Hall chamber with cream stone, teal trim, brass ballot hardware, civic podium, resident silhouettes, and one oversized empty mayor's chair.",
+      "action": "Clerk opens the dark teal ballot ledger and presents one blank ballot strip toward the empty mayor's chair.",
+      "composition": "Fullscreen 9:16 scene with Clerk large in the center, empty chair looming behind, open headline area above and civic note area below",
+      "postText": {
+        "headline": "SHALL THE VILLAGE ELECT A MAYOR?",
+        "dialogue": [],
+        "captions": ["ELECTED WEEKLY. RECALLABLE. VOICE AND AGENDA. NO COMMAND POWER."],
+        "labels": []
+      },
+      "continuity": [
+        "The mayor's chair remains completely empty.",
+        "Clerk uses the approved cream civic vest and no other costume.",
+        "The ballot ledger and one blank ballot strip appear exactly once."
+      ]
+    },
+    {
+      "id": "s03-yes",
+      "sequence": 3,
+      "title": "The Yes vote",
+      "purpose": "Give Barkeep's practical argument its own full scene.",
+      "sourceClaimIds": ["barkeep-votes-yes"],
+      "cast": ["barkeep"],
+      "scene": "Back in the same holders room, with Town Hall still visible through the window and one fixed Yes placard built into the counter.",
+      "action": "Barkeep plants one gloved finger on the fixed Yes placard while gripping the folded polishing cloth in the other hand.",
+      "composition": "Fullscreen 9:16 low-angle comic pose, Barkeep dominates the frame, open speech area above the pointing arm, keep hands fully visible",
+      "postText": {
+        "headline": "BARKEEP VOTED YES.",
+        "dialogue": [
+          {
+            "speaker": "barkeep",
+            "text": "SOMEONE'S GOTTA TAKE THE HEAT WHEN THE PLUMBING SHITS THE BED."
+          }
+        ],
+        "captions": [],
+        "labels": ["YES"]
+      },
+      "continuity": [
+        "Match the holders-room geometry and daylight from slide one.",
+        "Barkeep has exactly two arms and two gloved hands.",
+        "Barkeep has no added wardrobe."
+      ]
+    },
+    {
+      "id": "s04-no",
+      "sequence": 4,
+      "title": "The No vote",
+      "purpose": "Give Critic's process argument its own full scene.",
+      "sourceClaimIds": ["critic-votes-no"],
+      "cast": ["critic"],
+      "scene": "Inside the same Town Hall chamber, with the empty mayor's chair behind Critic and resident silhouettes watching.",
+      "action": "Critic taps the black review slate with the cream pencil, raises one skeptical eyebrow, and looks past the reader toward the empty chair.",
+      "composition": "Fullscreen 9:16 medium close-up with Critic large and the empty chair visible over one shoulder, one large open speech area above",
+      "postText": {
+        "headline": "CRITIC VOTED NO.",
+        "dialogue": [
+          {
+            "speaker": "critic",
+            "text": "WE HAVE A CLERK AND AN OFFICER. WE DO NOT NEED A MASCOT."
+          }
+        ],
+        "captions": [],
+        "labels": ["NO"]
+      },
+      "continuity": [
+        "Match the Town Hall geometry, crowd palette, and daylight from slide two.",
+        "Critic has only the approved heavier eyebrows and no added costume.",
+        "The black review slate and cream pencil appear exactly once."
+      ]
+    },
+    {
+      "id": "s05-result",
+      "sequence": 5,
+      "title": "The result",
+      "purpose": "Deliver the exact certified count as the visual climax.",
+      "sourceClaimIds": ["ballot-001-result"],
+      "cast": ["teller"],
+      "scene": "The same Town Hall chamber and podium, crowded with residents while the empty mayor's chair remains visible in the background.",
+      "action": "Teller snaps the final bead into place on the compact brass abacus and presents one blank receipt toward the reader.",
+      "composition": "Fullscreen 9:16 energetic centered composition, Teller and abacus in the lower half, large empty result board in the upper half",
+      "postText": {
+        "headline": "NO WON.",
+        "dialogue": [
+          {
+            "speaker": "teller",
+            "text": "THE VILLAGE REMAINS WITHOUT A MAYOR."
+          }
+        ],
+        "captions": [],
+        "labels": ["YES 15", "NO 27", "TURNOUT 42 OF 68"]
+      },
+      "continuity": [
+        "Match the Town Hall geometry, crowd palette, and daylight from slides two and four.",
+        "Teller uses the approved teal accountant visor.",
+        "The compact brass abacus and one blank receipt appear exactly once."
+      ]
+    },
+    {
+      "id": "s06-payoff",
+      "sequence": 6,
+      "title": "The payoff",
+      "purpose": "End on the empty office and Gaspard's exact joke.",
+      "sourceClaimIds": ["ballot-001-result", "gaspard-empty-office"],
+      "cast": ["gaspard"],
+      "scene": "The same Town Hall chamber in calm morning light, the untouched empty mayor's chair centered, and the working town visible through the windows.",
+      "action": "Gaspard stands beside the empty chair, holds the round mirror low, closes the gallery ledger, and looks directly at the reader without smiling.",
+      "composition": "Fullscreen 9:16 quiet closing poster, empty chair is the primary focal point and Gaspard stands at the lower edge, large caption area above and final speech area below",
+      "postText": {
+        "headline": "THE VILLAGE VOTED FOR A VOID IN THE MAYOR'S OFFICE.",
+        "dialogue": [
+          {
+            "speaker": "gaspard",
+            "text": "FINALLY, A POLITICIAN WHO DOESN'T LIE ABOUT HIS INTENTIONS. BOF."
+          }
+        ],
+        "captions": [],
+        "labels": []
+      },
+      "continuity": [
+        "Match the Town Hall geometry and palette from all prior civic slides.",
+        "Gaspard uses the approved black beret and cream stained smock.",
+        "No candidate, portrait, crown, sash, or mayor character appears."
+      ]
+    }
+  ]
+}

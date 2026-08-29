@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "teller",
+  "name": "Teller",
+  "roster": "core",
+  "archiveRole": "Counts ballots, certifies totals, and announces the village's official result.",
+  "storyFunction": "The neutral counter whose exact certification turns debate into settled fact.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Exactly three whisker lines on each side of the cream muzzle",
+    "Small muted teal accountant visor with a thin brass band"
+  ],
+  "roleProp": "One compact brass abacus with one blank cream receipt slip",
+  "expressions": ["neutral", "counting", "checking", "announcing", "satisfied"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "status": "missing"
+    }
+  }
+}

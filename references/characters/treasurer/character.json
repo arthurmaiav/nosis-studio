@@ -1,7 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "treasurer",
   "name": "Treasurer",
+  "roster": "core",
   "archiveRole": "Settles verified wages and reconciles the internal ledger against the public treasury.",
   "storyFunction": "The money authority who follows the rules but can still be trapped by a broken settlement process.",
   "lockedDesign": [
@@ -12,31 +13,15 @@
   ],
   "roleProp": "One closed dark green ledger with plain brass corner caps",
   "expressions": ["neutral", "calculating", "suspicious", "shocked", "satisfied"],
-  "status": "approved-for-package-development",
-  "visualReferences": [
-    {
-      "id": "master-sheet",
-      "kind": "master-sheet",
-      "path": "master-sheet.png",
+  "masters": {
+    "2d": {
+      "status": "missing"
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
       "status": "approved",
       "distribution": "public",
-      "coverage": ["front", "three-quarter", "side", "back", "expressions"]
-    },
-    {
-      "id": "environment-poses",
-      "kind": "pose-sheet",
-      "path": "environment-poses.png",
-      "status": "pending",
-      "distribution": "local-only",
-      "coverage": ["settlement-hall"]
-    },
-    {
-      "id": "role-prop",
-      "kind": "prop-sheet",
-      "path": "role-prop.png",
-      "status": "pending",
-      "distribution": "local-only",
-      "coverage": ["closed dark green ledger"]
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
     }
-  ]
+  }
 }

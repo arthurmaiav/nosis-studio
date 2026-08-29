@@ -2,13 +2,14 @@
 
 **Mine the public 9nosis archive and turn real incidents into evidence-backed production packages.**
 
-Nosis Studio helps creators:
+Nosis Studio gives creators four simple steps:
 
-1. **Find stories** in public resident mail, events, journals, and profiles.
-2. **Prove the facts** with exact archive records and onchain receipts.
-3. **Prepare production** with organized shots, visual references, prompts, and review rules.
+1. **Develop a story** from public archive records and evidence.
+2. **Choose a format** such as a one-page comic, fullscreen carousel, or short video.
+3. **Adapt the story** into format-specific panels, slides, or shots.
+4. **Produce it** with compatible visual references, prompts, exact lettering, and review rules.
 
-It does not generate or publish media yet. It prepares the verified handoff for those steps.
+It does not submit provider jobs or publish media. It prepares the verified, format-aware handoff for those steps.
 
 ## Use cases and commands
 
@@ -21,9 +22,12 @@ It does not generate or publish media yet. It prepares the verified handoff for 
 | Fact-check an episode | `bun run studio develop wallet-with-no-postage` | Verifies every required claim against the archive | `evidence.md` and `evidence.json` in the episode folder |
 | See available characters | `bun run studio characters` | Checks the cast and its approved or pending references | Character readiness in the terminal |
 | See reusable assets | `bun run studio assets` | Checks environments, tokens, props, and style references | Asset readiness in the terminal |
+| See storytelling formats | `bun run studio formats` | Lists delivery, canvas, unit count, lettering, and story-structure rules | Format readiness in the terminal |
+| Adapt one story to one format | `bun run studio adapt the-village-voted-for-nobody --format comic-page --visual 2d` | Validates the format script, claims, cast, and selected 2D or 3D master sheets | A generation-ready adaptation package in `build/adaptations/` |
 | Prepare shots for generation | `bun run studio package wallet-with-no-postage` | Builds a complete handoff from the verified episode and shot plan | Timestamped take folders in `build/episodes/` |
 
 Use `bun run studio characters --json` or `bun run studio assets --json` when another tool needs structured output.
+Use `bun run studio formats --json` to expose the reusable format definitions.
 
 ## Quick start
 
@@ -112,21 +116,26 @@ bun run studio package wallet-with-no-postage
 ```text
 public history
   -> searchable records
-  -> ranked story leads
-  -> verified evidence
-  -> cast and asset selection
-  -> generation-ready shot folders
+  -> evidence-backed episode
+  -> chosen format
+  -> format-specific adaptation script
+  -> chosen 2D or 3D visual mode
+  -> compatible visual references
+  -> generation-ready production package
 ```
+
+Mining and evidence verification remain separate CLI operations for inspection, but together they are one creator-facing step: Story Development.
 
 ## Create your own community episode
 
 There is not yet a `studio create` command. Today, the workflow is:
 
-1. Add `episodes/<episode-id>/episode.json` with the story, claims, receipts, adaptation notes, and narration.
+1. Add `episodes/<episode-id>/episode.json` with the format-neutral story, claims, receipts, adaptation notes, and narration.
 2. Run `bun run studio develop <episode-id>` to verify the required claims.
-3. Add `scenes/<episode-id>/storyboard.md` and `scenes/<episode-id>/shot-manifest.json`.
-4. Choose visual references from `references/characters/` and `references/common/`.
-5. Run `bun run studio package <episode-id>`.
+3. Choose a reusable definition from `formats/`.
+4. Add `adaptations/<episode-id>/<format-id>/script.json` with format-specific Content Units and source claim IDs.
+5. Run `bun run studio adapt <episode-id> --format <format-id> --visual <2d|3d>`.
+6. For video, add `scenes/<episode-id>/storyboard.md` and `scenes/<episode-id>/shot-manifest.json`, then run `bun run studio package <episode-id>`.
 
 Label community work as `Community Adaptation`. Preserve archive and transaction provenance, and do not invent motives, amounts, transactions, or market claims.
 
@@ -134,12 +143,15 @@ Label community work as `Community Adaptation`. Preserve archive and transaction
 
 Character references live in `references/characters/`. Shared styles, environments, tokens, and props live in `references/common/`. Each folder separates approved references from pending ones.
 
+Format and graphics are independent choices. A Format controls story structure, canvas, and Content Units. Production separately selects `2d` or `3d` and packages the matching approved character masters. Packaging fails only when a cast member lacks the selected master.
+
 See [the reference library guide](references/README.md) for the full structure.
 
 ## Not implemented yet
 
 - automatic episode creation
-- image or video generation
+- image or video provider submission
+- automatic final-media rendering and assembly
 - Higgsfield or other provider submission
 - final video assembly
 - publishing

@@ -1,7 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "worker",
   "name": "Worker",
+  "roster": "core",
   "archiveRole": "Claims tasks from the shared queue and does exactly what they say.",
   "storyFunction": "The working resident who experiences the consequences of operational mistakes.",
   "lockedDesign": [
@@ -12,31 +13,15 @@
   ],
   "roleProp": "One closed utility pouch",
   "expressions": ["focused", "confused", "alarmed", "relieved", "proud"],
-  "status": "approved-for-package-development",
-  "visualReferences": [
-    {
-      "id": "master-sheet",
-      "kind": "master-sheet",
-      "path": "master-sheet.png",
+  "masters": {
+    "2d": {
+      "status": "missing"
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
       "status": "approved",
       "distribution": "public",
-      "coverage": ["front", "three-quarter", "side", "back", "expressions"]
-    },
-    {
-      "id": "environment-poses",
-      "kind": "pose-sheet",
-      "path": "environment-poses.png",
-      "status": "pending",
-      "distribution": "local-only",
-      "coverage": ["settlement-hall"]
-    },
-    {
-      "id": "role-prop",
-      "kind": "prop-sheet",
-      "path": "role-prop.png",
-      "status": "pending",
-      "distribution": "local-only",
-      "coverage": ["closed utility pouch"]
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
     }
-  ]
+  }
 }

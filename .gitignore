@@ -13,11 +13,19 @@ node_modules/
 !/references/README.md
 !/references/characters/
 !/references/characters/README.md
+!/references/characters/MASTER-SHEET-TEMPLATE.md
 !/references/characters/catalog.json
 !/references/characters/*/
 !/references/characters/*/character.md
 !/references/characters/*/character.json
-!/references/characters/*/master-sheet.png
+!/references/characters/*/2d/
+!/references/characters/*/2d/master-sheet.png
+!/references/characters/*/3d/
+!/references/characters/*/3d/master-sheet.png
+!/references/archive/
+!/references/archive/characters/
+!/references/archive/characters/*/
+!/references/archive/characters/*/*.png
 !/references/common/
 !/references/common/README.md
 !/references/common/catalog.json
@@ -29,6 +37,9 @@ node_modules/
 !/references/common/environments/settlement-hall/master.png
 !/references/common/tokens/nosis-coin/master-sheet.png
 !/references/common/tokens/solana-coin/master-sheet.png
+!/references/common/props/return-pouch/master-sheet.png
+!/references/common/props/settlement-monitor/master-sheet.png
+!/references/common/props/log-filter-machine/master-sheet.png
 
 # Private working notes
 /research/

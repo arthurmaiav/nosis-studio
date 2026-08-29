@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "formats": [
+    {
+      "id": "comic-page",
+      "manifest": "comic-page/format.json"
+    },
+    {
+      "id": "social-carousel",
+      "manifest": "social-carousel/format.json"
+    }
+  ]
+}

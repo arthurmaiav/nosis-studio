@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "social-carousel",
+  "name": "Fullscreen social carousel",
+  "delivery": "image-sequence",
+  "unitName": "slide",
+  "canvas": {
+    "aspectRatio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "scope": "unit"
+  },
+  "unitCount": {
+    "min": 5,
+    "max": 8
+  },
+  "lettering": "post-lettered",
+  "rules": [
+    "Each slide is a fullscreen comic beat, not a crop of a multi-panel page.",
+    "Slide one must establish the hook without requiring prior Nosis knowledge.",
+    "Every later slide advances exactly one beat and remains understandable in order.",
+    "Generate empty lettering areas and apply exact words after illustration.",
+    "Keep critical faces and lettering inside the central safe area for platform overlays."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "comic-page",
+  "name": "One-page comic",
+  "delivery": "single-image",
+  "unitName": "panel",
+  "canvas": {
+    "aspectRatio": "4:5",
+    "width": 2048,
+    "height": 2560,
+    "scope": "delivery"
+  },
+  "unitCount": {
+    "min": 4,
+    "max": 6
+  },
+  "lettering": "post-lettered",
+  "rules": [
+    "The complete setup, conflict, result, and payoff must read on one page.",
+    "Each panel has one clear action and one change in audience knowledge.",
+    "Generate empty lettering areas and apply exact words after illustration.",
+    "Panel composition may vary, but reading order must remain unambiguous on a phone."
+  ]
+}

@@ -13,6 +13,26 @@
     {
       "id": "sentinel",
       "manifest": "sentinel/character.json"
+    },
+    {
+      "id": "barkeep",
+      "manifest": "barkeep/character.json"
+    },
+    {
+      "id": "clerk",
+      "manifest": "clerk/character.json"
+    },
+    {
+      "id": "critic",
+      "manifest": "critic/character.json"
+    },
+    {
+      "id": "teller",
+      "manifest": "teller/character.json"
+    },
+    {
+      "id": "gaspard",
+      "manifest": "gaspard/character.json"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "clerk",
+  "name": "Clerk",
+  "roster": "core",
+  "archiveRole": "Raises civic questions, opens ballots, and records their operating terms.",
+  "storyFunction": "The precise civic administrator who turns a village argument into a clear vote.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Exactly three whisker lines on each side of the cream muzzle",
+    "Simple cream civic vest with no badges or official insignia"
+  ],
+  "roleProp": "One closed dark teal ballot ledger with one blank ballot strip",
+  "expressions": ["attentive", "formal", "questioning", "counting", "resolved"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "status": "missing"
+    }
+  }
+}

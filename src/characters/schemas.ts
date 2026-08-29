@@ -1,19 +1,52 @@
 import { z } from "zod";
-import { VisualReferenceSchema, type VisualReference } from "../references/schemas.ts";
 
-export { VisualReferenceSchema as CharacterVisualReferenceSchema };
+const IdSchema = z.string().min(1).regex(/^[a-z0-9-]+$/);
+
+export const VisualModeSchema = z.enum(["2d", "3d"]);
+
+export const MasterSheetCoverageSchema = z.array(z.enum([
+  "front",
+  "three-quarter",
+  "side",
+  "back",
+  "five-expressions",
+  "signature-role-prop",
+  "neutral-background"
+])).length(7).superRefine((coverage, context) => {
+  if (new Set(coverage).size !== coverage.length) {
+    context.addIssue({
+      code: "custom",
+      message: "Master sheet coverage entries must be unique"
+    });
+  }
+});
+
+export const CharacterMasterSchema = z.discriminatedUnion("status", [
+  z.object({
+    status: z.literal("missing")
+  }),
+  z.object({
+    path: z.string().min(1),
+    status: z.enum(["pending", "approved"]),
+    distribution: z.enum(["public", "local-only"]),
+    coverage: MasterSheetCoverageSchema
+  })
+]);
 
 export const CharacterManifestSchema = z.object({
-  schemaVersion: z.literal(1),
-  id: z.string().min(1).regex(/^[a-z0-9-]+$/),
+  schemaVersion: z.literal(2),
+  id: IdSchema,
   name: z.string().min(1),
+  roster: z.enum(["core", "backlog"]),
   archiveRole: z.string().min(1),
   storyFunction: z.string().min(1),
   lockedDesign: z.array(z.string().min(1)).min(1),
   roleProp: z.string().min(1),
-  expressions: z.array(z.string().min(1)).min(1),
-  status: z.enum(["draft", "approved-for-package-development"]),
-  visualReferences: z.array(VisualReferenceSchema).min(1)
+  expressions: z.array(z.string().min(1)).length(5),
+  masters: z.object({
+    "2d": CharacterMasterSchema,
+    "3d": CharacterMasterSchema
+  })
 });
 
 export const CharacterCatalogSchema = z.object({
@@ -39,4 +72,6 @@ export const CharacterCatalogSchema = z.object({
 
 export type CharacterCatalog = z.infer<typeof CharacterCatalogSchema>;
 export type CharacterManifest = z.infer<typeof CharacterManifestSchema>;
-export type CharacterVisualReference = VisualReference;
+export type CharacterMaster = z.infer<typeof CharacterMasterSchema>;
+export type AvailableCharacterMaster = Exclude<CharacterMaster, { status: "missing" }>;
+export type VisualMode = z.infer<typeof VisualModeSchema>;

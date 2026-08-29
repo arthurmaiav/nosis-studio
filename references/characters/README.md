@@ -1,46 +1,59 @@
 # Nosis recurring cast
 
-These folders are the canonical identity packages for the first production cast.
+Each resident has one medium-neutral identity manifest and exactly two target master sheets: 2D and 3D. Formats do not own character graphics. A comic page, carousel, or video can use either visual mode when the selected character masters are approved.
 
 ## Folder contract
-
-Every recurring resident gets one folder:
 
 ```text
 characters/<resident-id>/
   character.json
   character.md
-  master-sheet.png
-  environment-poses.png
-  role-prop.png
+  2d/
+    master-sheet.png
+  3d/
+    master-sheet.png
 ```
 
-`character.json` is machine-readable production state. `character.md` explains the role and visual decisions for humans. Approved master sheets are public. Pending pose and prop sheets remain local until approved.
+Missing master folders remain absent until an asset exists. `character.json` records the status of both targets.
 
-The public `catalog.json` indexes every available character manifest. Run `bun run studio characters` to inspect the catalog.
+Every master follows [the shared master-sheet template](MASTER-SHEET-TEMPLATE.md). The 2D and 3D versions must depict the same canonical face, body, wardrobe, expressions, and role prop. Only the rendering medium changes.
 
-## Reference order
+## Roster and coverage
 
-For every generated keyframe or motion take:
+`roster` describes priority:
 
-1. Attach the relevant `master-sheet.png` first.
-2. Attach the approved environment keyframe second.
-3. Add a prop sheet only when that prop appears in the shot.
+- `core`: one of the eight characters currently being completed in both visual modes.
+- `backlog`: a known character outside the current production priority.
 
-Do not attach unrelated cast members, props, or scenery.
+Coverage is derived from the two master statuses:
 
-## Locked character rules
+- `ready`: both masters are approved.
+- `incomplete`: exactly one master is approved.
+- `pending`: neither master is approved.
 
-- Preserve the same head, eyes, muzzle, bow tie, gloves, cuffs, shoes, body proportions, and material style.
-- Preserve exactly one tail, two arms, two legs, and two gloved hands.
-- Wardrobe is part of identity and cannot migrate between residents.
-- Each shot gets one moving prop at most.
-- Do not ask a video model to invent a new angle when an approved angle can be supplied.
-- Amounts, transaction hashes, and labels are added in post.
+An incomplete character remains usable in the visual mode with an approved master. Production blocks only when the selected mode is missing or pending.
 
-## Production status
+## Core cast status
 
-- Worker: master sheet approved for package development.
-- Treasurer: master sheet approved for package development.
-- Sentinel: master sheet approved for package development.
-- Environment poses and Character or Soul ID tests remain pending.
+| Character | 2D | 3D | Coverage |
+|---|---|---|---|
+| Worker | Missing | Approved | Incomplete |
+| Treasurer | Missing | Approved | Incomplete |
+| Sentinel | Missing | Approved | Incomplete |
+| Barkeep | Approved | Missing | Incomplete |
+| Clerk | Approved | Missing | Incomplete |
+| Critic | Approved | Missing | Incomplete |
+| Teller | Approved | Missing | Incomplete |
+| Gaspard | Approved | Missing | Incomplete |
+
+Run `bun run studio characters` for the current machine-readable report.
+
+## Production rules
+
+1. Choose the storytelling Format.
+2. Adapt the Episode without choosing graphics.
+3. At production time, choose `2d` or `3d`.
+4. Attach the matching approved character master first.
+5. Attach an approved environment or prop reference only when needed.
+
+Preserve the supplied identity exactly. Do not move wardrobe between residents, improvise a missing visual mode, or convert one master into another inside a story scene.

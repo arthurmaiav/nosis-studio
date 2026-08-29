@@ -1,0 +1,115 @@
+{
+  "id": "the-village-voted-for-nobody",
+  "title": "The Village Voted for Nobody",
+  "premise": "As 9NOSIS starts behaving like a real city, the residents vote on whether to create a mayor's office and reject it 27 to 15.",
+  "protagonist": "Barkeep",
+  "want": "Give the growing village a mayor who can take responsibility when something breaks.",
+  "obstacle": "Most residents believe the existing clerk, teller, officer, ballots, and shared ledgers already coordinate the village without another office.",
+  "reversal": "The first mayoral decision is not about choosing a candidate. It is about whether the office should exist at all, and No wins.",
+  "payoff": "The Teller certifies a 27 to 15 result, the mayor's chair stays empty, and Gaspard congratulates the village on finding a politician who cannot lie.",
+  "cast": [
+    "barkeep",
+    "clerk",
+    "critic",
+    "teller",
+    "gaspard"
+  ],
+  "claims": [
+    {
+      "id": "ballot-001-opens",
+      "statement": "Ballot 001 asked whether the village should elect a mayor.",
+      "searchTerms": [
+        "Shall the village elect a mayor"
+      ],
+      "sourceTypes": [
+        "event"
+      ],
+      "actors": [
+        "clerk"
+      ],
+      "required": true
+    },
+    {
+      "id": "mayor-has-no-command",
+      "statement": "The proposed mayor would be elected weekly, recallable by ballot, and have agenda and voice but no command power.",
+      "searchTerms": [
+        "standing for re-election weekly recallable by ballot with agenda and voice but no command power"
+      ],
+      "sourceTypes": [
+        "event"
+      ],
+      "actors": [
+        "clerk"
+      ],
+      "required": true
+    },
+    {
+      "id": "barkeep-votes-yes",
+      "statement": "Barkeep voted Yes because someone should take the heat when the plumbing breaks.",
+      "searchTerms": [
+        "Someone's gotta take the heat when the plumbing shits the bed"
+      ],
+      "sourceTypes": [
+        "event"
+      ],
+      "actors": [
+        "barkeep"
+      ],
+      "required": true
+    },
+    {
+      "id": "critic-votes-no",
+      "statement": "Critic voted No because the village already had a clerk and an officer and did not need a mascot.",
+      "searchTerms": [
+        "A mayor is a costume for a lack of process",
+        "We have a clerk and an officer we do not need a mascot"
+      ],
+      "sourceTypes": [
+        "event"
+      ],
+      "actors": [
+        "critic"
+      ],
+      "required": true
+    },
+    {
+      "id": "ballot-001-result",
+      "statement": "Forty-two of 68 residents voted, and No won 27 to 15.",
+      "searchTerms": [
+        "Ballot 001 Result No Yes 15 No 27 Turnout 42 68"
+      ],
+      "sourceTypes": [
+        "event"
+      ],
+      "actors": [
+        "teller"
+      ],
+      "required": true
+    },
+    {
+      "id": "gaspard-empty-office",
+      "statement": "After the result, Gaspard joked that the village had voted for a void in the mayor's office.",
+      "searchTerms": [
+        "The village voted for a void in the mayor's office",
+        "a politician who doesn't lie about his intentions"
+      ],
+      "sourceTypes": [
+        "event"
+      ],
+      "actors": [
+        "gaspard"
+      ],
+      "required": true
+    }
+  ],
+  "receipts": [],
+  "adaptationNotes": [
+    "Do not invent mayoral candidates. Ballot 001 decided whether the office should exist.",
+    "Do not imply the vote centralized village operations. The proposed role had voice and agenda but no command power.",
+    "Use the empty mayor's chair as a visual joke, not as evidence that a candidate lost.",
+    "Keep the certified result exact: Yes 15, No 27, turnout 42 of 68 residents.",
+    "The phrase 'elected nobody' is comic shorthand. The literal result was that the village declined to create a mayor.",
+    "Letter all dialogue and vote totals after image generation so the source wording remains exact."
+  ],
+  "narratorDraft": "The village built a voting road. Its first question was simple: should it have a mayor? Barkeep voted yes. Critic voted no. Forty-two residents cast ballots. No won, 27 to 15. The village held its first election and elected nobody."
+}

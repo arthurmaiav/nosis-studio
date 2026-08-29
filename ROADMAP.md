@@ -12,6 +12,11 @@ Nosis Studio begins as an open-source content miner for the public 9nosis histor
 - Catalog recurring characters and visual-reference readiness
 - Separate reusable styles, environments, tokens, and props from character identity
 - Generate episode evidence packets
+- Define reusable storytelling formats with canvas, unit-count, lettering, and narrative rules
+- Select 2D or 3D character masters independently during production packaging
+- Adapt one evidence-backed Episode into comic panels or fullscreen carousel slides
+- Validate format scripts against source claims, cast, and compatible character masters
+- Generate format-specific prompt and lettering packages
 - Convert approved storyboards into strict take packages
 - Record first-frame, motion, and review state in machine-readable manifests
 
@@ -31,7 +36,7 @@ Add optional image and video provider adapters behind one interface. Creators us
 
 ### Project templates
 
-Package cast rules, environment requirements, output format, subtitles, and visual constraints without distributing assets that are not licensed for reuse.
+Package environment requirements, subtitles, motion rules, and additional visual assets without distributing assets that are not licensed for reuse.
 
 ### Review workflow
 
@@ -41,7 +46,8 @@ Track first-frame approval, silent animatic approval, low-resolution motion test
 
 - Local web interface for archive exploration and candidate review
 - Contributor-submitted story leads and evidence corrections
-- Multiple export formats for short-form editors
+- Deterministic comic and carousel lettering renderers
+- Additional formats for short-form editors
 - Optional archive adapters for other public agent societies
 
 ## Boundaries

@@ -1,12 +1,12 @@
 # Architecture
 
-Nosis Studio is split into three modules with one-way data flow.
+Nosis Studio uses one-way data flow from public evidence to a format-specific production package.
 
 ```text
-archive -> story -> production
+archive -> episode -> format -> adaptation -> production
 ```
 
-The archive module knows nothing about episodes. The story module consumes archive records but does not know about video providers. The production module consumes approved story and shot specifications but never changes their factual claims.
+To creators, archive discovery and evidence verification are one step called Story Development. Internally, the archive and story modules remain separate so evidence can be inspected and failures stay local. A Format defines the storytelling grammar. An Adaptation Script reshapes one Episode for that Format. Production packages the approved script and compatible visual references without changing factual claims.
 
 The first implementation is intentionally Nosis-specific. It reads the public 9nosis history format and treats that archive as the source of truth for community story development.
 
@@ -32,9 +32,38 @@ The mining pass searches for high-signal incidents, including payments, failures
 
 The development pass takes a human-authored episode specification and resolves every required claim against the archive. A required claim with no evidence fails the build. Successful output contains the story structure, exact archive records, adaptation notes, narrator draft, and verified receipt links.
 
+An Episode remains format-neutral. It is not a video, comic, carousel, storyboard, or provider prompt.
+
+## Format
+
+`src/formats` loads reusable storytelling definitions. A Format owns:
+
+- delivery type
+- canvas and aspect ratio
+- Content Unit name and permitted count
+- lettering policy
+- format-wide narrative rules
+
+The first public definitions are a one-page comic and a fullscreen social carousel.
+
+## Adaptation
+
+`src/adaptations` validates one format-specific script against its Episode and Format.
+
+Every Content Unit declares:
+
+- the Episode claims it depends on
+- cast members
+- one narrative purpose and action
+- scene and composition
+- exact post lettering
+- continuity locks
+
+Adaptation validation fails if a unit cites an unknown claim, introduces cast outside the Episode, or exceeds the Format's unit count. It remains independent of graphics.
+
 ## Production
 
-`src/production` turns an approved episode, evidence packet, storyboard, and shot manifest into versioned take folders.
+`src/production` turns an approved Episode, evidence packet, storyboard, and video shot manifest into versioned take folders. `src/adaptations` performs the equivalent packaging step for comics and carousels. At this stage the creator selects `2d` or `3d`, and packaging requires an approved matching master for every cast member.
 
 Each take declares:
 
@@ -51,12 +80,13 @@ Reference files are copied into each take and hashed with SHA-256. The package r
 
 ## Production contract
 
-Every episode separates four layers:
+Every project separates five layers:
 
 1. Archive fact, what the public record contains.
 2. Onchain receipt, what a viewer can verify independently.
-3. Adaptation, what is compressed or staged for clarity.
-4. Narration, how the episode explains the incident to an outsider.
+3. Episode, the format-neutral story selected from those facts.
+4. Adaptation, what one Format compresses, expands, or stages for clarity.
+5. Production, the visual references, prompts, exact lettering, and provider state used to create the deliverable.
 
 Deterministic tools own story order, text, token counts, state changes, receipt cards, and the replay seam. Generative tools own small character performances inside accepted compositions.
 

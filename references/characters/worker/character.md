@@ -15,6 +15,9 @@ Worker claims tasks from the shared queue and experiences the consequences of op
 
 One closed utility pouch. A separate tool may replace it only when that tool is the shot's sole moving prop.
 
-## Master generation prompt summary
+## Master sheets
 
-Use the base Nosis cat as the exact species, proportions, face, palette, and soft toy-like 3D style. Preserve the ivory apron and utility belt across front, three-quarter, side, and back views. Expression set: focused, confused, alarmed, relieved, proud.
+- 2D: missing.
+- 3D: approved.
+
+The approved 3D sheet is the identity source for the missing 2D counterpart. Both must follow the shared template and preserve the ivory apron, utility belt, closed pouch, and expression set: focused, confused, alarmed, relieved, proud.

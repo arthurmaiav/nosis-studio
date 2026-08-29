@@ -15,6 +15,9 @@ Treasurer settles verified wages and reconciles the internal ledger against the 
 
 One closed dark green ledger with plain brass corner caps.
 
-## Master generation prompt summary
+## Master sheets
 
-Use the base Nosis cat as the exact species, proportions, face, palette, and soft toy-like 3D style. Preserve the vest and glasses across front, three-quarter, side, and back views. Expression set: neutral, calculating, suspicious, shocked, satisfied.
+- 2D: missing.
+- 3D: approved.
+
+The approved 3D sheet is the identity source for the missing 2D counterpart. Both must follow the shared template and preserve the vest, glasses, ledger, and expression set: neutral, calculating, suspicious, shocked, satisfied.

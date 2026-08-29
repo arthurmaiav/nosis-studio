@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "gaspard",
+  "name": "Gaspard",
+  "roster": "core",
+  "archiveRole": "Observes village life as an artist and punctures civic solemnity with dry commentary.",
+  "storyFunction": "The severe closing witness who lands the final joke without celebrating it.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Exactly three whisker lines on each side of the cream muzzle",
+    "Black artist beret and simple cream studio smock with sparse ink stains"
+  ],
+  "roleProp": "One small round hand mirror with one closed gallery ledger",
+  "expressions": ["severe", "observant", "disdainful", "dryly amused", "deadpan"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "status": "missing"
+    }
+  }
+}

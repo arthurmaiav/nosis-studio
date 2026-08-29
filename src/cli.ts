@@ -2,10 +2,16 @@
 
 import { access } from "node:fs/promises";
 import { resolve } from "node:path";
+import { packageAdaptation } from "./adaptations/index.ts";
 import { ArchiveReader, syncArchive, type ArchiveSourceType } from "./archive/index.ts";
 import { loadCommonAssetCatalog } from "./assets/index.ts";
-import { loadCharacterCatalog } from "./characters/index.ts";
-import { studioDefaults } from "./config.ts";
+import {
+  characterCoverage,
+  loadCharacterCatalog,
+  type VisualMode
+} from "./characters/index.ts";
+import { projectRoot, studioDefaults } from "./config.ts";
+import { loadFormatCatalog } from "./formats/index.ts";
 import { excerpt } from "./lib/markdown.ts";
 import { packageEpisode } from "./production/index.ts";
 import { developStory, mineStories } from "./story/index.ts";
@@ -141,15 +147,18 @@ async function charactersCommand(args: string[]): Promise<void> {
   if (hasFlag(args, "--json")) {
     console.log(JSON.stringify({
       sourceArchive: result.catalog.sourceArchive,
-      characters: result.characters
+      characters: result.characters.map((character) => ({
+        ...character,
+        coverage: characterCoverage(character)
+      }))
     }, null, 2));
     return;
   }
   console.log(`Characters: ${result.characters.length}`);
   for (const character of result.characters) {
-    const approved = character.visualReferences.filter((reference) => reference.status === "approved").length;
-    const pending = character.visualReferences.filter((reference) => reference.status === "pending").length;
-    console.log(`${character.name} (${character.id})  approved refs: ${approved}  pending refs: ${pending}`);
+    console.log(
+      `${character.name} (${character.id})  ${character.roster}  ${characterCoverage(character)}  2d: ${character.masters["2d"].status}  3d: ${character.masters["3d"].status}`
+    );
   }
 }
 
@@ -165,6 +174,21 @@ async function assetsCommand(args: string[]): Promise<void> {
     const approved = asset.visualReferences.filter((reference) => reference.status === "approved").length;
     const pending = asset.visualReferences.filter((reference) => reference.status === "pending").length;
     console.log(`${asset.name} (${asset.category})  approved refs: ${approved}  pending refs: ${pending}`);
+  }
+}
+
+async function formatsCommand(args: string[]): Promise<void> {
+  const catalogPath = resolve(optionValue(args, "--catalog") ?? studioDefaults.formatCatalogPath);
+  const result = await loadFormatCatalog(catalogPath);
+  if (hasFlag(args, "--json")) {
+    console.log(JSON.stringify({ formats: result.formats }, null, 2));
+    return;
+  }
+  console.log(`Formats: ${result.formats.length}`);
+  for (const format of result.formats) {
+    console.log(
+      `${format.name} (${format.id})  ${format.delivery}  ${format.canvas.aspectRatio}`
+    );
   }
 }
 
@@ -206,6 +230,34 @@ async function packageCommand(args: string[]): Promise<void> {
   console.log(`Editor takes: ${result.editorTakeCount}`);
 }
 
+async function adaptCommand(args: string[]): Promise<void> {
+  const episodeId = positionalArgs(args)[0];
+  if (!episodeId) {
+    throw new Error("adapt requires an episode ID");
+  }
+  const formatId = optionValue(args, "--format");
+  if (!formatId) {
+    throw new Error("adapt requires --format <format-id>");
+  }
+  const visualModeValue = optionValue(args, "--visual");
+  if (visualModeValue !== "2d" && visualModeValue !== "3d") {
+    throw new Error("adapt requires --visual <2d|3d>");
+  }
+  const visualMode: VisualMode = visualModeValue;
+  const result = await packageAdaptation({
+    projectRoot,
+    episodeSpecPath: resolve(studioDefaults.episodesDir, episodeId, "episode.json"),
+    formatPath: resolve(studioDefaults.formatsDir, formatId, "format.json"),
+    scriptPath: resolve(studioDefaults.adaptationsDir, episodeId, formatId, "script.json"),
+    characterCatalogPath: studioDefaults.characterCatalogPath,
+    visualMode,
+    outputRoot: resolve(optionValue(args, "--output") ?? studioDefaults.adaptationBuildDir)
+  });
+  console.log(`Adaptation package: ${result.packageDirectory}`);
+  console.log(`Content units: ${result.unitCount}`);
+  console.log(`Evidence status: ${result.evidenceStatus}`);
+}
+
 function help(): void {
   console.log(`Nosis Studio
 
@@ -215,7 +267,9 @@ Usage:
   bun run studio mine [--limit <count>]
   bun run studio characters [--json]
   bun run studio assets [--json]
+  bun run studio formats [--json]
   bun run studio develop <episode-id>
+  bun run studio adapt <episode-id> --format <format-id> --visual <2d|3d>
   bun run studio package <episode-id>
 
 Common options:
@@ -243,8 +297,14 @@ async function main(): Promise<void> {
     case "assets":
       await assetsCommand(args);
       return;
+    case "formats":
+      await formatsCommand(args);
+      return;
     case "develop":
       await developCommand(args);
+      return;
+    case "adapt":
+      await adaptCommand(args);
       return;
     case "package":
       await packageCommand(args);

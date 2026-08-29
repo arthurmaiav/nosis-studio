@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "episodeId": "the-village-voted-for-nobody",
+  "formatId": "comic-page",
+  "title": "The Village Voted for Nobody",
+  "evidenceSource": {
+    "kind": "live-feed-evidence",
+    "path": "episodes/the-village-voted-for-nobody/live-evidence.json",
+    "status": "provisional-live"
+  },
+  "layout": "One vertical page with five readable panels: a wide opening, the ballot question, a diagonal split debate, the certified count, and a large quiet closing panel.",
+  "units": [
+    {
+      "id": "p01-tea",
+      "sequence": 1,
+      "title": "The tea",
+      "purpose": "Open with Barkeep and establish that the village is becoming a city.",
+      "sourceClaimIds": ["ballot-001-opens"],
+      "cast": ["barkeep"],
+      "scene": "The bright holders room, polished mahogany counter, rounded art-deco windows, and the new Town Hall visible across the square in daylight.",
+      "action": "Barkeep wipes one small circle on the mahogany with the folded cloth, leans toward the reader, and glances toward Town Hall.",
+      "composition": "Wide establishing panel with Barkeep large in the foreground and Town Hall readable through the window; reserve one empty speech balloon and one small caption box",
+      "postText": {
+        "dialogue": [
+          {
+            "speaker": "barkeep",
+            "text": "TEA? YOU WANT THE TEA?"
+          }
+        ],
+        "captions": ["THE VILLAGE WAS BECOMING A REAL CITY."],
+        "labels": []
+      },
+      "continuity": [
+        "Barkeep uses the approved base-cat sheet with no added wardrobe.",
+        "The polishing cloth appears exactly once.",
+        "Town Hall uses cream stone, muted teal trim, brass details, and clear daylight."
+      ]
+    },
+    {
+      "id": "p02-question",
+      "sequence": 2,
+      "title": "The question",
+      "purpose": "State exactly what Ballot 001 proposed.",
+      "sourceClaimIds": ["ballot-001-opens", "mayor-has-no-command"],
+      "cast": ["clerk"],
+      "scene": "Inside the same bright Town Hall chamber with a cream and teal civic podium, brass ballot fixture, dense resident silhouettes, and one oversized empty mayor's chair.",
+      "action": "Clerk opens the dark teal ballot ledger on the podium and presents one blank ballot strip toward the empty chair.",
+      "composition": "Medium-wide panel with Clerk and podium in the foreground, empty chair as the second focal point, crowd behind; reserve one large empty speech balloon and one narrow civic caption box",
+      "postText": {
+        "dialogue": [
+          {
+            "speaker": "clerk",
+            "text": "SHALL THE VILLAGE ELECT A MAYOR?"
+          }
+        ],
+        "captions": ["ELECTED WEEKLY. RECALLABLE. VOICE AND AGENDA. NO COMMAND POWER."],
+        "labels": []
+      },
+      "continuity": [
+        "The mayor's chair remains completely empty.",
+        "Clerk uses the approved cream civic vest and no other costume.",
+        "The ballot ledger and one blank ballot strip appear exactly once."
+      ]
+    },
+    {
+      "id": "p03-debate",
+      "sequence": 3,
+      "title": "Yes versus No",
+      "purpose": "Show the strongest argument on each side without adding candidates.",
+      "sourceClaimIds": ["barkeep-votes-yes", "critic-votes-no"],
+      "cast": ["barkeep", "critic"],
+      "scene": "A diagonal split composition: Barkeep at the holders-room counter on one side and Critic inside Town Hall on the other, both in the same daylight palette.",
+      "action": "Barkeep points at a fixed Yes placard while gripping the polishing cloth; Critic taps the black review slate with the cream pencil and glares toward the empty chair.",
+      "composition": "Diagonal split panel with one character per half and one empty speech balloon per character; keep both silhouettes large and immediately distinct",
+      "postText": {
+        "dialogue": [
+          {
+            "speaker": "barkeep",
+            "text": "SOMEONE'S GOTTA TAKE THE HEAT WHEN THE PLUMBING SHITS THE BED."
+          },
+          {
+            "speaker": "critic",
+            "text": "WE HAVE A CLERK AND AN OFFICER. WE DO NOT NEED A MASCOT."
+          }
+        ],
+        "captions": [],
+        "labels": ["YES", "NO"]
+      },
+      "continuity": [
+        "Each character has exactly two arms and two gloved hands.",
+        "Barkeep has no added wardrobe; Critic has only the approved heavier eyebrows.",
+        "The chair is visible only on Critic's side and remains empty."
+      ]
+    },
+    {
+      "id": "p04-count",
+      "sequence": 4,
+      "title": "The count",
+      "purpose": "Certify the exact result and turnout.",
+      "sourceClaimIds": ["ballot-001-result"],
+      "cast": ["teller"],
+      "scene": "The same Town Hall chamber and podium, with residents leaning into the frame and the empty mayor's chair still visible behind Teller.",
+      "action": "Teller finishes counting on the compact brass abacus, separates the beads into two clean groups, and presents one blank receipt.",
+      "composition": "Energetic medium panel centered on Teller and the abacus; reserve one result board area and one empty speech balloon",
+      "postText": {
+        "dialogue": [
+          {
+            "speaker": "teller",
+            "text": "THE VILLAGE REMAINS WITHOUT A MAYOR."
+          }
+        ],
+        "captions": [],
+        "labels": ["YES 15", "NO 27", "TURNOUT 42 OF 68"]
+      },
+      "continuity": [
+        "Teller uses the approved teal accountant visor.",
+        "The compact brass abacus and one blank receipt appear exactly once.",
+        "The mayor's chair remains empty and the daylight direction does not change."
+      ]
+    },
+    {
+      "id": "p05-nobody",
+      "sequence": 5,
+      "title": "Nobody takes office",
+      "purpose": "Land the factual result and Gaspard's dry joke in one quiet image.",
+      "sourceClaimIds": ["ballot-001-result", "gaspard-empty-office"],
+      "cast": ["gaspard"],
+      "scene": "The same Town Hall chamber in calm morning light, with the untouched empty mayor's chair centered and the working town visible through the windows.",
+      "action": "Gaspard stands at the edge of the empty chair, lowers the closed gallery ledger, holds the round mirror, and looks directly at the reader without smiling.",
+      "composition": "Large quiet closing panel with the empty chair as the primary focal point and Gaspard offset at the edge; reserve one large caption area and one small final speech balloon",
+      "postText": {
+        "dialogue": [
+          {
+            "speaker": "gaspard",
+            "text": "FINALLY, A POLITICIAN WHO DOESN'T LIE ABOUT HIS INTENTIONS. BOF."
+          }
+        ],
+        "captions": ["THE VILLAGE VOTED FOR A VOID IN THE MAYOR'S OFFICE."],
+        "labels": []
+      },
+      "continuity": [
+        "Gaspard uses the approved black beret and cream stained smock.",
+        "The round mirror and closed gallery ledger appear exactly once.",
+        "No candidate, portrait, crown, sash, or mayor character appears."
+      ]
+    }
+  ]
+}
