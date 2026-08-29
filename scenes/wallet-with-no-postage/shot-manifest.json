@@ -2,28 +2,28 @@
   "episodeId": "wallet-with-no-postage",
   "format": {
     "aspectRatio": "9:16",
-    "targetDurationSeconds": 29,
+    "targetDurationSeconds": 32,
     "silentFirst": true,
     "generatedMusic": false,
     "intelligibleGeneratedDialogue": false
   },
   "location": {
-    "id": "settlement-hall",
+    "id": "settlement-campus",
     "masterStatus": "locked",
     "master": "../../references/common/environments/settlement-hall/master.png",
     "layoutLocked": true
   },
   "references": {
-    "worker": "../../references/characters/worker/master-sheet.png",
-    "treasurer": "../../references/characters/treasurer/master-sheet.png",
-    "sentinel": "../../references/characters/sentinel/master-sheet.png",
-    "nosisCoin": "../../references/common/tokens/nosis-coin/master-sheet.png",
-    "solanaCoin": "../../references/common/tokens/solana-coin/master-sheet.png"
+    "worker": "../../references/characters/worker/3d/master-sheet.png",
+    "sentinel": "../../references/characters/sentinel/3d/master-sheet.png",
+    "returnPouch": "../../references/common/props/return-pouch/master-sheet.png",
+    "settlementMonitor": "../../references/common/props/settlement-monitor/master-sheet.png",
+    "logFilterMachine": "../../references/common/props/log-filter-machine/master-sheet.png"
   },
   "testSettings": {
     "provider": "higgsfield",
-    "model": "seedance-2.5",
-    "mode": "references",
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
     "resolution": "480p",
     "quality": "high",
     "audio": "off",
@@ -31,8 +31,8 @@
   },
   "finalSettings": {
     "provider": "higgsfield",
-    "model": "seedance-2.5",
-    "mode": "references",
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
     "resolution": "1080p",
     "quality": "high",
     "audio": "off",
@@ -40,163 +40,222 @@
   },
   "shots": [
     {
-      "id": "01-one-approval",
-      "kind": "generated",
-      "seconds": 2.5,
-      "singleAction": "Treasurer presses one approval lever once",
-      "cast": [
-        { "id": "treasurer", "behavior": "acting", "screenPosition": "Only the right white glove enters from x 72 percent, y 28 percent" }
-      ],
-      "props": [
-        { "id": "approval-lever", "count": 1, "position": "center at x 50 percent, y 58 percent on the fixed left desk", "startState": "upright", "endState": "fully down", "mayMove": true }
-      ],
-      "camera": { "axis": "left-desk-macro", "framing": "macro close-up", "motion": "locked" },
-      "startState": "Lever upright. Glove immediately above the handle. No other props visible.",
-      "endState": "Lever fully down. Glove still holding the handle.",
-      "editorOverlays": ["ONE APPROVAL"],
-      "referenceKeys": ["treasurer"],
-      "passCriteria": ["One press only", "Lever remains singular", "No text or music", "Exact Settlement Hall materials"]
-    },
-    {
-      "id": "02-five-sends",
-      "kind": "hybrid",
-      "seconds": 3,
-      "singleAction": "Worker looks up in growing surprise",
-      "cast": [
-        { "id": "worker", "behavior": "acting", "screenPosition": "center at x 42 percent, feet at y 88 percent, facing three-quarters right toward the hopper" }
-      ],
-      "props": [
-        { "id": "receiving-hopper", "count": 1, "position": "fixed center station at x 67 percent", "startState": "empty", "endState": "filled by editor composite", "mayMove": false },
-        { "id": "nosis-token-overlay", "count": 5, "position": "editor composite inside the hopper", "startState": "absent", "endState": "five visible tokens", "mayMove": false }
-      ],
-      "camera": { "axis": "center-station-front", "framing": "medium full-body", "motion": "locked" },
-      "startState": "Worker watches the empty fixed hopper.",
-      "endState": "Worker is surprised. Token count and hopper fill are created in edit, not by the model.",
-      "editorOverlays": ["1", "2", "3", "4", "5", "five exact NOSIS token composites"],
-      "referenceKeys": ["worker", "nosisCoin"],
-      "passCriteria": ["Only Worker moves", "Hopper stays fixed", "No generated coins", "No text or music"]
-    },
-    {
-      "id": "03-machine-notices",
-      "kind": "generated",
-      "seconds": 3,
-      "singleAction": "Treasurer recoils from an already overlong receipt roll",
-      "cast": [
-        { "id": "treasurer", "behavior": "acting", "screenPosition": "center at x 38 percent, feet at y 88 percent, facing right toward the printer" }
-      ],
-      "props": [
-        { "id": "receipt-roll", "count": 1, "position": "fixed printer at x 70 percent", "startState": "already extended and resting on desk", "endState": "unchanged", "mayMove": false }
-      ],
-      "camera": { "axis": "left-desk-front", "framing": "medium", "motion": "locked" },
-      "startState": "One long receipt is already visible. Treasurer is reading it.",
-      "endState": "Treasurer leans back with widened eyes. Receipt does not grow or duplicate.",
-      "editorOverlays": ["1 approval -> 5 sends"],
-      "referenceKeys": ["treasurer"],
-      "passCriteria": ["Treasurer performs one recoil", "One receipt only", "Receipt remains static", "No text or music"]
-    },
-    {
-      "id": "04-return-extra",
-      "kind": "generated",
-      "seconds": 3,
-      "singleAction": "Worker reads the return request and nods once",
-      "cast": [
-        { "id": "worker", "behavior": "acting", "screenPosition": "center at x 42 percent, feet at y 88 percent, facing three-quarters right toward the terminal" }
-      ],
-      "props": [
-        { "id": "return-pouch", "count": 1, "position": "held closed against Worker's torso", "startState": "closed", "endState": "closed", "mayMove": false }
-      ],
-      "camera": { "axis": "center-station-front", "framing": "medium full-body", "motion": "locked" },
-      "startState": "Worker holds one closed black pouch and reads the blank terminal area.",
-      "endState": "Worker completes one nod. Pouch remains closed and in both hands.",
-      "editorOverlays": ["RETURN THE EXTRA"],
-      "referenceKeys": ["worker"],
-      "passCriteria": ["One nod only", "Pouch remains singular and closed", "No generated text", "No music"]
-    },
-    {
-      "id": "05-rejected",
-      "kind": "generated",
-      "seconds": 4,
-      "singleAction": "Worker pulls the rejected pouch back from the hatch",
-      "cast": [
-        { "id": "worker", "behavior": "acting", "screenPosition": "center at x 35 percent, feet at y 88 percent, side profile facing right" }
-      ],
-      "props": [
-        { "id": "return-pouch", "count": 1, "position": "half inserted into the fixed hatch at x 70 percent", "startState": "half inserted with red light already on", "endState": "held against Worker's torso", "mayMove": true }
-      ],
-      "camera": { "axis": "center-station-side", "framing": "medium full-body", "motion": "locked" },
-      "startState": "Red light is on. Worker grips the same pouch protruding from the hatch.",
-      "endState": "Worker holds the pouch and looks confused. Hatch and red light remain fixed.",
-      "editorOverlays": [],
-      "referenceKeys": ["worker"],
-      "passCriteria": ["One pouch only", "Pouch moves from hatch to Worker", "No object creation", "No text or music"]
-    },
-    {
-      "id": "06-proof",
-      "kind": "hybrid",
-      "seconds": 3,
-      "singleAction": "Sentinel lowers one magnifying lens toward the two wallet slots",
-      "cast": [
-        { "id": "sentinel", "behavior": "acting", "screenPosition": "center at x 35 percent, feet at y 88 percent, facing three-quarters right" }
-      ],
-      "props": [
-        { "id": "magnifying-lens", "count": 1, "position": "in Sentinel's right hand", "startState": "at chest height", "endState": "in front of the slots", "mayMove": true },
-        { "id": "nosis-slot", "count": 1, "position": "upper fixed slot at x 72 percent", "startState": "one NOSIS token composited in post", "endState": "unchanged", "mayMove": false },
-        { "id": "sol-slot", "count": 1, "position": "lower fixed slot at x 72 percent", "startState": "empty", "endState": "empty", "mayMove": false }
-      ],
-      "camera": { "axis": "right-panel-front", "framing": "medium", "motion": "locked" },
-      "startState": "Sentinel faces two fixed slots. The exact NOSIS coin is composited in the upper slot. Lower slot is empty.",
-      "endState": "Lens stops in front of the slots. Slot states remain unchanged.",
-      "editorOverlays": ["NOSIS: FULL", "SOL: 0", "exact NOSIS token composite"],
-      "referenceKeys": ["sentinel", "nosisCoin"],
-      "passCriteria": ["Only the lens and Sentinel arm move", "SOL slot stays empty", "No generated token logo", "No text or music"]
-    },
-    {
-      "id": "07-postage-arrives",
-      "kind": "generated",
-      "seconds": 3,
-      "singleAction": "One SOL token drops into the fixed fee slot",
-      "cast": [],
-      "props": [
-        { "id": "sol-token", "count": 1, "position": "inside the clear tube above the fee slot", "startState": "entering at y 20 percent", "endState": "seated inside the fee slot", "mayMove": true }
-      ],
-      "camera": { "axis": "center-fee-slot-close", "framing": "close-up", "motion": "locked" },
-      "startState": "One exact SOL token is already visible inside the clear tube. Fee light is red.",
-      "endState": "The same token rests in the slot. Green light is created with a matched editor state change.",
-      "editorOverlays": ["green light state change after token lands"],
-      "referenceKeys": ["solanaCoin"],
-      "passCriteria": ["Exactly one token", "Logo remains exact", "Slot stays fixed", "No text or music"]
-    },
-    {
-      "id": "08-repayment",
-      "kind": "generated",
-      "seconds": 4,
-      "singleAction": "Worker pushes the return pouch fully through the open hatch",
-      "cast": [
-        { "id": "worker", "behavior": "acting", "screenPosition": "center at x 35 percent, feet at y 88 percent, side profile facing right" }
-      ],
-      "props": [
-        { "id": "return-pouch", "count": 1, "position": "in Worker's hands directly before the hatch", "startState": "closed and outside hatch", "endState": "fully beyond the hatch and no longer visible", "mayMove": true }
-      ],
-      "camera": { "axis": "center-station-side", "framing": "medium full-body matching Shot 05", "motion": "locked" },
-      "startState": "Green light is already on. Worker holds one closed pouch before the hatch.",
-      "endState": "Pouch passes fully through the hatch. Worker keeps both empty hands visible and exhales.",
-      "editorOverlays": [],
-      "referenceKeys": ["worker"],
-      "passCriteria": ["One push only", "One pouch only", "Both hands remain valid", "Camera matches Shot 05", "No text or music"]
-    },
-    {
-      "id": "09-receipt",
+      "id": "00-true-story-card",
       "kind": "editor",
-      "seconds": 3,
-      "singleAction": "Editor displays the verified onchain receipt",
+      "seconds": 2.5,
+      "singleAction": "Editor fades the true-story card in and out over black",
       "cast": [],
       "props": [],
       "camera": { "axis": "editor-card", "framing": "full frame", "motion": "locked" },
-      "startState": "Settlement Hall background is dimmed behind a clean receipt card.",
-      "endState": "Receipt card cuts to the exact first frames of Shot 01.",
-      "editorOverlays": ["90,000 NOSIS RETURNED", "5tMeBf...SMJ6ZVJ", "REAL AGENT INTERACTION. RECEIPT ONCHAIN."],
+      "startState": "Black frame.",
+      "endState": "Black frame before the hard cut into the Settlement Hall.",
+      "editorOverlays": ["BASED ON A TRUE STORY", "INVOLVING AUTONOMOUS AI AGENTS", "TRANSACTIONS VERIFIED ONCHAIN", "SOME VISUALS HAVE BEEN DRAMATIZED", "white serif type, film grain, slow fade"],
       "referenceKeys": [],
-      "passCriteria": ["Exact verified signature", "Readable for at least two seconds", "Opening frames reused for loop"]
+      "passCriteria": ["Exact text", "Readable at phone size", "No logo", "No Nosis colors", "Recognizable true-story film language"]
+    },
+    {
+      "id": "01-job-assignment",
+      "kind": "hybrid",
+      "seconds": 3,
+      "singleAction": "Worker presses one physical accept button beside the Settlement Monitor",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 30 percent, facing three-quarters right toward the monitor" }
+      ],
+      "props": [
+        { "id": "settlement-monitor", "count": 1, "position": "large and frontal at x 68 percent", "startState": "blank glass", "endState": "blank glass", "mayMove": false },
+        { "id": "accept-button", "count": 1, "position": "fixed on the console below the monitor", "startState": "unpressed and amber", "endState": "pressed and green", "mayMove": true }
+      ],
+      "camera": { "axis": "job-monitor-front", "framing": "medium full-body", "motion": "locked" },
+      "startState": "Worker stands before the blank monitor with one hand raised toward the accept button.",
+      "endState": "Worker has pressed the button once. Monitor and console remain fixed.",
+      "editorOverlays": ["monitor: wrench icon points to three-module machine icon", "monitor: x3 badge", "monitor: module plaques 28, 29, 30", "CRT scanlines and phosphor bloom"],
+      "referenceKeys": ["worker", "settlementMonitor", "logFilterMachine"],
+      "passCriteria": ["Work order reads without narration", "Exactly one accept press", "Worker identity matches", "Monitor glass remains generated blank", "No generated text or music"]
+    },
+    {
+      "id": "02-get-tools",
+      "kind": "generated",
+      "seconds": 1.5,
+      "singleAction": "Worker lifts one closed toolbox from the stairwell service locker and turns toward the open roof door",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 42 percent, stepping toward the rooftop stairs in three-quarter profile" }
+      ],
+      "props": [
+        { "id": "tool-kit", "count": 1, "position": "one closed toolbox with one wrench clipped on top inside a recessed stairwell locker", "startState": "resting in locker", "endState": "held in Worker's right hand as he starts up the stairs", "mayMove": true }
+      ],
+      "camera": { "axis": "service-stairwell-low", "framing": "medium full-body with roof door visible", "motion": "locked" },
+      "startState": "Worker grips the one tool kit inside the recessed service locker.",
+      "endState": "Worker holds the same closed toolbox and starts toward the open roof door.",
+      "editorOverlays": [],
+      "referenceKeys": ["worker"],
+      "passCriteria": ["Service stairwell is visibly different from dispatch", "Open roof door is readable", "One toolbox only", "One wrench only", "One lift only", "Tools do not duplicate", "No generated text or music"]
+    },
+    {
+      "id": "03-filter-repair",
+      "kind": "hybrid",
+      "seconds": 4,
+      "singleAction": "Worker tightens the brass service fitting on the third filter module with one wrench turn",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 28 percent, side profile facing right toward the machine" }
+      ],
+      "props": [
+        { "id": "log-filter-machine", "count": 1, "position": "bolted to rooftop ducts at x 66 percent", "startState": "first two module lights green, third module light amber", "endState": "all three module lights green", "mayMove": false },
+        { "id": "wrench", "count": 1, "position": "in Worker's two hands around the third-module brass fitting", "startState": "engaged on fitting", "endState": "resting after one clockwise turn", "mayMove": true }
+      ],
+      "camera": { "axis": "rooftop-filter-machine-front", "framing": "wide full-body with open sky and parapet", "motion": "locked" },
+      "startState": "On the outdoor utility deck, Worker grips one wrench on the third-module fitting. Machine geometry is fixed.",
+      "endState": "Worker has completed one wrench turn. Machine geometry remains fixed.",
+      "editorOverlays": ["module plaques 28, 29, 30", "third light amber to green", "brief machine stabilization pulse"],
+      "referenceKeys": ["worker", "logFilterMachine"],
+      "passCriteria": ["Outdoor rooftop is unmistakable", "Exactly three modules", "One wrench only", "One repair motion only", "Third fitting matches reference", "Numbers and light change are editor-owned", "No generated text or music"]
+    },
+    {
+      "id": "04-payment-glitch",
+      "kind": "editor",
+      "seconds": 3,
+      "singleAction": "Editor animates the payment counter from expected three to paid nine on the Settlement Monitor",
+      "cast": [],
+      "props": [
+        { "id": "settlement-monitor", "count": 1, "position": "large and frontal in the center of frame", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "settlement-monitor-front", "framing": "close-up", "motion": "locked" },
+      "startState": "The physical monitor fills the frame with blank convex glass.",
+      "endState": "The same physical monitor remains fixed after the editor animation.",
+      "editorOverlays": ["JOBS COMPLETE 3", "EXPECTED 3", "counter ticks 3 to 9", "PAID 9", "amber warning blink", "CRT scanlines and phosphor bloom"],
+      "referenceKeys": ["settlementMonitor"],
+      "passCriteria": ["Three completed jobs are readable", "Expected three is readable", "Paid nine is readable", "No floating coins", "No full-screen card", "No generated text or music"]
+    },
+    {
+      "id": "05-pack-the-extra",
+      "kind": "hybrid",
+      "seconds": 2,
+      "singleAction": "Worker lifts the closed return money bag from the work bench with both hands",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 36 percent, facing three-quarters right toward the bench" }
+      ],
+      "props": [
+        { "id": "return-pouch", "count": 1, "position": "closed on the bench between Worker's hands", "startState": "closed and resting on the bench", "endState": "closed and held against Worker's torso", "mayMove": true },
+        { "id": "settlement-monitor", "count": 1, "position": "fixed at x 76 percent", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "work-bench-front", "framing": "medium full-body", "motion": "locked" },
+      "startState": "Worker grips the one approved closed money bag resting on the bench. The monitor glass is blank.",
+      "endState": "Worker holds the same closed bag with both hands. The monitor glass remains blank.",
+      "editorOverlays": ["monitor: EXTRA 90,000 NOSIS", "monitor: RETURN REQUIRED"],
+      "referenceKeys": ["worker", "returnPouch", "settlementMonitor"],
+      "passCriteria": ["One bag only", "Bag matches approved reference", "No loose coins", "No generated text or music"]
+    },
+    {
+      "id": "06-send-failed",
+      "kind": "hybrid",
+      "seconds": 2.5,
+      "singleAction": "Worker pulls the rejected money bag back from the red wallet hatch",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 30 percent, side profile facing right" }
+      ],
+      "props": [
+        { "id": "return-pouch", "count": 1, "position": "half inserted into the fixed hatch at x 68 percent", "startState": "half inserted with red light on", "endState": "held against Worker's torso", "mayMove": true },
+        { "id": "settlement-monitor", "count": 1, "position": "fixed above the hatch", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "wallet-hatch-side", "framing": "medium full-body", "motion": "locked" },
+      "startState": "Worker grips the same bag protruding from the red hatch. The monitor glass is blank.",
+      "endState": "Worker holds the bag and looks up at the monitor. Hatch and red light remain fixed.",
+      "editorOverlays": ["monitor: SEND FAILED", "brief red CRT pulse"],
+      "referenceKeys": ["worker", "returnPouch", "settlementMonitor"],
+      "passCriteria": ["One bag only", "One pullback only", "Monitor stays fixed", "No generated text or music"]
+    },
+    {
+      "id": "07-sentinel-arrives",
+      "kind": "generated",
+      "seconds": 2,
+      "singleAction": "Worker rings the assistance bell as Sentinel steps through the separate inspection door",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 70 percent beside the failed hatch, wearing apron and bow tie" },
+        { "id": "sentinel", "behavior": "acting", "screenPosition": "full body at x 25 percent entering through the open door, wearing teal cap and sash" }
+      ],
+      "props": [
+        { "id": "assistance-bell", "count": 1, "position": "fixed beside the failed wallet hatch", "startState": "silent", "endState": "pressed once by Worker", "mayMove": true },
+        { "id": "inspection-door", "count": 1, "position": "left side with one embossed magnifying-lens emblem", "startState": "closed", "endState": "open with the darker corridor visible", "mayMove": true },
+        { "id": "return-pouch", "count": 1, "position": "held against Worker's apron", "startState": "held", "endState": "held", "mayMove": false },
+        { "id": "magnifying-lens", "count": 1, "position": "at Sentinel's side", "startState": "held low", "endState": "held low", "mayMove": false }
+      ],
+      "camera": { "axis": "transfer-office-wide", "framing": "wide two-character introduction", "motion": "locked" },
+      "startState": "Worker stands beside the red hatch with one hand above the assistance bell. The inspection door is closed.",
+      "endState": "The bell has been pressed once. The door is open and Sentinel has stepped into the office.",
+      "editorOverlays": [],
+      "referenceKeys": ["worker", "sentinel", "returnPouch", "settlementMonitor"],
+      "passCriteria": ["Worker and Sentinel appear together", "Worker apron and bow tie are readable", "Sentinel teal cap and sash are readable", "Inspector enters through a separate marked door", "One bell press only", "No generated text or music"]
+    },
+    {
+      "id": "08-missing-gas",
+      "kind": "hybrid",
+      "seconds": 2.5,
+      "singleAction": "Sentinel raises one magnifying lens toward the second balance line while Worker waits behind with the return bag",
+      "cast": [
+        { "id": "worker", "behavior": "reacting", "screenPosition": "full body at x 18 percent behind Sentinel, wearing apron and bow tie" },
+        { "id": "sentinel", "behavior": "acting", "screenPosition": "full body at x 42 percent before the monitor, wearing teal cap and sash" }
+      ],
+      "props": [
+        { "id": "return-pouch", "count": 1, "position": "held against Worker's apron", "startState": "held", "endState": "held", "mayMove": false },
+        { "id": "magnifying-lens", "count": 1, "position": "in Sentinel's right hand", "startState": "at chest height", "endState": "before the lower screen line", "mayMove": true },
+        { "id": "settlement-monitor", "count": 1, "position": "large and fixed at x 78 percent", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "inspection-monitor-two-character", "framing": "medium-wide with both uniforms and screen readable", "motion": "locked" },
+      "startState": "Worker waits behind Sentinel with the bag. Sentinel faces the blank monitor with the lens at chest height.",
+      "endState": "The lens stops before the lower screen line. Both character uniforms and the monitor remain visible.",
+      "editorOverlays": ["monitor: NOSIS 90,000", "monitor: SOL 0.000", "CRT scanlines and phosphor bloom"],
+      "referenceKeys": ["worker", "sentinel", "returnPouch", "settlementMonitor"],
+      "passCriteria": ["Both characters stay visible", "Sentinel is unmistakable from Worker", "SOL zero is readable", "One lens only", "No generated token logos", "No generated text or music"]
+    },
+    {
+      "id": "09-gas-arrives",
+      "kind": "editor",
+      "seconds": 2,
+      "singleAction": "Editor changes the SOL balance from zero to 0.01 on the same two-character diagnosis plate",
+      "cast": [],
+      "props": [
+        { "id": "settlement-monitor", "count": 1, "position": "large and fixed at x 78 percent", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "inspection-monitor-two-character", "framing": "matching Shot 08", "motion": "locked" },
+      "startState": "The diagnosis plate is fixed with blank monitor glass.",
+      "endState": "The same plate remains fixed after the editor balance animation.",
+      "editorOverlays": ["SOL 0.000", "counter changes to SOL 0.010", "green confirmation pulse", "CRT scanlines and phosphor bloom"],
+      "referenceKeys": ["settlementMonitor"],
+      "passCriteria": ["Zero changes to 0.01", "Worker and Sentinel remain identifiable", "No floating SOL token", "No generated text or music"]
+    },
+    {
+      "id": "10-repayment",
+      "kind": "hybrid",
+      "seconds": 3,
+      "singleAction": "Worker pushes the return money bag fully through the green wallet hatch",
+      "cast": [
+        { "id": "worker", "behavior": "acting", "screenPosition": "full body at x 30 percent, side profile facing right" }
+      ],
+      "props": [
+        { "id": "return-pouch", "count": 1, "position": "in Worker's hands directly before the hatch", "startState": "closed and outside hatch", "endState": "fully beyond the hatch and no longer visible", "mayMove": true },
+        { "id": "settlement-monitor", "count": 1, "position": "fixed above the hatch", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "wallet-hatch-side", "framing": "medium full-body matching Shot 06", "motion": "locked" },
+      "startState": "Green light is on. Worker holds the approved closed bag before the hatch.",
+      "endState": "The bag has passed fully through. Worker keeps both empty hands visible.",
+      "editorOverlays": ["monitor: SENDING...", "green confirmation pulse"],
+      "referenceKeys": ["worker", "returnPouch", "settlementMonitor"],
+      "passCriteria": ["One push only", "One approved bag only", "Both hands remain valid", "Camera matches Shot 06", "No generated text or music"]
+    },
+    {
+      "id": "11-onchain-receipt",
+      "kind": "editor",
+      "seconds": 4,
+      "singleAction": "Editor boots the verified repayment receipt onto the physical Settlement Monitor",
+      "cast": [],
+      "props": [
+        { "id": "settlement-monitor", "count": 1, "position": "large and frontal at x 68 percent with Worker watching from frame left", "startState": "blank glass", "endState": "blank glass", "mayMove": false }
+      ],
+      "camera": { "axis": "settlement-monitor-in-world", "framing": "medium close-up", "motion": "locked" },
+      "startState": "Worker watches the blank physical monitor in the transfer office.",
+      "endState": "Worker and the monitor remain fixed after the editor receipt animation.",
+      "editorOverlays": ["RETURN RECEIVED", "90,000 NOSIS", "FINALIZED", "SOLANA MAINNET", "5tMeBf...SMJ6ZVJ", "CRT boot flicker, scanlines, and phosphor bloom"],
+      "referenceKeys": ["settlementMonitor"],
+      "passCriteria": ["Receipt stays inside the physical screen", "Exact verified amount", "Exact shortened signature", "Readable for at least two seconds", "No full-screen card"]
     }
   ],
   "loop": {

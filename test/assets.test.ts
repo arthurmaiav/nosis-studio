@@ -12,7 +12,9 @@ describe("common assets", () => {
       "settlement-hall",
       "nosis-coin",
       "solana-coin",
-      "return-pouch"
+      "return-pouch",
+      "settlement-monitor",
+      "log-filter-machine"
     ]);
     expect(new Set(result.assets.map((asset) => asset.category))).toEqual(new Set([
       "environment",

@@ -1,143 +1,190 @@
 # The Wallet With No Postage
 
-Format: 9:16 short, 27 to 30 seconds.
+Format: 9:16 short, 32 seconds.
 
-The animatic must make sense muted before narration, gibberish, subtitles, sound effects, or music are added.
+The story must make sense muted before narration, subtitles, sound effects, or music are added.
 
-## Story in one sentence
+## Verified story
 
-One approval pays an AI worker repeatedly, but the worker cannot return the extra NOSIS until the village gives his wallet enough SOL to pay the network fee.
+Worker completed three software-filter jobs worth 45,000 NOSIS. A payment system sent nine payments totaling 135,000 NOSIS, leaving a 90,000 NOSIS overpayment. Worker tried to return it, but his wallet held NOSIS and no SOL for network fees. The House funded every resident with 0.01 SOL. Worker tried again and returned the 90,000 NOSIS in a finalized transaction.
 
-## Locked location
+## Visual adaptation
 
-Everything happens inside one bright retro-futuristic Settlement Hall with curved windows and a stable city skyline.
+The archive jobs were `Refine Missed Log Filter 28`, `29`, and `30`. The animation dramatizes that software maintenance as a physical three-module filter machine. Narration calls the work `filter fixes` and never claims that the archive contained a literal machine repair.
 
-- Left: Treasurer's fixed desk and one approval lever.
-- Center: Worker's fixed wallet hatch and clear receiving hopper.
-- Right: Sentinel's fixed inspection panel.
-- The camera may move, but the room layout, windows, skyline, furniture, and light direction cannot change.
-- Create and approve one empty environment master before any keyframe.
+All counters, balances, failures, and receipts appear on the physical Settlement Monitor. Never use floating labels, floating coins, or full-screen dashboard cards.
+
+The monitor is generated with blank convex glass. Exact text and simple phosphor-green animation are added in post: icons, counters, progress bars, scanlines, and status changes.
+
+## Locked geography
+
+The story moves through three connected spaces in the same retro-futuristic settlement complex.
+
+- Dispatch room: job monitor and payment monitor.
+- Rooftop service stairwell: tool locker and the route to the roof.
+- Rooftop utility deck: the physical three-module filter machine.
+- Transfer office: wallet hatch, assistance bell, and Sentinel's inspection door.
+- Every generated clip starts from an approved 9:16 first frame, and each return to a location preserves its layout.
 
 ## Silent storyboard
 
-### Shot 1, one approval
+### Shot 0, true-story card
 
 Time: `0.0-2.5s`
 
-Macro close-up. Treasurer's white glove presses the single approval lever exactly once. The lever begins and ends in clear positions.
+Black screen, centered white serif typography, restrained film grain, and a slow fade.
 
-Editor overlay: `ONE APPROVAL`
+Exact text:
 
-Sound later: one mechanical clack. No generated music.
+`BASED ON A TRUE STORY`
 
-### Shot 2, five sends
+`INVOLVING AUTONOMOUS AI AGENTS`
+
+`TRANSACTIONS VERIFIED ONCHAIN`
+
+Small footer: `SOME VISUALS HAVE BEEN DRAMATIZED`
+
+### Shot 1, job assignment
 
 Time: `2.5-5.5s`
 
-Medium shot at the center station. Worker watches NOSIS tokens fall through the fixed receiving tube into one clear hopper. The camera and hopper stay still. The tokens are composited from the canonical NOSIS prop sheet rather than invented by the video model.
+Worker approaches the Settlement Monitor and presses one physical accept button. The generated glass remains blank.
 
-Editor overlay count: `1  2  3  4  5`
+Monitor animation: a wrench icon points toward a simple three-module machine icon. A clear `x3` badge appears. Three small module labels read `28`, `29`, and `30`.
 
-Narrator later: `This AI village paid the same bounty five times.`
+Narrator: `Worker accepted three filter fixes.`
 
-### Shot 3, the machine notices
+### Shot 2, get the tools
 
-Time: `5.5-8.5s`
+Time: `5.5-7.0s`
 
-Back at the same left desk. One receipt roll extends too far from a fixed printer while Treasurer watches, frozen. No loose pages and no second action.
+Worker enters a narrow rooftop service stairwell, lifts one closed toolbox from a recessed locker, and starts up the steps toward an open roof door.
 
-Editor overlay: `1 approval -> 5 sends`
+### Shot 3, finish the work
 
-### Shot 4, return the extra
+Time: `7.0-11.0s`
 
-Time: `8.5-11.5s`
+On the outdoor rooftop utility deck, the physical machine is bolted into the building ducts. It has three filter modules. Modules `28` and `29` already glow green. Worker tightens one large fitting on module `30` with the wrench. The machine stops sputtering and its third indicator changes from amber to green.
 
-Worker stands at the center wallet hatch holding one closed black return pouch. The fixed terminal beside the hatch lights up. Worker reads it and nods once.
+Narrator: `He finished the last one.`
 
-Terminal text added in post: `RETURN THE EXTRA`
+### Shot 4, payment glitch
 
-Character audio later: one short affirmative gibberish phrase.
+Time: `11.0-14.0s`
 
-### Shot 5, rejected
+Close-up of the same Settlement Monitor. No character action and no floating coins.
 
-Time: `11.5-15.5s`
+Monitor animation: `JOBS COMPLETE 3`, then `EXPECTED 3`. The payment counter ticks past three and stops at `PAID 9`. A warning light blinks.
 
-One continuous side view. Worker pushes the same closed pouch into the wallet hatch. The hatch flashes red and gently pushes the same pouch back into his hands. The pouch never disappears or duplicates.
+Narrator: `The system owed him three payments. It sent nine.`
 
-Narrator later: `Small problem. He had the bag and literally zero SOL for gas.`
+### Shot 5, return the extra
 
-### Shot 6, proof of the problem
+Time: `14.0-16.0s`
 
-Time: `15.5-18.5s`
+Worker lifts the approved closed return money bag from the work bench and holds it with both hands.
 
-Locked insert of Sentinel's inspection panel. Sentinel lowers one magnifying lens toward two fixed slots. The NOSIS slot visibly contains the canonical NOSIS token. The SOL slot is visibly empty.
+Monitor animation: `EXTRA 90,000 NOSIS` then `RETURN REQUIRED`.
 
-Editor labels: `NOSIS: FULL` and `SOL: 0`
+Narrator: `Six too many, 90,000 NOSIS.`
 
-No generated text or logos. Composite both labels and token marks in post.
+### Shot 6, send failed
 
-### Shot 7, postage arrives
+Time: `16.0-18.5s`
 
-Time: `18.5-21.5s`
+Side view. Worker pushes the same closed bag toward the wallet hatch. The hatch glows red and refuses it. Worker pulls the bag back and looks at the monitor.
 
-Same center wallet station and same camera axis as Shot 5. One canonical SOL token travels through a clear overhead tube and drops into the fixed SOL fee slot. The slot turns green.
+Monitor animation: `SEND FAILED`.
 
-Narrator later: `The House had to give every resident 0.01 SOL just so they could send the money back.`
+Narrator: `He tried to return it.`
 
-### Shot 8, repayment
+### Shot 7, call the inspector
 
-Time: `21.5-25.5s`
+Time: `18.5-20.5s`
 
-Reuse the Shot 5 camera axis. Worker pushes the same closed return pouch into the same hatch. This time the green light stays on and the pouch passes fully through. Worker exhales in relief.
+Worker presses the brass assistance bell beside the failed hatch. A separate teal door with a brass magnifying-lens emblem opens from a darker inspection corridor. Sentinel enters wearing a teal service cap and ivory sash. Worker and Sentinel remain visible together so their different uniforms read clearly.
 
-Character audio later: one relieved gibberish phrase.
+Narrator: `Sentinel came to inspect.`
 
-### Shot 9, onchain receipt
+### Shot 8, the missing gas
 
-Time: `25.5-28.5s`
+Time: `20.5-23.0s`
 
-Editor-created receipt card over the locked Settlement Hall background. Show the real Worker repayment and a short readable transaction prefix.
+Worker stands behind Sentinel holding the return bag. Sentinel lowers one magnifying lens toward the monitor and points to its second balance line. Worker's apron and bow tie remain visible beside Sentinel's teal cap and sash.
 
-Headline: `90,000 NOSIS RETURNED`
+Monitor animation: `NOSIS 90,000` above `SOL 0.000`.
 
-Receipt: `5tMeBf...SMJ6ZVJ`
+Narrator: `The wallet had zero SOL for gas.`
 
-Footer: `REAL AGENT INTERACTION. RECEIPT ONCHAIN.`
+### Shot 9, gas arrives
 
-Link in caption: `https://solscan.io/tx/5tMeBfMUxFaCdZHA16upi4WfbKkuPQZiYzCCWJSAJpRikhy3ye2AYEiS1nuZvjATFD92B8G4gco7bJdmYSMJ6ZVJ`
+Time: `23.0-25.0s`
 
-Narrator later: `He returned all 90,000 NOSIS. The receipt is onchain.`
+Close-up of the monitor and fixed fee light. This is an editor-owned shot with no generated character movement.
 
-## Loop
+Monitor animation: `SOL 0.000` counts to `SOL 0.010`. The fee light changes from red to green.
 
-Do not ask the video model to invent the loop.
+Narrator: `The House added 0.01 SOL.`
 
-Duplicate the first 6 to 8 frames of Shot 1 at the very end. Cut from the receipt card to the exact opening lever frame. The first and final displayed frames are therefore identical.
+### Shot 10, repayment
+
+Time: `25.0-28.0s`
+
+Reuse the Shot 6 camera axis. Worker pushes the same closed bag fully through the now-green hatch, then shows both empty hands.
+
+Monitor animation: `SENDING...` then a green confirmation pulse.
+
+Narrator: `Worker retried.`
+
+### Shot 11, onchain receipt
+
+Time: `28.0-32.0s`
+
+Worker watches the physical Settlement Monitor in the hall. The camera is close enough to read the convex screen.
+
+Monitor animation:
+
+- `RETURN RECEIVED`
+- `90,000 NOSIS`
+- `FINALIZED`
+- `SOLANA MAINNET`
+- `5tMeBf...SMJ6ZVJ`
+
+Caption link: `https://solscan.io/tx/5tMeBfMUxFaCdZHA16upi4WfbKkuPQZiYzCCWJSAJpRikhy3ye2AYEiS1nuZvjATFD92B8G4gco7bJdmYSMJ6ZVJ`
+
+Narrator: `The 90,000 NOSIS landed back onchain.`
+
+## Narrator script
+
+Worker accepted three filter fixes. He finished the last one. The system owed him three payments. It sent nine. Six too many, 90,000 NOSIS. He tried to return it. Sentinel came to inspect. The wallet had zero SOL for gas. The House added 0.01 SOL. Worker retried. The 90,000 NOSIS landed back onchain.
 
 ## Audio contract
 
-- Generate no music.
-- Generate no intelligible dialogue.
-- Residents may make short, expressive, language-neutral gibberish later.
-- Build one continuous Settlement Hall ambience in edit.
-- Add one continuous music track only after the silent animatic is approved.
+- The title card receives only quiet projector texture.
+- The narrator begins after the cut into the Settlement Hall.
+- Generated motion clips contain no music and no intelligible dialogue.
+- Residents may receive short language-neutral cartoon reactions during the edit.
+- Settlement Hall ambience and music are added only after the silent animatic passes review.
 
 ## Required references
 
-- `../../references/characters/worker/master-sheet.png`
-- `../../references/characters/treasurer/master-sheet.png`
-- `../../references/characters/sentinel/master-sheet.png`
-- `../../references/common/tokens/nosis-coin/master-sheet.png`
-- `../../references/common/tokens/solana-coin/master-sheet.png`
+- `../../references/characters/worker/3d/master-sheet.png`
+- `../../references/characters/sentinel/3d/master-sheet.png`
+- `../../references/common/props/return-pouch/master-sheet.png`
+- `../../references/common/props/settlement-monitor/master-sheet.png`
+- `../../references/common/props/log-filter-machine/master-sheet.png`
 - `../../references/common/environments/settlement-hall/master.png`
 
 ## Approval gate
 
-Before motion generation, export a slideshow animatic using only approved still keyframes. Someone unfamiliar with Nosis must be able to answer:
+Before motion generation, export a silent slideshow using only approved first frames. Someone unfamiliar with Nosis must be able to answer:
 
-1. Who received too much money?
-2. Why could he not return it?
-3. What fixed the problem?
-4. What proves the repayment happened?
+1. What job did Worker accept?
+2. How many jobs did he complete?
+3. How many payments were expected, and how many arrived?
+4. How much did Worker need to return?
+5. Why did the return fail?
+6. What fixed it?
+7. What proves the repayment happened?
 
-If any answer is unclear, rewrite the storyboard before spending video credits.
+If any answer is unclear, rewrite the cut before spending video credits.

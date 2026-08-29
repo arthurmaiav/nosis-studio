@@ -25,6 +25,16 @@
       "id": "return-pouch",
       "category": "prop",
       "manifest": "props/return-pouch/asset.json"
+    },
+    {
+      "id": "settlement-monitor",
+      "category": "prop",
+      "manifest": "props/settlement-monitor/asset.json"
+    },
+    {
+      "id": "log-filter-machine",
+      "category": "prop",
+      "manifest": "props/log-filter-machine/asset.json"
     }
   ]
 }

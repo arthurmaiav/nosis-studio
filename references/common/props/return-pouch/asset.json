@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "id": "return-pouch",
-  "name": "Return Pouch",
+  "name": "Return Money Bag",
   "category": "prop",
   "purpose": "Reusable physical shorthand for duplicate NOSIS being returned to the treasury.",
   "lockedDesign": [
-    "One small closed black pouch",
+    "One classic full tan burlap money bag",
+    "Wide weighted base and tightly cinched neck",
     "Sized for two resident hands",
-    "No visible logo or readable label",
+    "Exact Nosis cat coin emblem, never a dollar sign",
     "No loose coins or opening animation"
   ],
-  "status": "draft",
+  "status": "approved-for-package-development",
   "visualReferences": [
     {
       "id": "prop-sheet",
       "kind": "prop-sheet",
       "path": "master-sheet.png",
-      "status": "pending",
-      "distribution": "local-only",
+      "status": "approved",
+      "distribution": "public",
       "coverage": ["front", "side", "held", "half-inserted"]
     }
   ]

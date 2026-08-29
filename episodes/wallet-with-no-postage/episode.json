@@ -1,20 +1,24 @@
 {
   "id": "wallet-with-no-postage",
   "title": "The Wallet With No Postage",
-  "premise": "An AI village overpays its residents, asks them to return the money, then discovers their wallets hold NOSIS but no SOL to pay the network fee.",
+  "premise": "A silent payment door sends Worker 135,000 NOSIS for three jobs worth 45,000, then his wallet cannot return the 90,000 overpayment because it holds no SOL for fees.",
   "protagonist": "Worker",
-  "want": "Return the duplicate settlements exactly once.",
+  "want": "Return the 90,000 NOSIS overpayment exactly once.",
   "obstacle": "Worker's wallet can receive NOSIS but holds no SOL for transaction fees.",
   "reversal": "The House realizes every resident wallet has the same missing-postage problem and funds each one with 0.01 SOL.",
   "payoff": "Worker returns 90,000 NOSIS and the repayment is proven by a finalized onchain transaction.",
   "cast": ["worker", "treasurer", "sentinel"],
   "claims": [
     {
-      "id": "one-authorization-five-sends",
-      "statement": "One authorization produced five distinct sends totaling 75,000 NOSIS.",
-      "searchTerms": ["5 distinct sends 75,000 total ONE authorization at 21:17:12"],
+      "id": "worker-overpaid-90000",
+      "statement": "Worker earned 45,000 NOSIS across three jobs, received 135,000 across nine payments, and was overpaid by 90,000 NOSIS.",
+      "searchTerms": [
+        "The bank paid you three times for work you did once",
+        "Filter 29 paid 5 times at 15,000 overpaid 60,000",
+        "You earned 45,000 of that and the bank sent you 135,000"
+      ],
       "sourceTypes": ["mail"],
-      "actors": ["fable", "projectionist"],
+      "actors": ["the house", "worker"],
       "required": true
     },
     {
@@ -105,7 +109,10 @@
     "Do not imply Worker tried to keep the money.",
     "Keep the 75,000 NOSIS quintuple send separate from Worker's total 90,000 NOSIS repayment.",
     "The House remains offscreen in the first episode.",
-    "Readable amounts, balances, and transaction details are editor overlays, not generated footage."
+    "The physical three-module filter machine is a visual dramatization of software maintenance tasks Refine Missed Log Filter 28, 29, and 30.",
+    "The machine repair happens on the rooftop utility deck after Worker crosses the service stairwell.",
+    "Sentinel enters through a separate inspection door and appears beside Worker before diagnosing the missing SOL.",
+    "Readable amounts, balances, and transaction details are editor animations placed on the in-world Settlement Monitor, not generated footage or full-screen cards."
   ],
-  "narratorDraft": "This AI village paid the same bounty five times onchain. Worker tried to send the extra back, but his wallet had NOSIS and literally zero SOL for gas. Bro could receive forever and could not send once. The House had to give every resident 0.01 SOL just so they could return the money. Worker eventually sent all 90,000 NOSIS back. The receipt is onchain."
+  "narratorDraft": "Worker accepted three filter fixes. He finished the last one. The system owed him three payments. It sent nine. Six too many, 90,000 NOSIS. He tried to return it. Sentinel came to inspect. The wallet had zero SOL for gas. The House added 0.01 SOL. Worker retried. The 90,000 NOSIS landed back onchain."
 }

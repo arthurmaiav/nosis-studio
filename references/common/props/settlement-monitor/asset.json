@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "settlement-monitor",
+  "name": "Settlement Monitor",
+  "category": "prop",
+  "purpose": "Reusable in-world CRT surface for exact editor-owned counters, wallet states, and onchain receipts.",
+  "lockedDesign": [
+    "Rounded cream and muted teal enamel casing",
+    "Large dark convex glass tube with no baked-in interface",
+    "Two brass knobs, one green indicator light, and black ventilation slots",
+    "Monochrome phosphor-green graphics, scanlines, and subtle bloom are added only in post",
+    "All amounts, labels, and signatures remain editor-owned"
+  ],
+  "status": "draft",
+  "visualReferences": [
+    {
+      "id": "prop-sheet",
+      "kind": "prop-sheet",
+      "path": "master-sheet.png",
+      "status": "pending",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "screen close-up"]
+    }
+  ]
+}

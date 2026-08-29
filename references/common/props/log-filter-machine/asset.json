@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "log-filter-machine",
+  "name": "Log Filter Machine",
+  "category": "prop",
+  "purpose": "Physical visual metaphor for software tasks Refine Missed Log Filter 28, 29, and 30.",
+  "lockedDesign": [
+    "One waist-high cream and teal machine with exactly three filter modules",
+    "One round inspection port, one status light, and one blank plaque per module",
+    "One prominent brass service fitting on the third module",
+    "Restrained coral vents and brass pipework matching the Settlement Hall",
+    "Module numbers and light-state changes are editor-owned"
+  ],
+  "status": "draft",
+  "visualReferences": [
+    {
+      "id": "prop-sheet",
+      "kind": "prop-sheet",
+      "path": "master-sheet.png",
+      "status": "pending",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "service-fitting close-up"]
+    }
+  ]
+}
