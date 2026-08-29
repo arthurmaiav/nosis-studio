@@ -17,7 +17,7 @@ One closed utility pouch. A separate tool may replace it only when that tool is 
 
 ## Master sheets
 
-- 2D: missing.
+- 2D: approved.
 - 3D: approved.
 
-The approved 3D sheet is the identity source for the missing 2D counterpart. Both must follow the shared template and preserve the ivory apron, utility belt, closed pouch, and expression set: focused, confused, alarmed, relieved, proud.
+The approved 3D sheet was the identity source for the approved 2D counterpart. Both follow the shared template and preserve the ivory apron, utility belt, closed pouch, and expression set: focused, confused, alarmed, relieved, proud.

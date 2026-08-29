@@ -19,9 +19,9 @@ One chunky brass-rimmed magnifying lens.
 
 ## Master sheets
 
-- 2D: missing.
+- 2D: approved.
 - 3D: approved.
 
-The approved on-duty 3D sheet is the identity source for the missing 2D counterpart. Both must follow the shared template and preserve the teal cap, plain neck, sash, magnifying lens, and expression set: skeptical, alert, certain, uncertain, alarmed.
+The approved on-duty 3D sheet was the identity source for the approved 2D counterpart. Both follow the shared template and preserve the teal cap, plain neck, sash, magnifying lens, and expression set: skeptical, alert, certain, uncertain, alarmed.
 
 The older bow-tie sheet is deprecated and retained only in `references/archive/characters/sentinel/`.

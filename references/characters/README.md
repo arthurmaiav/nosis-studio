@@ -37,9 +37,9 @@ An incomplete character remains usable in the visual mode with an approved maste
 
 | Character | 2D | 3D | Coverage |
 |---|---|---|---|
-| Worker | Missing | Approved | Incomplete |
-| Treasurer | Missing | Approved | Incomplete |
-| Sentinel | Missing | Approved | Incomplete |
+| Worker | Approved | Approved | Ready |
+| Treasurer | Approved | Approved | Ready |
+| Sentinel | Approved | Approved | Ready |
 | Barkeep | Approved | Missing | Incomplete |
 | Clerk | Approved | Missing | Incomplete |
 | Critic | Approved | Missing | Incomplete |

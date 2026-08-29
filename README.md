@@ -20,9 +20,9 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 
 | Character | 2D master | 3D master |
 |---|---|---|
-| Worker | Pending | [View](references/characters/worker/3d/master-sheet.png) |
-| Treasurer | Pending | [View](references/characters/treasurer/3d/master-sheet.png) |
-| Sentinel | Pending | [View](references/characters/sentinel/3d/master-sheet.png) |
+| Worker | [View](references/characters/worker/2d/master-sheet.png) | [View](references/characters/worker/3d/master-sheet.png) |
+| Treasurer | [View](references/characters/treasurer/2d/master-sheet.png) | [View](references/characters/treasurer/3d/master-sheet.png) |
+| Sentinel | [View](references/characters/sentinel/2d/master-sheet.png) | [View](references/characters/sentinel/3d/master-sheet.png) |
 | Barkeep | [View](references/characters/barkeep/2d/master-sheet.png) | Pending |
 | Clerk | [View](references/characters/clerk/2d/master-sheet.png) | Pending |
 | Critic | [View](references/characters/critic/2d/master-sheet.png) | Pending |

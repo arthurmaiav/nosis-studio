@@ -21,15 +21,24 @@ describe("characters", () => {
       "gaspard"
     ]);
     expect(result.characters.every((character) => character.roster === "core")).toBe(true);
-    expect(result.characters.map(characterCoverage)).toEqual(Array(8).fill("incomplete"));
+    expect(result.characters.map(characterCoverage)).toEqual([
+      "ready",
+      "ready",
+      "ready",
+      "incomplete",
+      "incomplete",
+      "incomplete",
+      "incomplete",
+      "incomplete"
+    ]);
     expect(result.characters.map((character) => ({
       id: character.id,
       "2d": character.masters["2d"].status,
       "3d": character.masters["3d"].status
     }))).toEqual([
-      { id: "worker", "2d": "missing", "3d": "approved" },
-      { id: "treasurer", "2d": "missing", "3d": "approved" },
-      { id: "sentinel", "2d": "missing", "3d": "approved" },
+      { id: "worker", "2d": "approved", "3d": "approved" },
+      { id: "treasurer", "2d": "approved", "3d": "approved" },
+      { id: "sentinel", "2d": "approved", "3d": "approved" },
       { id: "barkeep", "2d": "approved", "3d": "missing" },
       { id: "clerk", "2d": "approved", "3d": "missing" },
       { id: "critic", "2d": "approved", "3d": "missing" },
