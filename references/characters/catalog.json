@@ -33,6 +33,10 @@
     {
       "id": "gaspard",
       "manifest": "gaspard/character.json"
+    },
+    {
+      "id": "jobber",
+      "manifest": "jobber/character.json"
     }
   ]
 }

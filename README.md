@@ -28,6 +28,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Critic | [View](references/characters/critic/2d/master-sheet.png) | Pending |
 | Teller | [View](references/characters/teller/2d/master-sheet.png) | Pending |
 | Gaspard | [View](references/characters/gaspard/2d/master-sheet.png) | Pending |
+| Jobber | [View](references/characters/jobber/2d/master-sheet.png) | [View](references/characters/jobber/3d/master-sheet.png) |
 
 <details>
 <summary>38 archive characters pending</summary>

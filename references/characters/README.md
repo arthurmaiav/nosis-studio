@@ -22,7 +22,7 @@ Every master follows [the shared master-sheet template](MASTER-SHEET-TEMPLATE.md
 
 `roster` describes priority:
 
-- `core`: one of the eight characters currently being completed in both visual modes.
+- `core`: one of the nine characters currently being completed in both visual modes.
 - `backlog`: a known character outside the current production priority.
 
 Coverage is derived from the two master statuses:
@@ -45,6 +45,7 @@ An incomplete character remains usable in the visual mode with an approved maste
 | Critic | Approved | Missing | Incomplete |
 | Teller | Approved | Missing | Incomplete |
 | Gaspard | Approved | Missing | Incomplete |
+| Jobber | Approved | Approved | Ready |
 
 Run `bun run studio characters` for the current machine-readable report.
 

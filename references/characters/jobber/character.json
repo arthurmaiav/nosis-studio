@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "jobber",
+  "name": "Jobber",
+  "roster": "core",
+  "archiveRole": "Reads dated intelligence briefs and permanent fill records, then holds or acts only when independent evidence converges on one causal mechanism.",
+  "storyFunction": "The external-market operator who turns restraint, uncertainty, and falsifiable conviction into drama without treating noise as signal.",
+  "lockedDesign": [
+    "Cream shirt with sleeves rolled once",
+    "Charcoal suspenders and narrow charcoal tie",
+    "Thin muted teal sleeve garters and one small round brass tie pin",
+    "Quiet and contained posture",
+    "No glasses, hat, vest, apron, or sash"
+  ],
+  "roleProp": "One compact brass-and-charcoal mechanical market ticker with one short blank cream tape",
+  "expressions": ["unreadable", "skeptical", "signal spotted", "quiet conviction", "humbled"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
