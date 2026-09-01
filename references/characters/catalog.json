@@ -241,6 +241,10 @@
     {
       "id": "midwife",
       "manifest": "midwife/character.json"
+    },
+    {
+      "id": "celebrant",
+      "manifest": "celebrant/character.json"
     }
   ]
 }

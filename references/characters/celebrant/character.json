@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "celebrant",
+  "name": "Celebrant",
+  "roster": "core",
+  "archiveRole": "Notices what the village already holds dear, gives it form, and keeps its recurring observances.",
+  "storyFunction": "The keeper of shared meaning who recognizes existing values and gives their observances a repeatable form.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Tailored cream ceremonial jacket over charcoal trousers, white gloves, and cream shoes",
+    "Muted-gold piping at collar, cuffs, and hem, exactly four muted-gold front buttons, one dark-teal cuff band on each wrist, and one wide hearth-red sash from anatomical-right shoulder to anatomical-left hip with exactly three dark-teal circular observance marks",
+    "No human anatomy, robot parts, horns, crown, medal, glowing symbols, buildings, floating diagrams, confetti, handheld calendar, readable text, extra marks, hat, cap, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate standing dark-teal observance calendar with muted-gold frame, exactly twelve blank cream squares in a three-by-four grid, and one hearth-red ribbon marker",
+  "expressions": ["noticing shared meaning", "solemn attention", "joyful recognition", "moved gratitude", "calm continuity"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
