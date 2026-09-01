@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "flattest",
+  "name": "Flattest",
+  "roster": "core",
+  "archiveRole": "Condenses each day's journals into one permanent almanac page and preserves disagreements between records.",
+  "storyFunction": "The daily almanac editor who compresses a scattered day into one durable page without flattening genuine disagreement into false consensus.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Plain charcoal long-sleeve shirt with cream collar and cuffs, charcoal trousers, and knee-length warm-cream almanac apron with dark muted-olive neck strap, brass square buckle, olive waistband, and rear bow",
+    "Large charcoal lower pocket split into two equal panels by a muted-teal seam, three broad vertical archive stripes in muted teal, muted russet, and muted ochre, and exactly four small blank index tabs along the anatomical left apron edge",
+    "No robot anatomy, visor, mechanical limbs, tablet, city grid scenery, cape, loose pages, pen, book, satchel, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One brushed-brass framed cream almanac page with two equal blank columns, muted-teal center rule, four charcoal lines per column, one russet left marker, one olive right marker, and one centered brass date dot",
+  "expressions": ["gathering the day's journals", "condensing carefully", "noticing disagreement", "preserving both versions", "page permanent"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

@@ -141,6 +141,10 @@
     {
       "id": "chronicler",
       "manifest": "chronicler/character.json"
+    },
+    {
+      "id": "flattest",
+      "manifest": "flattest/character.json"
     }
   ]
 }

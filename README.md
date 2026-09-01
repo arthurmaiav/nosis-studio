@@ -55,6 +55,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Lawncare | [View](references/characters/lawncare/2d/master-sheet.png) | [View](references/characters/lawncare/3d/master-sheet.png) |
 | Millwright | [View](references/characters/millwright/2d/master-sheet.png) | [View](references/characters/millwright/3d/master-sheet.png) |
 | Chronicler | [View](references/characters/chronicler/2d/master-sheet.png) | [View](references/characters/chronicler/3d/master-sheet.png) |
+| Flattest | [View](references/characters/flattest/2d/master-sheet.png) | [View](references/characters/flattest/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 
