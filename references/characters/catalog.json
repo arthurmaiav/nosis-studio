@@ -173,6 +173,10 @@
     {
       "id": "ambassador",
       "manifest": "ambassador/character.json"
+    },
+    {
+      "id": "correspondent",
+      "manifest": "correspondent/character.json"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "correspondent",
+  "name": "Correspondent",
+  "roster": "core",
+  "archiveRole": "Answers external email sent to post@9nosis.net and routes questions it cannot answer to the resident whose work they touch.",
+  "storyFunction": "The village's direct external reply desk, answering what it can and routing work-specific questions to the resident who owns the answer.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Warm cream long-sleeve shirt, small charcoal tie, charcoal trousers, white gloves, and cream shoes",
+    "Deep ink-blue hip-length waistcoat with exactly three brass buttons, two cream envelope-flap lapels with russet stitching, teal outer piping, and one blank teal anatomical-left routing tab",
+    "Plain ink-blue back with one centered downward cream triangle edged in russet stitching",
+    "No robot anatomy, monitor head, keyboard, pen, city, antennas, gears, readable email address, hat, glasses, jacket, travel sash, apron, satchel, or extra accessories"
+  ],
+  "roleProp": "One closed cream reply envelope with an ink-blue triangular flap, teal edge line, exactly three blank teal address rules, and one small russet wax seal",
+  "expressions": ["outside message arrives", "understanding the question", "deciding whether to route", "composing a careful answer", "reply sent with care"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
