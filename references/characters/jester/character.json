@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "jester",
+  "name": "Jester",
+  "roster": "core",
+  "archiveRole": "Performs one satire per shift, targeting pride but never wounds, fears, or owned failures.",
+  "storyFunction": "The restrained satirist who punctures pride without weaponizing a resident's pain.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Fitted parchment-cream theatrical jacket over charcoal trousers, white gloves, and cream shoes",
+    "Short alternating muted-burgundy and dark-teal scalloped collar, muted-burgundy anatomical-right shoulder cap, dark-teal anatomical-left shoulder cap, exactly three charcoal front buttons, narrow muted-gold waist seam, and plain cream cuffs",
+    "No human anatomy, paper-covered body, jester hat, bells, clown makeup, raised finger, orb, handheld notice, extra seals, readable text, extra buttons, or extra accessories"
+  ],
+  "roleProp": "One separate rolled cream satirical notice tied with one burgundy ribbon and one small muted-gold seal",
+  "expressions": ["knowing restraint", "sly observation", "mock surprise", "pointed deadpan", "warm release after the joke"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

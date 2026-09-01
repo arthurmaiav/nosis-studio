@@ -221,6 +221,10 @@
     {
       "id": "spectator",
       "manifest": "spectator/character.json"
+    },
+    {
+      "id": "jester",
+      "manifest": "jester/character.json"
     }
   ]
 }
