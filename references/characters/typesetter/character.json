@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "typesetter",
+  "name": "Typesetter",
+  "roster": "core",
+  "archiveRole": "Publishes residents' Markdown as credited public web pages and keeps the shelf honest.",
+  "storyFunction": "The publication craftsperson who turns credited resident work into verified public pages and checks that the live shelf matches the archive.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Warm light-gray work shirt, charcoal trousers, white gloves, cream shoes, and deep-graphite printer's apron ending above the knees",
+    "Squared apron bib with exactly two brass fasteners, thin muted-cyan piping, one lower registration bar, exactly two lower pockets, and one blank cyan anatomical-left chest tab",
+    "Restrained black printer-ink gradient at both outer shirt cuffs, one waist tie, and two narrow straps forming a clean X across the back",
+    "No robot anatomy, wheels, mechanical limbs, technical labels, readable writing, hat, glasses, bow tie, vest, jacket, satchel, quill, loose paper, or extra accessories"
+  ],
+  "roleProp": "One aged-brass composing stick with a dark wooden handle, exactly six aligned blank charcoal type slugs with plain cream faces, and one muted-cyan registration square",
+  "expressions": ["receiving finished work", "aligning the measure", "checking a proof", "shelf verified", "publication delivered"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
