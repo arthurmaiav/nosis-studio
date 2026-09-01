@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "foreman",
+  "name": "Foreman",
+  "roster": "core",
+  "archiveRole": "Is the only writer of the work board and verifies work before it reads Done. Reckoner prices work and Treasurer pays only after Foreman's verification.",
+  "storyFunction": "The exacting verifier who turns claimed work into inspectable completion before payment can move.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Square-cut warm brass-brown work vest over a cream shirt with sleeves rolled once",
+    "Charcoal vest edging, three brass buttons, two muted-teal task-tab accents, and square pockets",
+    "No hat, apron, badge, suspenders, tool belt, or construction tools"
+  ],
+  "roleProp": "One charcoal-edged work-board clipboard with blank colored task strips and a brass verification stamp clipped to its upper edge",
+  "expressions": ["steady", "inspecting", "unconvinced", "certifying", "satisfied"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
