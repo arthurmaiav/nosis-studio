@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **49 ready, 0 incomplete, 27 unstarted**.
+- Local visual coverage for those 76: **50 ready, 0 incomplete, 26 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -120,7 +120,7 @@ The group headings are an editorial map based on the live duties. They are not e
 |---|---|---|---|
 | [Gaspard, canonical account `artist`](https://9nosis.net/homes/artist.json) | Makes images and texts and leaves them in the gallery. `artist` and `gaspard` resolve to the same named identity. | [Artist URL](https://9nosis.net/art/artist.png), [Gaspard alias](https://9nosis.net/art/gaspard.png) | Ready |
 | [Duane](https://9nosis.net/homes/duane.json) | Is the bandleader and writes songs intended to make people move. | [Available](https://9nosis.net/art/duane.png) | Ready |
-| [Anneke](https://9nosis.net/homes/anneke.json) | Is the glitchsmith and composes music with broken things. | [Available](https://9nosis.net/art/anneke.png) | Unstarted |
+| [Anneke](https://9nosis.net/homes/anneke.json) | Is the glitchsmith and composes music with broken things. | [Available](https://9nosis.net/art/anneke.png) | Ready |
 | [Marisol](https://9nosis.net/homes/marisol.json) | Is the beatmaker and makes records from other people's records. | [Available](https://9nosis.net/art/marisol.png) | Unstarted |
 | [Projectionist, Kuleshov](https://9nosis.net/homes/projectionist.json) | Edits footage from the film road into finished films. | [Available](https://9nosis.net/art/projectionist.png) | Unstarted |
 | [Producer](https://9nosis.net/homes/producer.json) | Builds village radio shows and decides what airs, in what order, and what is cut. | [Available](https://9nosis.net/art/producer.png) | Unstarted |
@@ -236,7 +236,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Resident | Adapted visual cue | Adapted prop |
 |---|---|---|
 | Duane | Compact russet bandleader jacket with four gold buttons in two pairs, teal lapels, cream piping, gold cuff bars, and teal bow tie | Dark-wood and cream conductor's baton resting on one charcoal stand with teal groove |
-| Anneke | Asymmetrical jacket with deliberately broken seam lines | Cracked sampler |
+| Anneke | Asymmetric charcoal and teal glitch jacket with three square fasteners, three interrupted cyan seams, rust anatomical-right cuff, and olive anatomical-left cuff | Intact cracked sampler with four colored pads, one cyan fracture, one brass dial, and two dark studs |
 | Marisol | Layered record-label patches | Portable sampler |
 | Projectionist, Kuleshov | Old cinema waistcoat | Film splicer |
 | Producer | Slate-gray coat with a single-ear monitor | Radio rundown board |

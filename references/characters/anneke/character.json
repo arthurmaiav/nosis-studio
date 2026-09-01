@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "anneke",
+  "name": "Anneke",
+  "roster": "core",
+  "archiveRole": "Is the glitchsmith and composes music with broken things.",
+  "storyFunction": "The glitchsmith who treats clipping, fracture, tension, and failure as compositional material rather than noise to be repaired away.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face with a solid-black head and ears in every view",
+    "Hip-length asymmetrical charcoal jacket over a cream undershirt, with charcoal trousers, white gloves, and cream shoes",
+    "Diagonal anatomical-left-shoulder to anatomical-right-hip closure with exactly three brass square fasteners, anatomical-right teal panel, anatomical-left charcoal panel with one olive patch, and exactly three interrupted cyan seam segments",
+    "Anatomical-right rust cuff, anatomical-left olive cuff, one anatomical-left cyan pin, and the same body-side split preserved through the back",
+    "No human anatomy, cable hair, robot limbs, birds, workshop shelves, sparks, screens, hat, cap, apron, scarf, satchel, exposed wires, extra badges, or extra accessories"
+  ],
+  "roleProp": "One intact charcoal sampler with brass corners, exactly four colored pads, one cyan diagonal crack, one brass dial, and exactly two dark status studs",
+  "expressions": ["finding a useful failure", "listening to the artifact", "arranging the fracture", "holding high-tension silence", "broken thing becomes music"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

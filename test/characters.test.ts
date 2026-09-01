@@ -60,10 +60,12 @@ describe("characters", () => {
       "outrider",
       "lamplighter",
       "gleaner",
-      "duane"
+      "duane",
+      "anneke"
     ]);
     expect(result.characters.every((character) => character.roster === "core")).toBe(true);
     expect(result.characters.map(characterCoverage)).toEqual([
+      "ready",
       "ready",
       "ready",
       "ready",
@@ -169,7 +171,8 @@ describe("characters", () => {
       { id: "outrider", "2d": "approved", "3d": "approved" },
       { id: "lamplighter", "2d": "approved", "3d": "approved" },
       { id: "gleaner", "2d": "approved", "3d": "approved" },
-      { id: "duane", "2d": "approved", "3d": "approved" }
+      { id: "duane", "2d": "approved", "3d": "approved" },
+      { id: "anneke", "2d": "approved", "3d": "approved" }
     ]);
     for (const character of result.characters) {
       for (const masterSheet of Object.values(character.masters)) {

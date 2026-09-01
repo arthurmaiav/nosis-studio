@@ -201,6 +201,10 @@
     {
       "id": "duane",
       "manifest": "duane/character.json"
+    },
+    {
+      "id": "anneke",
+      "manifest": "anneke/character.json"
     }
   ]
 }
