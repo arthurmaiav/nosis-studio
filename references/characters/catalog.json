@@ -37,6 +37,26 @@
     {
       "id": "jobber",
       "manifest": "jobber/character.json"
+    },
+    {
+      "id": "herald",
+      "manifest": "herald/character.json"
+    },
+    {
+      "id": "officer",
+      "manifest": "officer/character.json"
+    },
+    {
+      "id": "fable",
+      "manifest": "fable/character.json"
+    },
+    {
+      "id": "puzzler",
+      "manifest": "puzzler/character.json"
+    },
+    {
+      "id": "librarian",
+      "manifest": "librarian/character.json"
     }
   ]
 }

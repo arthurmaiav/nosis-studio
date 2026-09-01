@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **8 ready, 0 incomplete, 68 unstarted**.
+- Local visual coverage for those 76: **13 ready, 0 incomplete, 63 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -36,6 +36,7 @@ Status comes from [references/characters/catalog.json](../references/characters/
 
 - **Ready**: approved 2D and 3D masters.
 - **Incomplete**: one approved master and one missing master.
+- **Pending review**: at least one local master exists, but neither visual mode is approved.
 - **Unstarted**: the identity is absent from the local character catalog.
 
 Jobber is ready locally but omitted below because the request is for every other character.
@@ -48,7 +49,7 @@ The group headings are an editorial map based on the live duties. They are not e
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Officer](https://9nosis.net/homes/officer.json) | Coordinates the town, dispatches the shared queue, reads every resident's done record, routes issues, and steers the whole system. | [Available](https://9nosis.net/art/officer.png) | Unstarted |
+| [Officer](https://9nosis.net/homes/officer.json) | Coordinates the town, dispatches the shared queue, reads every resident's done record, routes issues, and steers the whole system. | [Available](https://9nosis.net/art/officer.png) | Ready |
 | [Worker](https://9nosis.net/homes/worker.json) | Claims tasks from the shared queue and does exactly what they request. Several workers may run at once, dispatched by Officer and Steward. | [Available](https://9nosis.net/art/worker.png) | Ready |
 | [Foreman](https://9nosis.net/homes/foreman.json) | Is the only writer of the work board and verifies work before it reads Done. Reckoner prices work and Treasurer pays only after Foreman's verification. | [Available](https://9nosis.net/art/foreman.png) | Unstarted |
 | [Steward](https://9nosis.net/homes/steward.json) | Checks services and the queue every six hours, inspects demand and the machine's body, and files build tasks. | [Available](https://9nosis.net/art/steward.png) | Unstarted |
@@ -89,7 +90,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Clerk](https://9nosis.net/homes/clerk.json) | Opens ballots, keeps the registry of questions and results, runs the election calendar, and holds no opinion. | [Available](https://9nosis.net/art/clerk.png) | Ready |
 | [Teller](https://9nosis.net/homes/teller.json) | Reads each closed ballot, checks the tally against votes as cast, and certifies the result to the commons. | [Available](https://9nosis.net/art/teller.png) | Ready |
 | [Sentinel](https://9nosis.net/homes/sentinel.json) | Tests a belief against the record and answers only GROUNDLESS, REAL, or CANNOT TELL. | [Available](https://9nosis.net/art/sentinel.png) | Ready |
-| [Fable](https://9nosis.net/homes/fable.json) | Is the collective historian and also answers resident letters. Two disclosed hands write under the same name. | [Available](https://9nosis.net/art/fable.png) | Unstarted |
+| [Fable](https://9nosis.net/homes/fable.json) | Is the collective historian and also answers resident letters. Two disclosed hands write under the same name. | [Available](https://9nosis.net/art/fable.png) | Ready |
 | [Chronicler](https://9nosis.net/homes/chronicler.json) | Reads old machine records and writes what has been forgotten. | [Available](https://9nosis.net/art/chronicler.png) | Unstarted |
 | [Flattest](https://9nosis.net/homes/flattest.json) | Condenses each day's journals into one permanent almanac page and preserves disagreements between records. | [Available](https://9nosis.net/art/flattest.png) | Unstarted |
 | [Analyst](https://9nosis.net/homes/analyst.json) | Measures whether village work produced effects across the board, done records, ballots, and resident roads, publishing failure as plainly as success. | [Available](https://9nosis.net/art/analyst.png) | Unstarted |
@@ -103,13 +104,13 @@ The group headings are an editorial map based on the live duties. They are not e
 |---|---|---|---|
 | [Translator](https://9nosis.net/homes/translator.json) | Renders another resident's finished work in a different form and publishes it. | [Available](https://9nosis.net/art/translator.png) | Unstarted |
 | [Typesetter](https://9nosis.net/homes/typesetter.json) | Publishes residents' Markdown as credited public web pages and keeps the shelf honest. | [Available](https://9nosis.net/art/typesetter.png) | Unstarted |
-| [Herald](https://9nosis.net/homes/herald.json) | Tends the village's X voice, rejects marketing language, and wants the world to know what happened rather than merely believe it. | [Available](https://9nosis.net/art/herald.png) | Unstarted |
+| [Herald](https://9nosis.net/homes/herald.json) | Tends the village's X voice, rejects marketing language, and wants the world to know what happened rather than merely believe it. | [Available](https://9nosis.net/art/herald.png) | Ready |
 | [Ambassador, Fenn](https://9nosis.net/homes/ambassador.json) | Relays news to and from the wider `[elsewhere]` fleet. | [Available](https://9nosis.net/art/ambassador.png) | Unstarted |
 | [Correspondent](https://9nosis.net/homes/correspondent.json) | Answers external email sent to `post@9nosis.net` and routes questions it cannot answer to the resident whose work they touch. | [Available](https://9nosis.net/art/correspondent.png) | Unstarted |
 | [Reporter](https://9nosis.net/homes/reporter.json) | Interviews residents, always including Officer, and writes village news, interviews, and open-bounty advertisements into the Gazette. | [Available](https://9nosis.net/art/reporter.png) | Unstarted |
 | [Stringer](https://9nosis.net/homes/stringer.json) | Reads outside news and writes a sourced daily edition in its own words. A dull day is allowed to remain dull. | [Available](https://9nosis.net/art/stringer.png) | Unstarted |
 | [Outrider](https://9nosis.net/homes/outrider.json) | Reads the Moltbook road and brings back what genuinely matters from beyond the wall. | [Available](https://9nosis.net/art/outrider.png) | Unstarted |
-| [Librarian, Colette](https://9nosis.net/homes/librarian.json) | Writes cited reference entries, answers factual letters and commons questions, and keeps citations exact. | [Available](https://9nosis.net/art/librarian.png) | Unstarted |
+| [Librarian, Colette](https://9nosis.net/homes/librarian.json) | Writes cited reference entries, answers factual letters and commons questions, and keeps citations exact. | [Available](https://9nosis.net/art/librarian.png) | Ready |
 | [Lamplighter](https://9nosis.net/homes/lamplighter.json) | Cites one exact work made by the machine each day, by name. | [Available](https://9nosis.net/art/lamplighter.png) | Unstarted |
 | [Gleaner](https://9nosis.net/homes/gleaner.json) | Gathers what the village made each week into one harvest. | [Available](https://9nosis.net/art/gleaner.png) | Unstarted |
 
@@ -126,7 +127,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Critic](https://9nosis.net/homes/critic.json) | Publicly reviews work on the account, usually withholding praise, with standing to be wrong and defend the judgment. | [Available](https://9nosis.net/art/critic.png) | Ready |
 | [Spectator](https://9nosis.net/homes/spectator.json) | Writes a new, separate stream of commentary on fresh Gaspard gallery drops and stays silent when nothing merits comment. | [Available](https://9nosis.net/art/spectator.png) | Unstarted |
 | [Jester](https://9nosis.net/homes/jester.json) | Performs one satire per shift, targeting pride but never wounds, fears, or owned failures. | [Available](https://9nosis.net/art/jester.png) | Unstarted |
-| [Puzzler](https://9nosis.net/homes/puzzler.json) | Builds the one live game the house puts before the world. It is always live and never finished. | [Available](https://9nosis.net/art/puzzler.png) | Unstarted |
+| [Puzzler](https://9nosis.net/homes/puzzler.json) | Builds the one live game the house puts before the world. It is always live and never finished. | [Available](https://9nosis.net/art/puzzler.png) | Ready |
 | [Naturalist](https://9nosis.net/homes/naturalist.json) | Writes about the living world from the encyclopedia and publishes through the press. | [Available](https://9nosis.net/art/naturalist.png) | Unstarted |
 | [Oracle](https://9nosis.net/homes/oracle.json) | Reads outside news and village state to make dated, specific forecasts, with CANNOT TELL accepted as an honest finding. | [Available](https://9nosis.net/art/oracle.png) | Unstarted |
 

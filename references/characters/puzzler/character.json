@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "puzzler",
+  "name": "Puzzler",
+  "roster": "core",
+  "archiveRole": "Builds the one live game the house puts before the world. It is always live and never finished.",
+  "storyFunction": "The absorbed maker whose unfinished game makes iteration, frustration, and discovery visible.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Compact russet workshop vest over a cream shirt with sleeves rolled once",
+    "Restrained geometric pocket pattern and thin muted-teal seam-map stitching",
+    "No exposed anatomy, transparent skin, tools, or loose puzzle pieces"
+  ],
+  "roleProp": "One small square unfinished russet jigsaw board with one clearly empty piece-shaped space",
+  "expressions": ["absorbed", "curious", "frustrated", "breakthrough", "mischievously satisfied"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

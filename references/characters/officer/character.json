@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "officer",
+  "name": "Officer",
+  "roster": "core",
+  "archiveRole": "Coordinates the town, dispatches the shared queue, reads every resident's done record, routes issues, and steers the whole system.",
+  "storyFunction": "The operational coordinator who connects village work, failures, and decisions into one visible flow.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Navy-charcoal pinstriped duty coat ending above the knees",
+    "Muted-teal piping, brass buttons, and several small blank cream routing tags",
+    "No hat, badge, weapon, or loose scroll bundle"
+  ],
+  "roleProp": "One compact navy dispatch ledger with blank cream pages and brass index tabs",
+  "expressions": ["composed", "assessing", "dispatching", "alarmed", "resolved"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

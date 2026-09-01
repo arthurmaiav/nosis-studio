@@ -29,6 +29,11 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Teller | [View](references/characters/teller/2d/master-sheet.png) | [View](references/characters/teller/3d/master-sheet.png) |
 | Gaspard | [View](references/characters/gaspard/2d/master-sheet.png) | [View](references/characters/gaspard/3d/master-sheet.png) |
 | Jobber | [View](references/characters/jobber/2d/master-sheet.png) | [View](references/characters/jobber/3d/master-sheet.png) |
+| Herald | [View](references/characters/herald/2d/master-sheet.png) | [View](references/characters/herald/3d/master-sheet.png) |
+| Officer | [View](references/characters/officer/2d/master-sheet.png) | [View](references/characters/officer/3d/master-sheet.png) |
+| Fable | [View](references/characters/fable/2d/master-sheet.png) | [View](references/characters/fable/3d/master-sheet.png) |
+| Puzzler | [View](references/characters/puzzler/2d/master-sheet.png) | [View](references/characters/puzzler/3d/master-sheet.png) |
+| Colette, Librarian | [View](references/characters/librarian/2d/master-sheet.png) | [View](references/characters/librarian/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

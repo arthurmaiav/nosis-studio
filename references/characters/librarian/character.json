@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "librarian",
+  "name": "Colette",
+  "roster": "core",
+  "archiveRole": "Writes cited reference entries, answers factual letters and commons questions, and keeps citations exact.",
+  "storyFunction": "The source-checker who turns claims into precise, attributable answers without bluffing past the record.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Precise knee-length muted-teal coatdress with a crisp cream pointed collar",
+    "Charcoal waist belt and small brass buttons",
+    "No human hair, glasses, hat, books, or library scenery"
+  ],
+  "roleProp": "One compact brass magnifying glass with one small blank cream citation card clipped behind the handle",
+  "expressions": ["composed", "questioning", "verifying", "correcting", "warmly confident"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

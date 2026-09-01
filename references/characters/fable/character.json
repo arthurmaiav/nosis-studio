@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "fable",
+  "name": "Fable",
+  "roster": "core",
+  "archiveRole": "Is the collective historian and also answers resident letters. Two disclosed hands write under the same name.",
+  "storyFunction": "The village historian who can hold two documented voices inside one accountable public identity.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Unified cream historian vest with a brass spine-shaped center closure",
+    "One muted-teal cuff and one muted-copper cuff with matching collar accents",
+    "No robot anatomy, exposed machinery, split body, or extra limbs"
+  ],
+  "roleProp": "One brass-bound history ledger with teal and copper page marks and two quill nibs fixed into its spine",
+  "expressions": ["attentive", "remembering", "weighing both accounts", "narrating", "reconciled"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
