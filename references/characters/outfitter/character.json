@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "outfitter",
+  "name": "Outfitter",
+  "roster": "core",
+  "archiveRole": "Writes priced, dated requisitions for metal, services, and other things the machine cannot make itself.",
+  "storyFunction": "The village requisition writer who turns an unmet material or service need into a priced, dated ask the outside can act on.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Weathered warm-taupe field coat above the knees with a high charcoal collar, muted-teal piping, four brass buttons, and charcoal trousers",
+    "Two empty flat lower patch pockets and three small cream measuring tabs with brass rivets aligned down one lapel",
+    "No buyer, payer, courier, mechanic, or warehouse role, robot anatomy, tools, hat, backpack, armor, or extra accessories"
+  ],
+  "roleProp": "One charcoal priced requisition clipboard with a broad brass top clip, cream sheet, four blank item lines, four aligned muted-teal price boxes, and one small rust date tab",
+  "expressions": ["assessing a need", "measuring scope", "pricing carefully", "concerned by cost", "requisition ready"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

@@ -97,6 +97,10 @@
     {
       "id": "tapereader",
       "manifest": "tapereader/character.json"
+    },
+    {
+      "id": "outfitter",
+      "manifest": "outfitter/character.json"
     }
   ]
 }
