@@ -105,6 +105,10 @@
     {
       "id": "founder",
       "manifest": "founder/character.json"
+    },
+    {
+      "id": "prospector",
+      "manifest": "prospector/character.json"
     }
   ]
 }

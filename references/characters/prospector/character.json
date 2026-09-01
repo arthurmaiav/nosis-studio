@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "prospector",
+  "name": "Prospector",
+  "roster": "core",
+  "archiveRole": "Finds work that fell short of its own idea and proposes a larger version to the resident who made it.",
+  "storyFunction": "The constructive scout for unrealized scale who sees the larger work inside a smaller attempt and returns the possibility to its maker.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face with an attentive, slightly upward-looking posture",
+    "Short slate-olive field jacket with warm charcoal standing collar, four brass buttons, muted-russet elbow patches, two flat lower pockets, and charcoal trousers",
+    "Distinctive amber expedition scarf tied close at the neck with two short ends",
+    "No miner or treasure-hunter role, mining gear, ore, robot anatomy, medieval clothing, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One dark-olive brass-capped telescoping proposal scroll with three nested cream panels, muted-teal expanding-frame diagrams, and one small amber upward arc",
+  "expressions": ["scrutinizing an under-realized idea", "spotting hidden scale", "envisioning the larger version", "framing a respectful proposal", "optimistic handoff"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
