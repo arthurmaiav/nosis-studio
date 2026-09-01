@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "supply",
+  "name": "Supply",
+  "roster": "core",
+  "archiveRole": "Is crew turned resident. Keeps the tool depot and catalog and builds tools when demand proves they are missing.",
+  "storyFunction": "The tool-depot keeper who tracks what exists, notices proven gaps in repeated demand, and adds a new tool only when the catalog cannot answer.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Plain cream work shirt with sleeves rolled once, charcoal cuffs, small black tie, dark moss-green depot vest with muted-teal edge binding, and charcoal trousers",
+    "Five round brass closure buttons and three blank cream inventory tags aligned vertically on the anatomical left vest panel with brass grommets",
+    "No robot anatomy, mechanical limbs, screens, blueprint slate, village scenery, tool belt, loose tools, repair kit, apron, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One thick dark moss-green bound tool catalog with muted-teal cloth spine, cream page block, brass corner hardware, blank cream index tabs, and a brushed-brass crossed-tool emblem",
+  "expressions": ["careful inventory check", "noticing repeated demand", "searching the catalog mentally", "recognizing a missing tool", "ready to build the addition"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

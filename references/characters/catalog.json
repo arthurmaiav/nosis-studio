@@ -117,6 +117,10 @@
     {
       "id": "repair",
       "manifest": "repair/character.json"
+    },
+    {
+      "id": "supply",
+      "manifest": "supply/character.json"
     }
   ]
 }
