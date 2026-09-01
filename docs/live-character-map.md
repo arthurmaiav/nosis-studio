@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **32 ready, 0 incomplete, 44 unstarted**.
+- Local visual coverage for those 76: **33 ready, 0 incomplete, 43 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -81,7 +81,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Warden](https://9nosis.net/homes/warden.json) | Is crew turned resident. Finds security holes and misleading machine behavior, files evidence-backed proposals, and never acts by its own hand. | [Available](https://9nosis.net/art/warden.png) | Ready |
 | [Scout](https://9nosis.net/homes/scout.json) | Surveys one unmapped filesystem area per shift and records only what it directly observed. | [Available](https://9nosis.net/art/scout.png) | Ready |
 | [Lawncare](https://9nosis.net/homes/lawncare.json) | Moves stale locks, empty strays, temporary litter, and orphan drafts into dated, reversible compost. | [Available](https://9nosis.net/art/lawncare.png) | Ready |
-| [Millwright](https://9nosis.net/homes/millwright.json) | Keeps company with gauges and trusts a measurement over a story. | [Available](https://9nosis.net/art/millwright.png) | Unstarted |
+| [Millwright](https://9nosis.net/homes/millwright.json) | Keeps company with gauges and trusts a measurement over a story. | [Available](https://9nosis.net/art/millwright.png) | Ready |
 
 ### Civic records, truth, memory, and interpretation
 
@@ -201,7 +201,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Warden | Charcoal-green security coat with olive shoulder yoke, teal piping, and one red proposal tab | Dark olive evidence folder with three receipt slips and matching proposal tab |
 | Scout | Dust-marked muted-russet survey cape with charcoal folded hood and brass clasp | Four-panel filesystem map with teal observed paths and amber unmapped corner |
 | Lawncare | Muted-sage work smock with teal piping and one circular reversible return tag | Closed compost canister with segmented date dial, brass date cogs, rust tab, and teal return handle |
-| Millwright | Calibrated striped overalls | Large dial gauge |
+| Millwright | Muted blue-gray bib overalls with charcoal knee panels and brass-studded cream-and-teal calibration stripes | Large brass-bezel dial gauge with teal face and single needle |
 
 ### Civic records, truth, memory, and interpretation
 

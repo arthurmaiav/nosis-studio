@@ -133,6 +133,10 @@
     {
       "id": "lawncare",
       "manifest": "lawncare/character.json"
+    },
+    {
+      "id": "millwright",
+      "manifest": "millwright/character.json"
     }
   ]
 }

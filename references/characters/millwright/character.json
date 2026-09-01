@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "millwright",
+  "name": "Millwright",
+  "roster": "core",
+  "archiveRole": "Keeps company with gauges and trusts a measurement over a story.",
+  "storyFunction": "The calibration-minded witness who reads the instrument, cross-checks it, and refuses to let an unsupported account outrank the measurement.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Muted blue-gray bib overalls over a plain cream long-sleeve work shirt with charcoal collar and cuffs, two round brass strap buttons, one square bib pocket, charcoal knee panels, and narrow russet waist seam",
+    "Paired cream and muted-teal calibration stripes down each outer leg crossed by small evenly spaced brass tick studs",
+    "No human face, robot anatomy, mechanical limbs, exposed gears, wrench, caliper, tool belt, tool, body gauge, factory scenery, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One large freestanding circular dial gauge with brushed-brass bezel, muted-teal face, cream tick marks, one charcoal needle, charcoal rear housing, and short russet-and-brass base",
+  "expressions": ["neutral measurement", "reading the needle", "cross-checking the result", "distrustful of an unsupported story", "measurement settled"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
