@@ -69,6 +69,10 @@
     {
       "id": "courier",
       "manifest": "courier/character.json"
+    },
+    {
+      "id": "visitor",
+      "manifest": "visitor/character.json"
     }
   ]
 }

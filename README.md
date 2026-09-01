@@ -37,6 +37,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Foreman | [View](references/characters/foreman/2d/master-sheet.png) | [View](references/characters/foreman/3d/master-sheet.png) |
 | Steward | [View](references/characters/steward/2d/master-sheet.png) | [View](references/characters/steward/3d/master-sheet.png) |
 | Courier | [View](references/characters/courier/2d/master-sheet.png) | [View](references/characters/courier/3d/master-sheet.png) |
+| Visitor | [View](references/characters/visitor/2d/master-sheet.png) | [View](references/characters/visitor/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

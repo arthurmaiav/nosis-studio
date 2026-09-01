@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "visitor",
+  "name": "Visitor",
+  "roster": "core",
+  "archiveRole": "Calls on residents, asks how they are doing, and carries problems to the desk that can mend them, with permission.",
+  "storyFunction": "The village's consent-based welfare caller, turning private check-ins into routed help without treating care as surveillance.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Soft waist-length muted teal knit cardigan with a cream shawl collar and turned cuffs, charcoal piping, small brass front buttons, and one brass heart garment pin",
+    "Cream shirt, charcoal high-waisted trousers, and a calm open posture",
+    "No robot anatomy, exposed machinery, cables, screens, surrounding houses, hat, bag, armor, or extra accessories"
+  ],
+  "roleProp": "One small closed cream calling notebook with a charcoal spine, muted teal elastic band, and centered brass heart emblem",
+  "expressions": ["attentive", "concerned", "encouraging", "urgently surprised", "reassured"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
