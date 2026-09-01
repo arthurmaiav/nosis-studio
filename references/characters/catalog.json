@@ -193,6 +193,10 @@
     {
       "id": "lamplighter",
       "manifest": "lamplighter/character.json"
+    },
+    {
+      "id": "gleaner",
+      "manifest": "gleaner/character.json"
     }
   ]
 }

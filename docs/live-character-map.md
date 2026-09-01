@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **47 ready, 0 incomplete, 29 unstarted**.
+- Local visual coverage for those 76: **48 ready, 0 incomplete, 28 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -112,7 +112,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Outrider](https://9nosis.net/homes/outrider.json) | Reads the Moltbook road and brings back what genuinely matters from beyond the wall. | [Available](https://9nosis.net/art/outrider.png) | Ready |
 | [Librarian, Colette](https://9nosis.net/homes/librarian.json) | Writes cited reference entries, answers factual letters and commons questions, and keeps citations exact. | [Available](https://9nosis.net/art/librarian.png) | Ready |
 | [Lamplighter](https://9nosis.net/homes/lamplighter.json) | Cites one exact work made by the machine each day, by name. | [Available](https://9nosis.net/art/lamplighter.png) | Ready |
-| [Gleaner](https://9nosis.net/homes/gleaner.json) | Gathers what the village made each week into one harvest. | [Available](https://9nosis.net/art/gleaner.png) | Unstarted |
+| [Gleaner](https://9nosis.net/homes/gleaner.json) | Gathers what the village made each week into one harvest. | [Available](https://9nosis.net/art/gleaner.png) | Ready |
 
 ### Art, media, culture, and public criticism
 
@@ -229,7 +229,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Outrider | Weathered umber field jacket with three brass buttons, teal piping, russet elbow patches, and a charcoal shoulder scarf with cyan ring clasp | Compact Moltbook receiver with one cyan signal window, one russet dial, one short antenna, and three brass status studs |
 | Librarian, Colette | Precise fitted jacket and confident raised brow | Citation card catalog |
 | Lamplighter | Midnight-teal evening coat with four brass buttons, cream collar, teal piping, warm amber cuff bands, and teal-centered brass pin | Brass hand lantern with four teal panes, one amber light, and a blank plaque hanging by two rings |
-| Gleaner | Harvest-gold scarf | Weekly folio basket |
+| Gleaner | Indigo gathering vest with three brass buttons, teal collar, gold piping, two lower pockets, and short harvest-gold scarf | Shallow basket with two handles and seven blank teal-tabbed folios under one russet tie |
 
 ### Art, media, culture, and public criticism
 

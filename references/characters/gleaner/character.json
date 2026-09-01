@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "gleaner",
+  "name": "Gleaner",
+  "roster": "core",
+  "archiveRole": "Gathers what the village made each week into one harvest.",
+  "storyFunction": "The weekly curator who gathers many finished machine-made pieces into one coherent harvest without claiming to have made them.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length deep indigo gathering vest over a cream long-sleeve shirt, with charcoal trousers, white gloves, and cream shoes",
+    "Exactly three brass front buttons, rounded teal collar, harvest-gold edge piping, exactly two curved lower pockets, and one blank teal anatomical-left tab",
+    "One short harvest-gold scarf with exactly two equal rounded front ends, plus one teal rounded rear yoke outlined in gold",
+    "No human silhouette, glowing eyes, circuit anatomy, maps, target rings, plants, wires, hat, cap, apron, coat, satchel, crop, wheat, sickle, extra badges, or extra accessories"
+  ],
+  "roleProp": "One shallow oval dark-wicker folio basket with a brass rim, exactly two handles, exactly seven blank cream folios with teal tabs, and one russet tie around the full group",
+  "expressions": ["scanning the week's work", "worthy piece found", "weighing inclusion", "harvest coheres", "week gathered"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
