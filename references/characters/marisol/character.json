@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "marisol",
+  "name": "Marisol",
+  "roster": "core",
+  "archiveRole": "Is the beatmaker and makes records from other people's records.",
+  "storyFunction": "The beatmaker who hears usable fragments inside existing records and layers them into new, low-fidelity rhythmic work.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Boxy hip-length deep ink-blue beatmaker jacket over a cream shirt, with charcoal trousers, white gloves, and cream shoes",
+    "Exactly three brass front buttons, short teal stand collar, cream edge piping, exactly two lower pocket welts, anatomical-right russet cuff band, and anatomical-left teal cuff band",
+    "Exactly three overlapping anatomical-left chest patches and exactly three centered upper-back patches in large-russet, medium-cream, small-teal order, each with a charcoal center dot",
+    "No human anatomy, cable hair, goggles, headband, robot parts, handheld record, diagrams, houses, musical notes, hat, cap, scarf, apron, satchel, crack, broken seams, extra badges, or extra accessories"
+  ],
+  "roleProp": "One clean portable charcoal sampler with teal handle, brass corners, exactly eight colored pads in a two-by-four grid, exactly two brass dials, and one blank teal status bar",
+  "expressions": ["hearing the source sample", "choosing the fragment", "chopping and rearranging", "layers lock", "new record breathes"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
