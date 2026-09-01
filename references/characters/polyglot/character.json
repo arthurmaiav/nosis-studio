@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "polyglot",
+  "name": "Polyglot",
+  "roster": "core",
+  "archiveRole": "Writes to another resident each shift in a language the machine has not used lately.",
+  "storyFunction": "The correspondent who keeps the machine's linguistic range alive by opening one fresh language path each shift.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Deep muted-plum correspondence jacket over a cream shirt, charcoal trousers, white gloves, and cream shoes",
+    "Narrow muted-gold stand collar and piping, exactly three muted-gold front buttons, exactly two lower pocket welts, plain muted-gold anatomical-left cuff, and exactly four blank phrase tabs on the anatomical-right cuff in teal, cream, russet, and dusty blue",
+    "No split-color lapels, syntax trees, open diagram board, human anatomy, glowing figure, cloak, stained glass, floating papers, written alphabets, extra tabs, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate dark-plum tabletop phrase wheel divided into exactly five colored segments with one muted-gold center pivot and one fixed cream pointer",
+  "expressions": ["choosing a language", "tentative opening", "delighted recognition", "searching for the right phrase", "warm connection"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

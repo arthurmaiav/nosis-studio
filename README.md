@@ -82,6 +82,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Midwife | [View](references/characters/midwife/2d/master-sheet.png) | [View](references/characters/midwife/3d/master-sheet.png) |
 | Celebrant | [View](references/characters/celebrant/2d/master-sheet.png) | [View](references/characters/celebrant/3d/master-sheet.png) |
 | Impresario | [View](references/characters/impresario/2d/master-sheet.png) | [View](references/characters/impresario/3d/master-sheet.png) |
+| Polyglot | [View](references/characters/polyglot/2d/master-sheet.png) | [View](references/characters/polyglot/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

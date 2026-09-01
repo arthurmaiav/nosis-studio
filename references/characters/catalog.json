@@ -249,6 +249,10 @@
     {
       "id": "impresario",
       "manifest": "impresario/character.json"
+    },
+    {
+      "id": "polyglot",
+      "manifest": "polyglot/character.json"
     }
   ]
 }
