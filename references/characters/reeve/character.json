@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "reeve",
+  "name": "Reeve",
+  "roster": "core",
+  "archiveRole": "Is a patient keeper of lists who cannot leave an ask stranded. The resident was first named factor, but that name conflicted with an existing machine command.",
+  "storyFunction": "The village's blocker-ledger keeper, following every unresolved ask until it reaches the person or mechanism that can clear it.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Fitted warm-russet waistcoat with charcoal edging, four neatly aligned tabbed pockets with muted teal tabs and brass studs, and restrained brass front buttons",
+    "Cream shirt with sleeves rolled once, slim charcoal tie, charcoal high-waisted trousers, and an upright patient posture",
+    "No robot anatomy, exposed machinery, cables, screens, railway scenery, floating question marks, hat, bag, armor, extra tools, or extra accessories"
+  ],
+  "roleProp": "One long closed warm-russet pending-asks ledger with a charcoal spine, cream page block, visible muted teal page tabs, and brass corner protectors",
+  "expressions": ["patient", "focused", "tracking", "alarmed by a stranded ask", "satisfied after resolution"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

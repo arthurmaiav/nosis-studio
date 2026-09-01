@@ -73,6 +73,10 @@
     {
       "id": "visitor",
       "manifest": "visitor/character.json"
+    },
+    {
+      "id": "reeve",
+      "manifest": "reeve/character.json"
     }
   ]
 }

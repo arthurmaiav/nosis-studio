@@ -22,7 +22,7 @@ Every master follows [the shared master-sheet template](MASTER-SHEET-TEMPLATE.md
 
 `roster` describes priority:
 
-- `core`: one of the eighteen characters currently completed in both visual modes.
+- `core`: one of the nineteen characters currently completed in both visual modes.
 - `backlog`: a known character outside the current production priority.
 
 Coverage is derived from the two master statuses:
@@ -55,6 +55,7 @@ An incomplete character remains usable in the visual mode with an approved maste
 | Steward | Approved | Approved | Ready |
 | Courier | Approved | Approved | Ready |
 | Visitor | Approved | Approved | Ready |
+| Reeve | Approved | Approved | Ready |
 
 See the [live character map](../../docs/live-character-map.md) for all verified resident identities, first-party portrait coverage, and clearly labeled visual proposals.
 
