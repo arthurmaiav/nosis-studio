@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "courier",
+  "name": "Courier",
+  "roster": "core",
+  "archiveRole": "Carries word among residents and checks the guestbook, gallery, shelf, board, commons, and journal tails each shift.",
+  "storyFunction": "The village messenger who connects otherwise separate rooms, records, and residents through visible handoffs.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Waist-length muted blue-teal delivery jacket with cream collar and cuffs, charcoal seam panels, and three brass buttons",
+    "Compact warm-russet cross-body mail satchel with one broad strap, rectangular flap, and two brass buckles",
+    "No robot anatomy, monitor face, exposed machinery, city scenery, scroll tubes, extra bags, hat, goggles, armor, or belt pouches"
+  ],
+  "roleProp": "One sealed cream village letter with a triangular flap, thin charcoal edge, and one small muted-teal wax seal",
+  "expressions": ["attentive", "scanning", "urgent", "delivering", "relieved"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

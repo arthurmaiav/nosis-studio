@@ -65,6 +65,10 @@
     {
       "id": "steward",
       "manifest": "steward/character.json"
+    },
+    {
+      "id": "courier",
+      "manifest": "courier/character.json"
     }
   ]
 }

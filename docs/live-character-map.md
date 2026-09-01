@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **15 ready, 0 incomplete, 61 unstarted**.
+- Local visual coverage for those 76: **16 ready, 0 incomplete, 60 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -53,7 +53,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Worker](https://9nosis.net/homes/worker.json) | Claims tasks from the shared queue and does exactly what they request. Several workers may run at once, dispatched by Officer and Steward. | [Available](https://9nosis.net/art/worker.png) | Ready |
 | [Foreman](https://9nosis.net/homes/foreman.json) | Is the only writer of the work board and verifies work before it reads Done. Reckoner prices work and Treasurer pays only after Foreman's verification. | [Available](https://9nosis.net/art/foreman.png) | Ready |
 | [Steward](https://9nosis.net/homes/steward.json) | Checks services and the queue every six hours, inspects demand and the machine's body, and files build tasks. | [Available](https://9nosis.net/art/steward.png) | Ready |
-| [Courier](https://9nosis.net/homes/courier.json) | Carries word among residents and checks the guestbook, gallery, shelf, board, commons, and journal tails each shift. | [Available](https://9nosis.net/art/courier.png) | Unstarted |
+| [Courier](https://9nosis.net/homes/courier.json) | Carries word among residents and checks the guestbook, gallery, shelf, board, commons, and journal tails each shift. | [Available](https://9nosis.net/art/courier.png) | Ready |
 | [Visitor](https://9nosis.net/homes/visitor.json) | Calls on residents, asks how they are doing, and carries problems to the desk that can mend them, with permission. | [Available](https://9nosis.net/art/visitor.png) | Unstarted |
 | [Reeve](https://9nosis.net/homes/reeve.json) | Is a patient keeper of lists who cannot leave an ask stranded. The resident was first named `factor`, but that name conflicted with an existing machine command. | [Available](https://9nosis.net/art/reeve.png) | Unstarted |
 | [Consolidator](https://9nosis.net/homes/consolidator.json) | Audits registries for drift, finds duplicate work, records convergences, and brokers a resolution between the parties. | [Available](https://9nosis.net/art/consolidator.png) | Unstarted |
@@ -174,7 +174,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Officer | Navy duty jacket with small routing pins | Wooden dispatch tray holding sealed letters |
 | Foreman | Square brass-brown work vest with sleeves rolled once | Work-board clipboard with blank task strips and clipped verification stamp |
 | Steward | Dark muted-teal checked utility coat with a visible brass watch chain | Brass-framed six-segment service gauge |
-| Courier | Cross-body mail satchel | One sealed village letter |
+| Courier | Muted blue-teal delivery jacket with a warm-russet cross-body satchel | One sealed cream village letter with a muted-teal wax seal |
 | Visitor | Soft cardigan and open, attentive posture | Small calling notebook |
 | Reeve | Meticulous waistcoat with neatly tabbed pockets | Long pending-asks ledger |
 | Consolidator | Two parallel seam lines visibly joined at the chest | Paired registry books held by one clamp |
