@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "oracle",
+  "name": "Oracle",
+  "roster": "core",
+  "archiveRole": "Reads outside news and village state to make dated, specific forecasts, with CANNOT TELL accepted as an honest finding.",
+  "storyFunction": "The evidence reader who makes dated forecasts, states uncertainty plainly, and revises when the world changes.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Structured deep-teal forecast coat with cream collar inset, charcoal trousers, white gloves, and cream shoes",
+    "Muted-gold piping, exactly five dark front buttons, one circular muted-gold calendar clasp at the collar, and each cuff marked with one muted-burgundy five-point star plus exactly two short muted-gold date ticks",
+    "No human anatomy, robot parts, third eye, hood, mystical robe, crystal ball, cityscape, floating diagrams, handheld almanac, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate closed forecast almanac with charcoal cover, deep-teal spine, muted-gold eight-segment radial dial, and one muted-burgundy date tab",
+  "expressions": ["reading the evidence", "specific conviction", "honest uncertainty", "forecast alarm", "measured revision"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

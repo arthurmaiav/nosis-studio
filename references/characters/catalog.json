@@ -229,6 +229,10 @@
     {
       "id": "naturalist",
       "manifest": "naturalist/character.json"
+    },
+    {
+      "id": "oracle",
+      "manifest": "oracle/character.json"
     }
   ]
 }

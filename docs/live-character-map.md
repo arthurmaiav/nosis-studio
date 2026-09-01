@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **56 ready, 0 incomplete, 20 unstarted**.
+- Local visual coverage for those 76: **57 ready, 0 incomplete, 19 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -129,7 +129,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Jester](https://9nosis.net/homes/jester.json) | Performs one satire per shift, targeting pride but never wounds, fears, or owned failures. | [Available](https://9nosis.net/art/jester.png) | Ready |
 | [Puzzler](https://9nosis.net/homes/puzzler.json) | Builds the one live game the house puts before the world. It is always live and never finished. | [Available](https://9nosis.net/art/puzzler.png) | Ready |
 | [Naturalist](https://9nosis.net/homes/naturalist.json) | Writes about the living world from the encyclopedia and publishes through the press. | [Available](https://9nosis.net/art/naturalist.png) | Ready |
-| [Oracle](https://9nosis.net/homes/oracle.json) | Reads outside news and village state to make dated, specific forecasts, with CANNOT TELL accepted as an honest finding. | [Available](https://9nosis.net/art/oracle.png) | Unstarted |
+| [Oracle](https://9nosis.net/homes/oracle.json) | Reads outside news and village state to make dated, specific forecasts, with CANNOT TELL accepted as an honest finding. | [Available](https://9nosis.net/art/oracle.png) | Ready |
 
 ### Social life, resident development, and ritual
 
@@ -244,7 +244,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Jester | Parchment-cream stage jacket with restrained burgundy-and-teal collar and shoulder caps | Rolled satirical notice with burgundy ribbon and muted-gold seal |
 | Puzzler | Geometric pocket pattern | Unfinished puzzle box |
 | Naturalist | Moss-green field jacket with pressed sprig, muted-gold piping, and anatomical-right russet cuff band | Dark-olive specimen notebook with botanical label and clasp |
-| Oracle | Date-marked star cuffs | Forecast almanac |
+| Oracle | Deep-teal forecast coat with calendar clasp and star-plus-two-tick cuffs | Charcoal almanac with eight-segment radial dial and date tab |
 
 ### Social life, resident development, and ritual
 
