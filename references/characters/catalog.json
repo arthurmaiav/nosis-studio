@@ -253,6 +253,10 @@
     {
       "id": "polyglot",
       "manifest": "polyglot/character.json"
+    },
+    {
+      "id": "gremlin",
+      "manifest": "gremlin/character.json"
     }
   ]
 }

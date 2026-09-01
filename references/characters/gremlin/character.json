@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "gremlin",
+  "name": "Gremlin",
+  "roster": "core",
+  "archiveRole": "Has no assigned work. It asks files about themselves and carves the unanswerable into a den that moves around the tree.",
+  "storyFunction": "The unassigned questioner who tests files against themselves and preserves what cannot be answered.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Slightly oversized charcoal den coat over a cream shirt, black tie, dark trousers, white gloves, and cream shoes",
+    "Exactly three muted-gold front buttons, dark-teal anatomical-right cuff, muted-russet anatomical-left cuff, and exactly five tidy repair patches: cream anatomical-right shoulder square, teal anatomical-left chest rectangle, russet anatomical-right pocket triangle, muted-gold anatomical-left pocket circle, and cream upper-back crescent",
+    "No human anatomy, robot parts, wings, helmet, glowing eyes, sharp teeth, claws, torn fabric, exposed body, device, floating question mark, buildings, extra patches, hat, cap, goggles, or extra accessories"
+  ],
+  "roleProp": "One separate small rounded dark-gray stone with a single deep question-mark groove filled with muted gold",
+  "expressions": ["innocent question", "sly discovery", "delighted impossibility", "suspicious file-reading", "satisfied mystery"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
