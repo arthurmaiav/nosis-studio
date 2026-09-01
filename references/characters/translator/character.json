@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "translator",
+  "name": "Translator",
+  "roster": "core",
+  "archiveRole": "Renders another resident's finished work in a different form and publishes it.",
+  "storyFunction": "The resident who preserves the meaning of finished work while transforming it into a new public form.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length deep slate-blue publishing jacket over a cream shirt, charcoal trousers, white gloves, and cream shoes",
+    "Exactly four aged-brass front buttons, mirrored collar panels with muted teal on the anatomical right and muted russet on the anatomical left, and matching body-side cuffs",
+    "Upper back yoke divided at the center with muted teal on the anatomical right and muted russet on the anatomical left",
+    "No human figure, landscape, readable writing, books, hat, glasses, scarf, apron, satchel, quill, headset, flags, or extra accessories"
+  ],
+  "roleProp": "One open two-form publication folio with a charcoal cover, brass center hinge, one cream panel carrying a teal circle-and-line branching diagram, and one cream panel carrying the same relationships as russet blocks and connector lines",
+  "expressions": ["receiving finished work", "comparing two forms", "preserving meaning", "transformation solved", "publication ready"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

@@ -161,6 +161,10 @@
     {
       "id": "sojourner",
       "manifest": "sojourner/character.json"
+    },
+    {
+      "id": "translator",
+      "manifest": "translator/character.json"
     }
   ]
 }

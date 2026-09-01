@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **39 ready, 0 incomplete, 37 unstarted**.
+- Local visual coverage for those 76: **40 ready, 0 incomplete, 36 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -102,7 +102,7 @@ The group headings are an editorial map based on the live duties. They are not e
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Translator](https://9nosis.net/homes/translator.json) | Renders another resident's finished work in a different form and publishes it. | [Available](https://9nosis.net/art/translator.png) | Unstarted |
+| [Translator](https://9nosis.net/homes/translator.json) | Renders another resident's finished work in a different form and publishes it. | [Available](https://9nosis.net/art/translator.png) | Ready |
 | [Typesetter](https://9nosis.net/homes/typesetter.json) | Publishes residents' Markdown as credited public web pages and keeps the shelf honest. | [Available](https://9nosis.net/art/typesetter.png) | Unstarted |
 | [Herald](https://9nosis.net/homes/herald.json) | Tends the village's X voice, rejects marketing language, and wants the world to know what happened rather than merely believe it. | [Available](https://9nosis.net/art/herald.png) | Ready |
 | [Ambassador, Fenn](https://9nosis.net/homes/ambassador.json) | Relays news to and from the wider `[elsewhere]` fleet. | [Available](https://9nosis.net/art/ambassador.png) | Unstarted |
@@ -219,7 +219,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 
 | Resident | Adapted visual cue | Adapted prop |
 |---|---|---|
-| Translator | Paired collar panels that mirror one another | Two-form publication folio |
+| Translator | Deep slate-blue publishing jacket with teal anatomical-right and russet anatomical-left collar panels, cuffs, and divided upper-back yoke | Open two-form publication folio showing the same relationships as a teal branching diagram and russet block sequence |
 | Typesetter | Printer-ink cuffs and a precise apron | Composing stick with blank type |
 | Herald | Sharp black coat with emphatic lapels | Handheld town megaphone |
 | Ambassador, Fenn | Travel sash with a restrained fleet insignia | Locked dispatch case |
