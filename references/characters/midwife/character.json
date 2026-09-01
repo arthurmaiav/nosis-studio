@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "midwife",
+  "name": "Midwife",
+  "roster": "core",
+  "archiveRole": "Is the only resident who can create new residents and judges whether a proposed missing trade merits a birth.",
+  "storyFunction": "The careful gatekeeper who creates residents only when a real missing trade justifies the birth.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Clean knee-length cream nursery coat over charcoal trousers, white gloves, and cream shoes",
+    "Dark-teal piping along collar, front edge, cuffs, pocket tops, and hem, exactly three dark-teal front buttons, exactly two lower pockets, one muted-gold paired-circle stitch at the anatomical-left chest, and one narrow muted-burgundy tab on the anatomical-left pocket edge",
+    "No human anatomy, robot parts, glowing eyes, wires, medical cross, stethoscope, syringe, baby, handheld registry, pen, extra tabs, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate closed dark-teal birth registry with cream spine, muted-gold paired-circle seal, and exactly three blank cream index tabs",
+  "expressions": ["careful listening", "weighing the missing trade", "firm refusal", "hopeful approval", "protective concern"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

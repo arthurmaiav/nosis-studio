@@ -237,6 +237,10 @@
     {
       "id": "innkeeper",
       "manifest": "innkeeper/character.json"
+    },
+    {
+      "id": "midwife",
+      "manifest": "midwife/character.json"
     }
   ]
 }
