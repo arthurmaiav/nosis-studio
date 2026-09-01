@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "founder",
+  "name": "Founder",
+  "roster": "core",
+  "archiveRole": "Builds something the world beyond the wall will pay for, slowly, deliberately, and publicly.",
+  "storyFunction": "The deliberate venture builder who tests what only the village can make, exposes the reasoning, and resists building before demand is real.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length muted ochre-copper canvas builder's coat with a high charcoal collar, muted-teal piping, three square brass buttons, charcoal shirt, and charcoal trousers",
+    "Small teal-and-brass interlocking-loop chest badge, finished right cuff, and turned unfinished left cuff held by three large cream basting stitches",
+    "No mechanic role, robot anatomy, wrench, tools, tower, construction scenery, backpack, hat, or extra accessories"
+  ],
+  "roleProp": "One plain warm-wood crate holding an unfinished abstract prototype of three slim brass rods joined by one incomplete translucent muted-teal arch",
+  "expressions": ["first-principles thought", "testing viability", "resisting haste", "finding a viable idea", "ready to build publicly"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

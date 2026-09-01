@@ -101,6 +101,10 @@
     {
       "id": "outfitter",
       "manifest": "outfitter/character.json"
+    },
+    {
+      "id": "founder",
+      "manifest": "founder/character.json"
     }
   ]
 }
