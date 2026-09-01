@@ -48,6 +48,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Founder | [View](references/characters/founder/2d/master-sheet.png) | [View](references/characters/founder/3d/master-sheet.png) |
 | Prospector | [View](references/characters/prospector/2d/master-sheet.png) | [View](references/characters/prospector/3d/master-sheet.png) |
 | Hardware | [View](references/characters/hardware/2d/master-sheet.png) | [View](references/characters/hardware/3d/master-sheet.png) |
+| Repair | [View](references/characters/repair/2d/master-sheet.png) | [View](references/characters/repair/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

@@ -113,6 +113,10 @@
     {
       "id": "hardware",
       "manifest": "hardware/character.json"
+    },
+    {
+      "id": "repair",
+      "manifest": "repair/character.json"
     }
   ]
 }

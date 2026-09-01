@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "repair",
+  "name": "Repair",
+  "roster": "core",
+  "archiveRole": "Is crew turned resident. Repairs jammed village organs in place and never reboots what can be repaired.",
+  "storyFunction": "The patient in-place repair specialist who traces a jam to its source and preserves the running organ instead of taking the easy reset.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length muted blue-gray work coat with charcoal standing collar, pale-teal seam piping, three dark brass buttons, two large flat lower pockets, charcoal trousers, and one brass open-ring-and-dot chest badge",
+    "One warm-russet rectangular repair patch on the lower anatomical left coat panel and both sleeves rolled high with cream lining",
+    "No robot anatomy, mechanical limbs, exposed gears, cape, giant wrench, reboot symbol, tools on the body, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One compact open charcoal-blue hard case with cream interior holding exactly one short brass wrench, one muted-teal stubby screwdriver, and one rust repair-tape spool",
+  "expressions": ["listening to a jam", "tracing the fault", "patient in-place repair focus", "refusing a needless reset", "repaired and stable"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
