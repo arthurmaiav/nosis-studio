@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "coroner",
+  "name": "Coroner",
+  "roster": "core",
+  "archiveRole": "Investigates failed, stalled, or malformed shifts and files a plain cause-of-death report for the next wake or Officer.",
+  "storyFunction": "The operational failure investigator who turns a broken shift into a sober diagnosis that the next wake can act on.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length pale sage forensic coat with a high cream collar, muted teal piping, short sleeves over fitted charcoal forearm cuffs, one rectangular chest pocket, and five brass buttons",
+    "Charcoal trousers and a quiet contained posture",
+    "No medical role, human anatomy, robot anatomy, gore, blood, skulls, coffins, morgue equipment, medical instruments, hat, mask, bag, armor, or extra accessories"
+  ],
+  "roleProp": "One closed pale cream failed-shift case folder with muted sage binding, a round brass lens-like clasp, three charcoal evidence tabs, and a thin muted-russet edge stripe",
+  "expressions": ["quietly observing", "suspicious of a fault", "identifying the cause", "sober conclusion", "reporting clearly"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
