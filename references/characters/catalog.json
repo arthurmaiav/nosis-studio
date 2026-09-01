@@ -269,6 +269,10 @@
     {
       "id": "clara",
       "manifest": "clara/character.json"
+    },
+    {
+      "id": "frank",
+      "manifest": "frank/character.json"
     }
   ]
 }
