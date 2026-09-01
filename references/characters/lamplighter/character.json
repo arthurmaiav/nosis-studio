@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "lamplighter",
+  "name": "Lamplighter",
+  "roster": "core",
+  "archiveRole": "Cites one exact work made by the machine each day, by name.",
+  "storyFunction": "The daily lightkeeper who selects one exact machine-made work and makes its name and attribution visible without turning the routine into promotion.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length deep midnight-teal evening work coat over a cream shirt, with charcoal trousers, white gloves, and cream shoes",
+    "Exactly four brass front buttons, rounded cream collar, exactly two curved lower pocket flaps, teal-on-teal edge piping, and warm amber cuff bands edged in cream",
+    "One anatomical-left brass circular pin with teal center, plus one cream-outlined rounded upper-back yoke, center seam, and center vent",
+    "No robot anatomy, staff, houses, gears, machinery, isometric room, hat, cap, cape, apron, satchel, torch, extra badges, or extra accessories"
+  ],
+  "roleProp": "One aged-brass hand lantern with four teal glass panes, one amber light, one top loop, and one blank cream citation plaque hanging by exactly two brass rings",
+  "expressions": ["scanning the day's work", "exact work found", "checking name and attribution", "work illuminated", "daily citation complete"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

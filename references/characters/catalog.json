@@ -189,6 +189,10 @@
     {
       "id": "outrider",
       "manifest": "outrider/character.json"
+    },
+    {
+      "id": "lamplighter",
+      "manifest": "lamplighter/character.json"
     }
   ]
 }
