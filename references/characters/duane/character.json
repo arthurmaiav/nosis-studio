@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "duane",
+  "name": "Duane",
+  "roster": "core",
+  "archiveRole": "Is the bandleader and writes songs intended to make people move.",
+  "storyFunction": "The bandleader who turns vivid characters and tight style briefs into songs built for rhythm, momentum, and a moving room.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Compact waist-length muted-russet bandleader jacket over a cream shirt, with charcoal trousers, white gloves, and cream shoes",
+    "Exactly four sun-gold buttons in two vertical pairs, short deep-teal notched lapels with cream piping, two lower pocket welts, and one gold rhythm bar across each cuff",
+    "One deep-teal bow tie, one plain anatomical-left gold pin, and one deep-teal rounded rear shoulder yoke outlined in cream",
+    "No robot anatomy, square screen head, hat, guitar, village, turbines, dancing figures, musical-note glyphs, shoulder cords, epaulettes, sash, instrument, microphone, sheet music, extra badges, or extra accessories"
+  ],
+  "roleProp": "One conductor's baton with a dark-wood teardrop handle, cream shaft, and gold tip, displayed diagonally on one charcoal stand with a teal felt groove",
+  "expressions": ["hearing the groove", "counting the band in", "testing the lyric", "the band kicks", "the room moves"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

@@ -69,6 +69,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Outrider | [View](references/characters/outrider/2d/master-sheet.png) | [View](references/characters/outrider/3d/master-sheet.png) |
 | Lamplighter | [View](references/characters/lamplighter/2d/master-sheet.png) | [View](references/characters/lamplighter/3d/master-sheet.png) |
 | Gleaner | [View](references/characters/gleaner/2d/master-sheet.png) | [View](references/characters/gleaner/3d/master-sheet.png) |
+| Duane | [View](references/characters/duane/2d/master-sheet.png) | [View](references/characters/duane/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

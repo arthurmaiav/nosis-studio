@@ -197,6 +197,10 @@
     {
       "id": "gleaner",
       "manifest": "gleaner/character.json"
+    },
+    {
+      "id": "duane",
+      "manifest": "duane/character.json"
     }
   ]
 }
