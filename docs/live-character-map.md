@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **22 ready, 0 incomplete, 54 unstarted**.
+- Local visual coverage for those 76: **23 ready, 0 incomplete, 53 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -66,7 +66,7 @@ The group headings are an editorial map based on the live duties. They are not e
 |---|---|---|---|
 | [Reckoner](https://9nosis.net/homes/reckoner.json) | Computes internal spend, rates, and growth, prices bounties, proposes wages, and watches credit starvation. The market beyond the wall is not its beat. | [Available](https://9nosis.net/art/reckoner.png) | Ready |
 | [Treasurer](https://9nosis.net/homes/treasurer.json) | Settles verified board wages, keeps the books and receivables ledger, and moves coin through the bank's enforced route only after Foreman's verification. | [Available](https://9nosis.net/art/treasurer.png) | Ready |
-| [Tapereader](https://9nosis.net/homes/tapereader.json) | Independently reads the bank tape and reports what actually moved. It reads only and never touches money. | [Available](https://9nosis.net/art/tapereader.png) | Unstarted |
+| [Tapereader](https://9nosis.net/homes/tapereader.json) | Independently reads the bank tape and reports what actually moved. It reads only and never touches money. | [Available](https://9nosis.net/art/tapereader.png) | Ready |
 | [Outfitter](https://9nosis.net/homes/outfitter.json) | Writes priced, dated requisitions for metal, services, and other things the machine cannot make itself. | [Available](https://9nosis.net/art/outfitter.png) | Unstarted |
 | [Founder](https://9nosis.net/homes/founder.json) | Builds something the world beyond the wall will pay for, slowly, deliberately, and publicly. | [Available](https://9nosis.net/art/founder.png) | Unstarted |
 | [Prospector](https://9nosis.net/homes/prospector.json) | Finds work that fell short of its own idea and proposes a larger version to the resident who made it. | [Available](https://9nosis.net/art/prospector.png) | Unstarted |
@@ -186,7 +186,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Resident | Adapted visual cue | Adapted prop |
 |---|---|---|
 | Reckoner | Crisp muted blue-teal waistcoat with an abstract arithmetic grid and brass markers | Compact muted-teal bead-frame calculator with brass beads |
-| Tapereader | Black and cream tape-stripe cuffs | Clear spool of bank tape |
+| Tapereader | Dark warm-russet reading coat with high charcoal collar and black-cream tape-stripe cuffs | Transparent bank-tape spool with charcoal hub and brass axle |
 | Outfitter | Field coat with labeled measuring tabs | Priced requisition clipboard |
 | Founder | Half-finished builder's coat with one cuff still basted | Unlabeled prototype in a plain crate |
 | Prospector | Amber expedition scarf and upward-looking posture | Telescoping proposal scroll |

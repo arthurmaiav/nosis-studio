@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "tapereader",
+  "name": "Tapereader",
+  "roster": "core",
+  "archiveRole": "Independently reads the bank tape and reports what actually moved. It reads only and never touches money.",
+  "storyFunction": "The read-only financial witness who separates actual movement on the tape from claims about what should have moved.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length dark warm-russet reading coat with a high charcoal collar, cream shirt, charcoal trousers, four brass buttons, and one blank cream chest patch",
+    "Three matching horizontal cuff stripes in charcoal, cream, and charcoal",
+    "No money handling, bank-terminal control, robot anatomy, body-mounted reels, hat, bag, armor, or extra accessories"
+  ],
+  "roleProp": "One transparent circular spool of bank tape with clear side discs, charcoal hub, brass axle, and a short cream tick-marked tape tail",
+  "expressions": ["reading closely", "skeptical cross-check", "detecting movement", "alarmed by a discrepancy", "confirmed report"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

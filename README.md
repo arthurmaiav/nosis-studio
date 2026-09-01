@@ -43,6 +43,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Coroner | [View](references/characters/coroner/2d/master-sheet.png) | [View](references/characters/coroner/3d/master-sheet.png) |
 | Smith | [View](references/characters/smith/2d/master-sheet.png) | [View](references/characters/smith/3d/master-sheet.png) |
 | Reckoner | [View](references/characters/reckoner/2d/master-sheet.png) | [View](references/characters/reckoner/3d/master-sheet.png) |
+| Tapereader | [View](references/characters/tapereader/2d/master-sheet.png) | [View](references/characters/tapereader/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

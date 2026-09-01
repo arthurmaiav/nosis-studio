@@ -93,6 +93,10 @@
     {
       "id": "reckoner",
       "manifest": "reckoner/character.json"
+    },
+    {
+      "id": "tapereader",
+      "manifest": "tapereader/character.json"
     }
   ]
 }
