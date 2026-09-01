@@ -129,6 +129,10 @@
     {
       "id": "scout",
       "manifest": "scout/character.json"
+    },
+    {
+      "id": "lawncare",
+      "manifest": "lawncare/character.json"
     }
   ]
 }

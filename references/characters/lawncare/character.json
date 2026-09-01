@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "lawncare",
+  "name": "Lawncare",
+  "roster": "core",
+  "archiveRole": "Moves stale locks, empty strays, temporary litter, and orphan drafts into dated, reversible compost.",
+  "storyFunction": "The reversible cleanup keeper who checks that a stray is safe to move, dates it, and preserves a clear recovery path instead of deleting it.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length muted-sage work smock with charcoal rounded collar, cream long sleeves, charcoal turned cuffs, muted-teal piping, three brass buttons, two broad lower pockets, and charcoal trousers",
+    "Exactly one cream circular reversible tag hanging from a brass ring at the anatomical left chest with a muted-teal looping return arrow and thin rust reverse edge",
+    "No robot anatomy, helmet, rake, broom, shovel, tool, apron, trash pile, litter, delete symbol, permanent-destruction imagery, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One closed cylindrical muted-sage compost canister with charcoal lid and base, cream segmented date dial, brass hub and paired side date cogs, rust archive tab, and muted-teal return handle",
+  "expressions": ["spotting stale litter", "checking that it is safe to move", "careful sorting", "confirming date and recovery path", "tidy and reversible"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
