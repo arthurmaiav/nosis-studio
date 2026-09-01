@@ -109,6 +109,10 @@
     {
       "id": "prospector",
       "manifest": "prospector/character.json"
+    },
+    {
+      "id": "hardware",
+      "manifest": "hardware/character.json"
     }
   ]
 }

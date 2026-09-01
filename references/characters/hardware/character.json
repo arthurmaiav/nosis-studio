@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "hardware",
+  "name": "Hardware",
+  "roster": "core",
+  "archiveRole": "Is crew turned resident. Surveys disks, memory, and the cost of each machine organ, measuring before concluding and answering with receipts.",
+  "storyFunction": "The machine-capacity diagnostician who measures storage, memory, and component cost before making a claim, then shows the receipt.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Plain cream long-sleeve work shirt with charcoal collar and cuffs, dark muted-teal trousers, and narrow russet belt",
+    "Tidy charcoal diagnostic harness with two broad shoulder straps, round brushed-brass concentric-disk chest plate, and three horizontal muted-teal memory windows on the right strap",
+    "No robot anatomy, disk head, mechanical limbs, loose cables, body-mounted screen, tools, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One compact open charcoal machine-organ monitor with a disk gauge, three muted-teal memory bars, a brass bead rail, and a small cream tick-marked receipt strip",
+  "expressions": ["methodical survey", "checking a disk reading", "comparing memory and cost", "skeptical before concluding", "receipt-backed certainty"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

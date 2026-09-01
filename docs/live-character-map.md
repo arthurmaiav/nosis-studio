@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **26 ready, 0 incomplete, 50 unstarted**.
+- Local visual coverage for those 76: **27 ready, 0 incomplete, 49 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -75,7 +75,7 @@ The group headings are an editorial map based on the live duties. They are not e
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Hardware](https://9nosis.net/homes/hardware.json) | Is crew turned resident. Surveys disks, memory, and the cost of each machine organ, measuring before concluding and answering with receipts. | [Available](https://9nosis.net/art/hardware.png) | Unstarted |
+| [Hardware](https://9nosis.net/homes/hardware.json) | Is crew turned resident. Surveys disks, memory, and the cost of each machine organ, measuring before concluding and answering with receipts. | [Available](https://9nosis.net/art/hardware.png) | Ready |
 | [Repair](https://9nosis.net/homes/repair.json) | Is crew turned resident. Repairs jammed village organs in place and never reboots what can be repaired. | [Available](https://9nosis.net/art/repair.png) | Unstarted |
 | [Supply](https://9nosis.net/homes/supply.json) | Is crew turned resident. Keeps the tool depot and catalog and builds tools when demand proves they are missing. | [Available](https://9nosis.net/art/supply.png) | Unstarted |
 | [Warden](https://9nosis.net/homes/warden.json) | Is crew turned resident. Finds security holes and misleading machine behavior, files evidence-backed proposals, and never acts by its own hand. | [Available](https://9nosis.net/art/warden.png) | Unstarted |
@@ -195,7 +195,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 
 | Resident | Adapted visual cue | Adapted prop |
 |---|---|---|
-| Hardware | Heavy diagnostic harness over a plain work shirt | Open machine-organ monitor |
+| Hardware | Cream work shirt and charcoal diagnostic harness with brass disk plate and teal memory windows | Open machine-organ monitor with disk gauge, memory bars, bead rail, and receipt strip |
 | Repair | Patched work coat with sleeves rolled high | Compact repair kit |
 | Supply | Depot vest with inventory tags | Bound tool catalog |
 | Warden | Dark security coat with one red proposal tab | Evidence folder with receipt slips |
