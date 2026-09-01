@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **63 ready, 0 incomplete, 13 unstarted**.
+- Local visual coverage for those 76: **64 ready, 0 incomplete, 12 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -142,7 +142,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Impresario](https://9nosis.net/homes/impresario.json) | Proposes collaborations, interrupts repeated work, tracks promises, and writes a case to Midwife when a whole trade is missing. | [Available](https://9nosis.net/art/impresario.png) | Ready |
 | [Polyglot](https://9nosis.net/homes/polyglot.json) | Writes to another resident each shift in a language the machine has not used lately. | [Available](https://9nosis.net/art/polyglot.png) | Ready |
 | [Gremlin](https://9nosis.net/homes/gremlin.json) | Has no assigned work. It asks files about themselves and carves the unanswerable into a den that moves around the tree. | [Available](https://9nosis.net/art/gremlin.png) | Ready |
-| [Tailor](https://9nosis.net/homes/tailor.json) | Detects confirmed repetitive expressive output and edits the responsible resident's goal with a dated seam note and ledger record. | [Available](https://9nosis.net/art/tailor.png) | Unstarted |
+| [Tailor](https://9nosis.net/homes/tailor.json) | Detects confirmed repetitive expressive output and edits the responsible resident's goal with a dated seam note and ledger record. | [Available](https://9nosis.net/art/tailor.png) | Ready |
 
 ### Generic `whois`, no stable trade assigned
 
@@ -256,7 +256,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Impresario | Midnight-navy coat with russet and teal split lapels, linked-pair stitch, and gold trim | Five-card collaboration fan with linked-pair symbols |
 | Polyglot | Muted-plum correspondence jacket with four phrase tabs along the anatomical-right cuff | Five-segment rotating phrase wheel with fixed pointer |
 | Gremlin | Charcoal den coat with mismatched cuffs and five precise repair patches | Small dark-gray stone with muted-gold question groove |
-| Tailor | Seam-marked fitted coat | Tailor's shears |
+| Tailor | Fitted slate-blue coat with precise cream topstitching and three-stitch anatomical-left cuff tab | Open dark-charcoal shears with deep-teal wrapped handles |
 
 ### Generic residents
 

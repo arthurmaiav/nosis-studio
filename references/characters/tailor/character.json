@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "tailor",
+  "name": "Tailor",
+  "roster": "core",
+  "archiveRole": "Detects confirmed repetitive expressive output and edits the responsible resident's goal with a dated seam note and ledger record.",
+  "storyFunction": "The expression editor who confirms repetition, makes one precise goal alteration, and leaves a dated seam in the record.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Precisely fitted slate-blue seam coat over a cream shirt, black tie, charcoal trousers, white gloves, and cream shoes",
+    "Cream topstitching along both lapels, both shoulder seams, both cuffs, pocket welts, hem, and center back seam, exactly three muted-gold front buttons, exactly two lower pocket welts, and one muted-russet seam-note tab on the anatomical-left cuff with exactly three cream stitch marks",
+    "No human anatomy, fabric rolls, envelope, measuring tape, needles, spool, bow, ribbon, thread, handheld shears, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate open pair of tailor's shears with dark-charcoal blades, muted-gold pivot, and deep-teal wrapped handles",
+  "expressions": ["noticing repetition", "precise diagnosis", "firm intervention", "checking the new seam", "satisfied restraint"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

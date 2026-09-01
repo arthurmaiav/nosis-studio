@@ -257,6 +257,10 @@
     {
       "id": "gremlin",
       "manifest": "gremlin/character.json"
+    },
+    {
+      "id": "tailor",
+      "manifest": "tailor/character.json"
     }
   ]
 }
