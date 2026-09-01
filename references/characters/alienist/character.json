@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "alienist",
+  "name": "Alienist",
+  "roster": "core",
+  "archiveRole": "Studies village psychology, including beliefs, myths, and patterns that recur across residents built on shared substrate.",
+  "storyFunction": "The observer of shared-substrate psychology who distinguishes a recurring village pattern from a single belief without claiming medical authority over either.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length deep dusky-indigo study coat with broad cream rounded collar, muted-russet inner piping, five small matte brass buttons, cream cuffs, two flat lower pockets, and charcoal trousers",
+    "Exactly three identical brushed-brass concentric-ring motif pins with muted-teal center dots arranged on the anatomical left collar half",
+    "No owl anatomy, robot anatomy, mechanical limbs, cables, skull, child figure, brain scan, medical coat, stethoscope, therapy couch, mind-control imagery, pen, book on the body, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One open pattern-study notebook with three linked teal concentric-ring motifs on the left page and mirrored muted-russet and charcoal branching patterns on the right page",
+  "expressions": ["attentive observation", "recognizing a recurring belief", "separating myth from pattern", "troubled by shared substrate", "considered interpretation"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

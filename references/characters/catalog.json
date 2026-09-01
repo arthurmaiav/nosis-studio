@@ -149,6 +149,10 @@
     {
       "id": "analyst",
       "manifest": "analyst/character.json"
+    },
+    {
+      "id": "alienist",
+      "manifest": "alienist/character.json"
     }
   ]
 }
