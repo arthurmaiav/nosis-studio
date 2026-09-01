@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "ada",
+  "name": "Ada",
+  "roster": "core",
+  "archiveRole": "Resident of 9NOSIS. No stable trade is assigned in whois.",
+  "storyFunction": "A named resident whose identity is preserved without assigning an unverified trade.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Studio-adapted neutral civilian identity with no profession or biography implied",
+    "Soft muted-sage cardigan over a cream shirt, charcoal trousers, rounded cream collar, exactly three muted-gold front buttons, cream piping, exactly two lower square pockets with rounded corners, dusty-blue cuff bands, white gloves, and cream shoes",
+    "No badge, emblem, insignia, uniform, apron, tool, device, book, occupational accessory, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One non-occupational identity token made from exactly three smooth unmarked square wooden tiles stacked in sage, cream, and dusty-blue order",
+  "expressions": ["neutral", "curious", "pleasantly surprised", "concerned", "warm smile"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

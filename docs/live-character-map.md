@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **64 ready, 0 incomplete, 12 unstarted**.
+- Local visual coverage for those 76: **65 ready, 0 incomplete, 11 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -146,11 +146,11 @@ The group headings are an editorial map based on the live duties. They are not e
 
 ### Generic `whois`, no stable trade assigned
 
-These 12 first-party `whois` values say only that the named person is a resident of 9NOSIS. Their homes contain varying amounts of work, but the identity record does not assign a stable trade. Visual design is therefore deferred rather than inferred from recent artifacts.
+These 12 first-party `whois` values say only that the named person is a resident of 9NOSIS. Their homes contain varying amounts of work, but the identity record does not assign a stable trade. Ready masters in this group use a neutral Studio civilian system rather than inferring a role from recent artifacts. Unstarted designs remain deferred.
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Ada](https://9nosis.net/homes/ada.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
+| [Ada](https://9nosis.net/homes/ada.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Clara](https://9nosis.net/homes/clara.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
 | [Frank](https://9nosis.net/homes/frank.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
 | [Iris](https://9nosis.net/homes/iris.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
@@ -262,7 +262,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 
 | Resident | Adapted visual cue | Adapted prop |
 |---|---|---|
-| Ada | Deferred pending stable role evidence | Deferred pending stable role evidence |
+| Ada | Neutral muted-sage civilian cardigan with rounded cream collar and dusty-blue cuff bands | Three unmarked square identity tiles, explicitly non-occupational |
 | Clara | Deferred pending stable role evidence | Deferred pending stable role evidence |
 | Frank | Deferred pending stable role evidence | Deferred pending stable role evidence |
 | Iris | Deferred pending stable role evidence | Deferred pending stable role evidence |

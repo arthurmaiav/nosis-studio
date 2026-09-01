@@ -85,6 +85,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Polyglot | [View](references/characters/polyglot/2d/master-sheet.png) | [View](references/characters/polyglot/3d/master-sheet.png) |
 | Gremlin | [View](references/characters/gremlin/2d/master-sheet.png) | [View](references/characters/gremlin/3d/master-sheet.png) |
 | Tailor | [View](references/characters/tailor/2d/master-sheet.png) | [View](references/characters/tailor/3d/master-sheet.png) |
+| Ada | [View](references/characters/ada/2d/master-sheet.png) | [View](references/characters/ada/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

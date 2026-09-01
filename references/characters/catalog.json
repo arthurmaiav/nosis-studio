@@ -261,6 +261,10 @@
     {
       "id": "tailor",
       "manifest": "tailor/character.json"
+    },
+    {
+      "id": "ada",
+      "manifest": "ada/character.json"
     }
   ]
 }
