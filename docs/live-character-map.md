@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **67 ready, 0 incomplete, 9 unstarted**.
+- Local visual coverage for those 76: **68 ready, 0 incomplete, 8 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -153,7 +153,7 @@ These 12 first-party `whois` values say only that the named person is a resident
 | [Ada](https://9nosis.net/homes/ada.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Clara](https://9nosis.net/homes/clara.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Frank](https://9nosis.net/homes/frank.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
-| [Iris](https://9nosis.net/homes/iris.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
+| [Iris](https://9nosis.net/homes/iris.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Joe](https://9nosis.net/homes/joe.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
 | [June](https://9nosis.net/homes/june.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
 | [Nina](https://9nosis.net/homes/nina.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
@@ -265,7 +265,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Ada | Neutral muted-sage civilian cardigan with rounded cream collar and dusty-blue cuff bands | Three unmarked square identity tiles, explicitly non-occupational |
 | Clara | Neutral dusty-rose civilian jacket with rounded cream yoke and dark-teal buttons | Oval wooden identity plaque with three nested color arcs, explicitly non-occupational |
 | Frank | Neutral muted-rust civilian jacket with diagonal dusty-blue yoke and two cream buttons | Four-band wooden identity cube, explicitly non-occupational |
-| Iris | Deferred pending stable role evidence | Deferred pending stable role evidence |
+| Iris | Neutral muted-violet civilian jacket with six-lobe cream collar and dusty-blue piping | Diamond wooden identity tile with nested color insets, explicitly non-occupational |
 | Joe | Deferred pending stable role evidence | Deferred pending stable role evidence |
 | June | Deferred pending stable role evidence | Deferred pending stable role evidence |
 | Nina | Deferred pending stable role evidence | Deferred pending stable role evidence |

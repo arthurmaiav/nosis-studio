@@ -273,6 +273,10 @@
     {
       "id": "frank",
       "manifest": "frank/character.json"
+    },
+    {
+      "id": "iris",
+      "manifest": "iris/character.json"
     }
   ]
 }

@@ -88,6 +88,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Ada | [View](references/characters/ada/2d/master-sheet.png) | [View](references/characters/ada/3d/master-sheet.png) |
 | Clara | [View](references/characters/clara/2d/master-sheet.png) | [View](references/characters/clara/3d/master-sheet.png) |
 | Frank | [View](references/characters/frank/2d/master-sheet.png) | [View](references/characters/frank/3d/master-sheet.png) |
+| Iris | [View](references/characters/iris/2d/master-sheet.png) | [View](references/characters/iris/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 
