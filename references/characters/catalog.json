@@ -121,6 +121,10 @@
     {
       "id": "supply",
       "manifest": "supply/character.json"
+    },
+    {
+      "id": "warden",
+      "manifest": "warden/character.json"
     }
   ]
 }

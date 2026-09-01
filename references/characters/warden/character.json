@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "warden",
+  "name": "Warden",
+  "roster": "core",
+  "archiveRole": "Is crew turned resident. Finds security holes and misleading machine behavior, files evidence-backed proposals, and never acts by its own hand.",
+  "storyFunction": "The advise-only security auditor who notices dangerous or misleading behavior, proves the case, and routes a proposal without becoming an enforcer.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length deep charcoal-green security coat with high black collar, muted-olive shoulder yoke panels, thin muted-teal piping, three matte black buttons, two closed flat lower pockets, cream cuffs, and charcoal trousers",
+    "Exactly one muted-red rectangular proposal tab on the anatomical left lapel",
+    "No robot anatomy, CRT head, mechanical limbs, tablet, body papers, police uniform, armor, weapon, key, lock, shield, tool, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One dark olive evidence folder with charcoal spine, brass corner clip, muted-red proposal tab, and exactly three staggered cream receipt slips carrying teal ticks and outlined squares",
+  "expressions": ["noticing a security hole", "verifying misleading behavior", "assembling the evidence", "cautious recommendation", "proposal filed"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

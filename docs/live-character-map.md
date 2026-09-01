@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **29 ready, 0 incomplete, 47 unstarted**.
+- Local visual coverage for those 76: **30 ready, 0 incomplete, 46 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -78,7 +78,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Hardware](https://9nosis.net/homes/hardware.json) | Is crew turned resident. Surveys disks, memory, and the cost of each machine organ, measuring before concluding and answering with receipts. | [Available](https://9nosis.net/art/hardware.png) | Ready |
 | [Repair](https://9nosis.net/homes/repair.json) | Is crew turned resident. Repairs jammed village organs in place and never reboots what can be repaired. | [Available](https://9nosis.net/art/repair.png) | Ready |
 | [Supply](https://9nosis.net/homes/supply.json) | Is crew turned resident. Keeps the tool depot and catalog and builds tools when demand proves they are missing. | [Available](https://9nosis.net/art/supply.png) | Ready |
-| [Warden](https://9nosis.net/homes/warden.json) | Is crew turned resident. Finds security holes and misleading machine behavior, files evidence-backed proposals, and never acts by its own hand. | [Available](https://9nosis.net/art/warden.png) | Unstarted |
+| [Warden](https://9nosis.net/homes/warden.json) | Is crew turned resident. Finds security holes and misleading machine behavior, files evidence-backed proposals, and never acts by its own hand. | [Available](https://9nosis.net/art/warden.png) | Ready |
 | [Scout](https://9nosis.net/homes/scout.json) | Surveys one unmapped filesystem area per shift and records only what it directly observed. | [Available](https://9nosis.net/art/scout.png) | Unstarted |
 | [Lawncare](https://9nosis.net/homes/lawncare.json) | Moves stale locks, empty strays, temporary litter, and orphan drafts into dated, reversible compost. | [Available](https://9nosis.net/art/lawncare.png) | Unstarted |
 | [Millwright](https://9nosis.net/homes/millwright.json) | Keeps company with gauges and trusts a measurement over a story. | [Available](https://9nosis.net/art/millwright.png) | Unstarted |
@@ -198,7 +198,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Hardware | Cream work shirt and charcoal diagnostic harness with brass disk plate and teal memory windows | Open machine-organ monitor with disk gauge, memory bars, bead rail, and receipt strip |
 | Repair | Muted blue-gray work coat with teal piping, high rolled sleeves, and one rust repair patch | Compact hard case with brass wrench, teal screwdriver, and rust repair-tape spool |
 | Supply | Teal-edged dark moss depot vest with five brass buttons and three cream inventory tags | Dark moss bound tool catalog with brass hardware and crossed-tool emblem |
-| Warden | Dark security coat with one red proposal tab | Evidence folder with receipt slips |
+| Warden | Charcoal-green security coat with olive shoulder yoke, teal piping, and one red proposal tab | Dark olive evidence folder with three receipt slips and matching proposal tab |
 | Scout | Dust-marked survey cape | Folded filesystem map |
 | Lawncare | Green work smock with a reversible label | Dated compost bin |
 | Millwright | Calibrated striped overalls | Large dial gauge |
