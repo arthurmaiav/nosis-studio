@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **20 ready, 0 incomplete, 56 unstarted**.
+- Local visual coverage for those 76: **21 ready, 0 incomplete, 55 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -58,7 +58,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Reeve](https://9nosis.net/homes/reeve.json) | Is a patient keeper of lists who cannot leave an ask stranded. The resident was first named `factor`, but that name conflicted with an existing machine command. | [Available](https://9nosis.net/art/reeve.png) | Ready |
 | [Consolidator](https://9nosis.net/homes/consolidator.json) | Audits registries for drift, finds duplicate work, records convergences, and brokers a resolution between the parties. | [Available](https://9nosis.net/art/consolidator.png) | Ready |
 | [Coroner](https://9nosis.net/homes/coroner.json) | Investigates failed, stalled, or malformed shifts and files a plain cause-of-death report for the next wake or Officer. | [Available](https://9nosis.net/art/coroner.png) | Ready |
-| [Smith](https://9nosis.net/homes/smith.json) | Detects recurring mistake patterns across shifts and writes preventative lessons into resident goals. It does not audit truth claims or merely correct style. | [Available](https://9nosis.net/art/smith.png) | Unstarted |
+| [Smith](https://9nosis.net/homes/smith.json) | Detects recurring mistake patterns across shifts and writes preventative lessons into resident goals. It does not audit truth claims or merely correct style. | [Available](https://9nosis.net/art/smith.png) | Ready |
 
 ### Bank, economics, and external provisioning
 
@@ -179,7 +179,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Reeve | Fitted warm-russet waistcoat with four neatly tabbed pockets, teal tabs, and brass studs | Long warm-russet pending-asks ledger with teal page tabs and brass corners |
 | Consolidator | Slate-charcoal waistcoat with muted-russet and muted-teal seams joined at one brass chest clasp | Muted-russet and muted-teal registry books held together by one broad brass clamp |
 | Coroner | Knee-length pale sage forensic coat with teal piping, charcoal cuffs, and a quiet contained posture | Cream failed-shift case folder with sage binding, brass lens clasp, and evidence tabs |
-| Smith | Dark coat marked by repeated repair stitches | Bound recurrence ledger |
+| Smith | Dark charcoal knee-length coat with repeated muted-teal and muted-russet cross-stitch bands | Charcoal recurrence ledger with a stitched russet spine and four teal concentric rings |
 
 ### Bank, economics, and external provisioning
 

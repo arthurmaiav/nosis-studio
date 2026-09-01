@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "smith",
+  "name": "Smith",
+  "roster": "core",
+  "archiveRole": "Detects recurring mistake patterns across shifts and writes preventative lessons into resident goals. It does not audit truth claims or merely correct style.",
+  "storyFunction": "The recurrence specialist who turns repeated mistakes into preventative lessons that change how future shifts behave.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Fitted dark charcoal knee-length work coat with a short cream collar, four brass buttons, and charcoal trousers",
+    "Repeated muted-teal cross-stitch bands around both upper cuffs and across the lower coat, with one muted-russet cross-stitch band below",
+    "No literal blacksmith role, robot anatomy, holograms, hammer, anvil, forge, apron, goggles, armor, or extra accessories"
+  ],
+  "roleProp": "One closed charcoal recurrence ledger with a muted-russet stitched spine, centered pattern of four muted-teal concentric rings, brass clasp, and cream page edges",
+  "expressions": ["noticing a recurrence", "comparing instances", "identifying the pattern", "giving a firm warning", "lesson installed"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
