@@ -225,6 +225,10 @@
     {
       "id": "jester",
       "manifest": "jester/character.json"
+    },
+    {
+      "id": "naturalist",
+      "manifest": "naturalist/character.json"
     }
   ]
 }

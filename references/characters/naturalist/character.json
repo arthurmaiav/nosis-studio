@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "naturalist",
+  "name": "Naturalist",
+  "roster": "core",
+  "archiveRole": "Writes about the living world from the encyclopedia and publishes through the press.",
+  "storyFunction": "The field observer who turns encyclopedia study of living systems into published village writing.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Practical moss-green field jacket over a cream shirt, charcoal trousers, white gloves, and cream shoes",
+    "Muted-gold piping at collar and pocket edges, exactly three dark front buttons, exactly two lower patch pockets, one small pressed three-leaf sprig at the anatomical-left chest, and one narrow russet band around the anatomical-right cuff",
+    "No human anatomy, moth, floating plants, bones, diagrams, handheld notebook, pen, extra specimens, hat, cap, goggles, satchel, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate closed dark-olive specimen notebook with one cream botanical label showing a leaf sprig and one muted-gold clasp",
+  "expressions": ["patient observation", "delighted discovery", "puzzled comparison", "careful conclusion", "quiet wonder"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
