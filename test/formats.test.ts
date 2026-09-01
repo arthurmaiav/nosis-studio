@@ -1,8 +1,9 @@
 import { describe, expect, test } from "bun:test";
-import { access, mkdtemp, readFile, rm } from "node:fs/promises";
+import { access, cp, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
-import { join, resolve } from "node:path";
+import { dirname, join, resolve } from "node:path";
 import { packageAdaptation } from "../src/adaptations/index.ts";
+import { CharacterManifestSchema } from "../src/characters/index.ts";
 import { projectRoot, studioDefaults } from "../src/config.ts";
 import { loadFormatCatalog } from "../src/formats/index.ts";
 
@@ -53,6 +54,28 @@ describe("formats", () => {
   test("blocks production only when the selected visual mode is missing", async () => {
     const outputRoot = await mkdtemp(join(tmpdir(), "nosis-adaptation-"));
     try {
+      const characterCatalogRoot = join(outputRoot, "characters");
+      await cp(dirname(studioDefaults.characterCatalogPath), characterCatalogRoot, {
+        recursive: true
+      });
+      const barkeepManifestPath = join(characterCatalogRoot, "barkeep/character.json");
+      const barkeepManifest = CharacterManifestSchema.parse(
+        JSON.parse(await readFile(barkeepManifestPath, "utf8"))
+      );
+      const threeDMaster = barkeepManifest.masters["3d"];
+      if (threeDMaster.status === "missing") {
+        throw new Error("Expected Barkeep's 3D fixture to exist");
+      }
+      barkeepManifest.masters["3d"] = {
+        ...threeDMaster,
+        status: "pending",
+        distribution: "local-only"
+      };
+      await writeFile(
+        barkeepManifestPath,
+        `${JSON.stringify(barkeepManifest, null, 2)}\n`,
+        "utf8"
+      );
       await expect(packageAdaptation({
         projectRoot,
         episodeSpecPath: resolve(
@@ -64,7 +87,7 @@ describe("formats", () => {
           studioDefaults.adaptationsDir,
           "the-village-voted-for-nobody/social-carousel/script.json"
         ),
-        characterCatalogPath: studioDefaults.characterCatalogPath,
+        characterCatalogPath: join(characterCatalogRoot, "catalog.json"),
         visualMode: "3d",
         outputRoot
       })).rejects.toThrow("Character barkeep has no approved 3d master sheet");

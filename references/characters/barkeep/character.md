@@ -17,6 +17,6 @@ One folded white polishing cloth with a thin muted teal stripe.
 ## Master sheets
 
 - 2D: approved.
-- 3D: missing.
+- 3D: approved.
 
-The approved 2D sheet is the identity source for the missing 3D counterpart. Both must follow the shared template and preserve the unaltered body, polishing cloth, and expression set: welcoming, knowing, skeptical, annoyed, deadpan.
+The approved 2D sheet is the identity source for the approved 3D counterpart. Both follow the shared template and preserve the unaltered body, polishing cloth, and expression set: welcoming, knowing, skeptical, annoyed, deadpan.

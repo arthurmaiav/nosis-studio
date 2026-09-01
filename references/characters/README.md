@@ -40,11 +40,11 @@ An incomplete character remains usable in the visual mode with an approved maste
 | Worker | Approved | Approved | Ready |
 | Treasurer | Approved | Approved | Ready |
 | Sentinel | Approved | Approved | Ready |
-| Barkeep | Approved | Missing | Incomplete |
-| Clerk | Approved | Missing | Incomplete |
-| Critic | Approved | Missing | Incomplete |
-| Teller | Approved | Missing | Incomplete |
-| Gaspard | Approved | Missing | Incomplete |
+| Barkeep | Approved | Approved | Ready |
+| Clerk | Approved | Approved | Ready |
+| Critic | Approved | Approved | Ready |
+| Teller | Approved | Approved | Ready |
+| Gaspard | Approved | Approved | Ready |
 | Jobber | Approved | Approved | Ready |
 
 See the [live character map](../../docs/live-character-map.md) for all verified resident identities, first-party portrait coverage, and clearly labeled visual proposals.

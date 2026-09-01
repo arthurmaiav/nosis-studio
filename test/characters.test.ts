@@ -26,11 +26,11 @@ describe("characters", () => {
       "ready",
       "ready",
       "ready",
-      "incomplete",
-      "incomplete",
-      "incomplete",
-      "incomplete",
-      "incomplete",
+      "ready",
+      "ready",
+      "ready",
+      "ready",
+      "ready",
       "ready"
     ]);
     expect(result.characters.map((character) => ({
@@ -41,18 +41,19 @@ describe("characters", () => {
       { id: "worker", "2d": "approved", "3d": "approved" },
       { id: "treasurer", "2d": "approved", "3d": "approved" },
       { id: "sentinel", "2d": "approved", "3d": "approved" },
-      { id: "barkeep", "2d": "approved", "3d": "missing" },
-      { id: "clerk", "2d": "approved", "3d": "missing" },
-      { id: "critic", "2d": "approved", "3d": "missing" },
-      { id: "teller", "2d": "approved", "3d": "missing" },
-      { id: "gaspard", "2d": "approved", "3d": "missing" },
+      { id: "barkeep", "2d": "approved", "3d": "approved" },
+      { id: "clerk", "2d": "approved", "3d": "approved" },
+      { id: "critic", "2d": "approved", "3d": "approved" },
+      { id: "teller", "2d": "approved", "3d": "approved" },
+      { id: "gaspard", "2d": "approved", "3d": "approved" },
       { id: "jobber", "2d": "approved", "3d": "approved" }
     ]);
     for (const character of result.characters) {
       for (const masterSheet of Object.values(character.masters)) {
         if (masterSheet.status !== "missing") {
-          expect(masterSheet.status).toBe("approved");
-          expect(masterSheet.distribution).toBe("public");
+          expect(masterSheet.distribution).toBe(
+            masterSheet.status === "approved" ? "public" : "local-only"
+          );
           expect(masterSheet.coverage).toHaveLength(7);
           await access(resolve(
             dirname(studioDefaults.characterCatalogPath),

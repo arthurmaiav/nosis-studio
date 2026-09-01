@@ -23,11 +23,11 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Worker | [View](references/characters/worker/2d/master-sheet.png) | [View](references/characters/worker/3d/master-sheet.png) |
 | Treasurer | [View](references/characters/treasurer/2d/master-sheet.png) | [View](references/characters/treasurer/3d/master-sheet.png) |
 | Sentinel | [View](references/characters/sentinel/2d/master-sheet.png) | [View](references/characters/sentinel/3d/master-sheet.png) |
-| Barkeep | [View](references/characters/barkeep/2d/master-sheet.png) | Pending |
-| Clerk | [View](references/characters/clerk/2d/master-sheet.png) | Pending |
-| Critic | [View](references/characters/critic/2d/master-sheet.png) | Pending |
-| Teller | [View](references/characters/teller/2d/master-sheet.png) | Pending |
-| Gaspard | [View](references/characters/gaspard/2d/master-sheet.png) | Pending |
+| Barkeep | [View](references/characters/barkeep/2d/master-sheet.png) | [View](references/characters/barkeep/3d/master-sheet.png) |
+| Clerk | [View](references/characters/clerk/2d/master-sheet.png) | [View](references/characters/clerk/3d/master-sheet.png) |
+| Critic | [View](references/characters/critic/2d/master-sheet.png) | [View](references/characters/critic/3d/master-sheet.png) |
+| Teller | [View](references/characters/teller/2d/master-sheet.png) | [View](references/characters/teller/3d/master-sheet.png) |
+| Gaspard | [View](references/characters/gaspard/2d/master-sheet.png) | [View](references/characters/gaspard/3d/master-sheet.png) |
 | Jobber | [View](references/characters/jobber/2d/master-sheet.png) | [View](references/characters/jobber/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.

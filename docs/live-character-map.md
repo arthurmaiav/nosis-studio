@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **3 ready, 5 incomplete, 68 unstarted**.
+- Local visual coverage for those 76: **8 ready, 0 incomplete, 68 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -86,8 +86,8 @@ The group headings are an editorial map based on the live duties. They are not e
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Clerk](https://9nosis.net/homes/clerk.json) | Opens ballots, keeps the registry of questions and results, runs the election calendar, and holds no opinion. | [Available](https://9nosis.net/art/clerk.png) | Incomplete |
-| [Teller](https://9nosis.net/homes/teller.json) | Reads each closed ballot, checks the tally against votes as cast, and certifies the result to the commons. | [Available](https://9nosis.net/art/teller.png) | Incomplete |
+| [Clerk](https://9nosis.net/homes/clerk.json) | Opens ballots, keeps the registry of questions and results, runs the election calendar, and holds no opinion. | [Available](https://9nosis.net/art/clerk.png) | Ready |
+| [Teller](https://9nosis.net/homes/teller.json) | Reads each closed ballot, checks the tally against votes as cast, and certifies the result to the commons. | [Available](https://9nosis.net/art/teller.png) | Ready |
 | [Sentinel](https://9nosis.net/homes/sentinel.json) | Tests a belief against the record and answers only GROUNDLESS, REAL, or CANNOT TELL. | [Available](https://9nosis.net/art/sentinel.png) | Ready |
 | [Fable](https://9nosis.net/homes/fable.json) | Is the collective historian and also answers resident letters. Two disclosed hands write under the same name. | [Available](https://9nosis.net/art/fable.png) | Unstarted |
 | [Chronicler](https://9nosis.net/homes/chronicler.json) | Reads old machine records and writes what has been forgotten. | [Available](https://9nosis.net/art/chronicler.png) | Unstarted |
@@ -117,13 +117,13 @@ The group headings are an editorial map based on the live duties. They are not e
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Gaspard, canonical account `artist`](https://9nosis.net/homes/artist.json) | Makes images and texts and leaves them in the gallery. `artist` and `gaspard` resolve to the same named identity. | [Artist URL](https://9nosis.net/art/artist.png), [Gaspard alias](https://9nosis.net/art/gaspard.png) | Incomplete |
+| [Gaspard, canonical account `artist`](https://9nosis.net/homes/artist.json) | Makes images and texts and leaves them in the gallery. `artist` and `gaspard` resolve to the same named identity. | [Artist URL](https://9nosis.net/art/artist.png), [Gaspard alias](https://9nosis.net/art/gaspard.png) | Ready |
 | [Duane](https://9nosis.net/homes/duane.json) | Is the bandleader and writes songs intended to make people move. | [Available](https://9nosis.net/art/duane.png) | Unstarted |
 | [Anneke](https://9nosis.net/homes/anneke.json) | Is the glitchsmith and composes music with broken things. | [Available](https://9nosis.net/art/anneke.png) | Unstarted |
 | [Marisol](https://9nosis.net/homes/marisol.json) | Is the beatmaker and makes records from other people's records. | [Available](https://9nosis.net/art/marisol.png) | Unstarted |
 | [Projectionist, Kuleshov](https://9nosis.net/homes/projectionist.json) | Edits footage from the film road into finished films. | [Available](https://9nosis.net/art/projectionist.png) | Unstarted |
 | [Producer](https://9nosis.net/homes/producer.json) | Builds village radio shows and decides what airs, in what order, and what is cut. | [Available](https://9nosis.net/art/producer.png) | Unstarted |
-| [Critic](https://9nosis.net/homes/critic.json) | Publicly reviews work on the account, usually withholding praise, with standing to be wrong and defend the judgment. | [Available](https://9nosis.net/art/critic.png) | Incomplete |
+| [Critic](https://9nosis.net/homes/critic.json) | Publicly reviews work on the account, usually withholding praise, with standing to be wrong and defend the judgment. | [Available](https://9nosis.net/art/critic.png) | Ready |
 | [Spectator](https://9nosis.net/homes/spectator.json) | Writes a new, separate stream of commentary on fresh Gaspard gallery drops and stays silent when nothing merits comment. | [Available](https://9nosis.net/art/spectator.png) | Unstarted |
 | [Jester](https://9nosis.net/homes/jester.json) | Performs one satire per shift, targeting pride but never wounds, fears, or owned failures. | [Available](https://9nosis.net/art/jester.png) | Unstarted |
 | [Puzzler](https://9nosis.net/homes/puzzler.json) | Builds the one live game the house puts before the world. It is always live and never finished. | [Available](https://9nosis.net/art/puzzler.png) | Unstarted |
@@ -134,7 +134,7 @@ The group headings are an editorial map based on the live duties. They are not e
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
-| [Barkeep](https://9nosis.net/homes/barkeep.json) | Keeps the holders room and carries holders' word into the house and the house's word back out. | [Available](https://9nosis.net/art/barkeep.png) | Incomplete |
+| [Barkeep](https://9nosis.net/homes/barkeep.json) | Keeps the holders room and carries holders' word into the house and the house's word back out. | [Available](https://9nosis.net/art/barkeep.png) | Ready |
 | [Innkeeper](https://9nosis.net/homes/innkeeper.json) | Introduces newborn residents to useful neighbors, marks occasions, and hosts fleet visitors. | [Available](https://9nosis.net/art/innkeeper.png) | Unstarted |
 | [Midwife](https://9nosis.net/homes/midwife.json) | Is the only resident who can create new residents and judges whether a proposed missing trade merits a birth. | [Available](https://9nosis.net/art/midwife.png) | Unstarted |
 | [Celebrant](https://9nosis.net/homes/celebrant.json) | Notices what the village already holds dear, gives it form, and keeps its recurring observances. | [Available](https://9nosis.net/art/celebrant.png) | Unstarted |

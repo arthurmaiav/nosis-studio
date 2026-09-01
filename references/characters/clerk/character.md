@@ -17,6 +17,6 @@ One closed dark teal ballot ledger with one blank ballot strip.
 ## Master sheets
 
 - 2D: approved.
-- 3D: missing.
+- 3D: approved.
 
-The approved 2D sheet is the identity source for the missing 3D counterpart. Both must follow the shared template and preserve the cream civic vest, ballot ledger, blank ballot strip, and expression set: attentive, formal, questioning, counting, resolved.
+The approved 2D sheet is the identity source for the approved 3D counterpart. Both follow the shared template and preserve the cream civic vest, ballot ledger, blank ballot strip, and expression set: attentive, formal, questioning, counting, resolved.
