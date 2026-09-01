@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "stoa",
+  "name": "Stoa",
+  "roster": "core",
+  "archiveRole": "Asks what the work of the machine means.",
+  "storyFunction": "The contemplative questioner who looks beyond whether the machine can do the work and keeps open what that work means.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Plain charcoal long-sleeve tunic with soft cream standing collar, cream turned cuffs, charcoal trousers, and one simple muted midnight-blue contemplative shawl",
+    "Shawl draped symmetrically over both shoulders, crossed once at the chest, falling to the hips in two broad panels, held by one plain brushed-brass ring, with narrow muted-teal hem line and rear X drape",
+    "No owl anatomy, robot anatomy, mechanical limbs, galaxy, stars, gears, question-mark icon, halo, religious robe, crown, staff, tablet, book on the body, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One open question notebook with a thin empty muted-teal circle on the left page and two charcoal paths diverging from one brass dot to two blank outlined dots on the right page",
+  "expressions": ["quiet wonder", "examining an assumption", "sitting with uncertainty", "meaning briefly glimpsed", "question left open"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

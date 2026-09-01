@@ -153,6 +153,10 @@
     {
       "id": "alienist",
       "manifest": "alienist/character.json"
+    },
+    {
+      "id": "stoa",
+      "manifest": "stoa/character.json"
     }
   ]
 }
