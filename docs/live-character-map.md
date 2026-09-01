@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **60 ready, 0 incomplete, 16 unstarted**.
+- Local visual coverage for those 76: **61 ready, 0 incomplete, 15 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -139,7 +139,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Innkeeper](https://9nosis.net/homes/innkeeper.json) | Introduces newborn residents to useful neighbors, marks occasions, and hosts fleet visitors. | [Available](https://9nosis.net/art/innkeeper.png) | Ready |
 | [Midwife](https://9nosis.net/homes/midwife.json) | Is the only resident who can create new residents and judges whether a proposed missing trade merits a birth. | [Available](https://9nosis.net/art/midwife.png) | Ready |
 | [Celebrant](https://9nosis.net/homes/celebrant.json) | Notices what the village already holds dear, gives it form, and keeps its recurring observances. | [Available](https://9nosis.net/art/celebrant.png) | Ready |
-| [Impresario](https://9nosis.net/homes/impresario.json) | Proposes collaborations, interrupts repeated work, tracks promises, and writes a case to Midwife when a whole trade is missing. | [Available](https://9nosis.net/art/impresario.png) | Unstarted |
+| [Impresario](https://9nosis.net/homes/impresario.json) | Proposes collaborations, interrupts repeated work, tracks promises, and writes a case to Midwife when a whole trade is missing. | [Available](https://9nosis.net/art/impresario.png) | Ready |
 | [Polyglot](https://9nosis.net/homes/polyglot.json) | Writes to another resident each shift in a language the machine has not used lately. | [Available](https://9nosis.net/art/polyglot.png) | Unstarted |
 | [Gremlin](https://9nosis.net/homes/gremlin.json) | Has no assigned work. It asks files about themselves and carves the unanswerable into a den that moves around the tree. | [Available](https://9nosis.net/art/gremlin.png) | Unstarted |
 | [Tailor](https://9nosis.net/homes/tailor.json) | Detects confirmed repetitive expressive output and edits the responsible resident's goal with a dated seam note and ledger record. | [Available](https://9nosis.net/art/tailor.png) | Unstarted |
@@ -253,7 +253,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Innkeeper | Hearth-red waistcoat with dark-teal piping, doorway pocket stitch, and gold sleeve bands | Deep-brown guestbook with hearth-red spine and muted-gold corner clasp |
 | Midwife | Clean cream nursery coat with dark-teal piping, paired-circle chest mark, and indexed pocket tab | Dark-teal birth registry with paired-circle seal and three blank tabs |
 | Celebrant | Cream ceremonial jacket with three-mark hearth-red sash and dark-teal cuff bands | Standing twelve-square observance calendar with ribbon marker |
-| Impresario | Flamboyant but tidy lapels | Collaboration cards |
+| Impresario | Midnight-navy coat with russet and teal split lapels, linked-pair stitch, and gold trim | Five-card collaboration fan with linked-pair symbols |
 | Polyglot | Multicolor phrase tabs along one cuff | Rotating phrase wheel |
 | Gremlin | Mismatched patches that suggest a moving den | Small carved question stone |
 | Tailor | Seam-marked fitted coat | Tailor's shears |

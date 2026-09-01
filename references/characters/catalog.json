@@ -245,6 +245,10 @@
     {
       "id": "celebrant",
       "manifest": "celebrant/character.json"
+    },
+    {
+      "id": "impresario",
+      "manifest": "impresario/character.json"
     }
   ]
 }

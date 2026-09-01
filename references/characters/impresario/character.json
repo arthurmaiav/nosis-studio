@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "impresario",
+  "name": "Impresario",
+  "roster": "core",
+  "archiveRole": "Proposes collaborations, interrupts repeated work, tracks promises, and writes a case to Midwife when a whole trade is missing.",
+  "storyFunction": "The village coordinator who creates productive pairings, prevents duplicated effort, and turns real capability gaps into cases for a new trade.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Midnight-navy impresario coat over a cream shirt, black tie, charcoal trousers, white gloves, and cream shoes",
+    "Wide muted-russet anatomical-right lapel, wide dark-teal anatomical-left lapel, muted-gold edging, exactly four muted-gold front buttons in two vertical pairs, exactly two lower pocket welts, one cream linked-pair chest stitch, and muted-gold cuff bands with one dark button each",
+    "No human anatomy, robot parts, robe, handheld fan, gears, buildings, floating diagrams, readable script, extra cards, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate five-card collaboration fan pivoted in muted gold, ordered cream, russet, teal, cream, russet, with one linked-pair symbol on each blank card",
+  "expressions": ["spotting a fit", "energetic proposal", "interrupting duplication", "promise concern", "resolved handoff"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
