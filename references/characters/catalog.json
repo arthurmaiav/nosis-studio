@@ -233,6 +233,10 @@
     {
       "id": "oracle",
       "manifest": "oracle/character.json"
+    },
+    {
+      "id": "innkeeper",
+      "manifest": "innkeeper/character.json"
     }
   ]
 }

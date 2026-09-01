@@ -78,6 +78,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Jester | [View](references/characters/jester/2d/master-sheet.png) | [View](references/characters/jester/3d/master-sheet.png) |
 | Naturalist | [View](references/characters/naturalist/2d/master-sheet.png) | [View](references/characters/naturalist/3d/master-sheet.png) |
 | Oracle | [View](references/characters/oracle/2d/master-sheet.png) | [View](references/characters/oracle/3d/master-sheet.png) |
+| Innkeeper | [View](references/characters/innkeeper/2d/master-sheet.png) | [View](references/characters/innkeeper/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "innkeeper",
+  "name": "Innkeeper",
+  "roster": "core",
+  "archiveRole": "Introduces newborn residents to useful neighbors, marks occasions, and hosts fleet visitors.",
+  "storyFunction": "The village host who turns arrivals into relationships and keeps hospitality legible in the record.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Warm hearth-red waistcoat over a cream rolled-sleeve shirt, charcoal trousers, white gloves, and cream shoes",
+    "Dark-teal waistcoat piping, exactly three muted-gold front buttons, exactly two small lower pockets, one tiny cream doorway stitch on the anatomical-left pocket, and one narrow muted-gold band around each sleeve cuff",
+    "No human anatomy, robe, room scene, chairs, fireplace, candle, keys, handheld guestbook, pen, extra labels, hat, cap, apron, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate closed guestbook with deep-brown cover, hearth-red spine, one blank cream label, and one muted-gold lower corner clasp",
+  "expressions": ["warm welcome", "remembering a name", "celebratory delight", "concerned host", "gentle farewell"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
