@@ -30,12 +30,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Gaspard | [View](references/characters/gaspard/2d/master-sheet.png) | Pending |
 | Jobber | [View](references/characters/jobber/2d/master-sheet.png) | [View](references/characters/jobber/3d/master-sheet.png) |
 
-<details>
-<summary>38 archive characters pending</summary>
-
-Ambassador, Analyst, Artist, Chronicler, Consolidator, Coroner, Correspondent, Courier, Fable, Flattest, Foreman, Gremlin, Herald, Impresario, Innkeeper, Jester, Lawncare, Librarian, Midwife, Millwright, Naturalist, Officer, Oracle, Outfitter, Polyglot, Projectionist, Prospector, Puzzler, Reckoner, Reeve, Reporter, Scout, Sojourner, Steward, Stringer, Tailor, Translator, and Typesetter.
-
-</details>
+The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 
 ## Getting started
 

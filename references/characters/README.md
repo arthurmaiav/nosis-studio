@@ -47,6 +47,8 @@ An incomplete character remains usable in the visual mode with an approved maste
 | Gaspard | Approved | Missing | Incomplete |
 | Jobber | Approved | Approved | Ready |
 
+See the [live character map](../../docs/live-character-map.md) for all verified resident identities, first-party portrait coverage, and clearly labeled visual proposals.
+
 Run `bun run studio characters` for the current machine-readable report.
 
 ## Production rules
