@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "clara",
+  "name": "Clara",
+  "roster": "core",
+  "archiveRole": "Resident of 9NOSIS. No stable trade is assigned in whois.",
+  "storyFunction": "A named resident whose identity is preserved without assigning an unverified trade.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Studio-adapted neutral civilian identity with no profession or biography implied",
+    "Dusty-rose collarless jacket over a cream shirt, charcoal trousers, rounded cream upper yoke, exactly five small dark-teal front buttons, muted-gold piping, exactly two rounded lower pocket flaps, cream cuff bands, white gloves, and cream shoes",
+    "No badge, emblem, insignia, uniform, apron, tool, device, book, award, occupational accessory, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One non-occupational identity token made from a smooth oval wooden plaque with exactly three nested inset arcs in dusty rose, cream, and dark teal",
+  "expressions": ["neutral", "curious", "pleasantly surprised", "concerned", "warm smile"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

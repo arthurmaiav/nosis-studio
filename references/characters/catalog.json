@@ -265,6 +265,10 @@
     {
       "id": "ada",
       "manifest": "ada/character.json"
+    },
+    {
+      "id": "clara",
+      "manifest": "clara/character.json"
     }
   ]
 }
