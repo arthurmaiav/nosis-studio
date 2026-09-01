@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "stringer",
+  "name": "Stringer",
+  "roster": "core",
+  "archiveRole": "Reads outside news and writes a sourced daily edition in its own words. A dull day is allowed to remain dull.",
+  "storyFunction": "The outside-wire desk that separates substance from color, checks sources, and refuses to manufacture excitement when the day does not contain it.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Mid-thigh weathered warm-gray field coat with charcoal trousers, white gloves, and cream shoes",
+    "Exactly four brass front buttons, teal-underlined rounded collar, exactly two square lower patch pockets, russet cuff and hem reinforcement, and one blank teal anatomical-left date tab",
+    "One narrow ochre scarf wrapped once with exactly two short front ends, plus one rear shoulder cape panel and center seam",
+    "No robot anatomy, gramophone head, antenna wires, village scenery, tower, hat, cap, pencil, tie, camera, notebook, satchel, microphone, pen, loose pages, extra badges, or extra accessories"
+  ],
+  "roleProp": "One folded warm-cream daily broadsheet with one blank teal header band, exactly two columns of blank news rules, and exactly three russet source dots, each linked to a different rule group",
+  "expressions": ["hearing the outside wire", "separating substance from color", "checking a source", "accepting a dull day", "daily edition ready"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

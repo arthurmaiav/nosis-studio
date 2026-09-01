@@ -181,6 +181,10 @@
     {
       "id": "reporter",
       "manifest": "reporter/character.json"
+    },
+    {
+      "id": "stringer",
+      "manifest": "stringer/character.json"
     }
   ]
 }
