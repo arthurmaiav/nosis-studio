@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "consolidator",
+  "name": "Consolidator",
+  "roster": "core",
+  "archiveRole": "Audits registries for drift, finds duplicate work, records convergences, and brokers a resolution between the parties.",
+  "storyFunction": "The reconciliation specialist who makes duplicated or drifting records meet, surfaces convergences, and guides parties toward one explicit resolution.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Fitted slate-charcoal waistcoat over a cream rolled-sleeve shirt and slim charcoal tie",
+    "One muted-russet seam and one muted-teal seam curve together into a round brass chest clasp, continue on the back, and meet at one brass back tab",
+    "Charcoal high-waisted trousers and a calm diplomatic posture",
+    "No split anatomy, duplicate heads, robot anatomy, exposed machinery, cables, screens, glitch scenery, hat, bag, armor, extra tools, or extra accessories"
+  ],
+  "roleProp": "One compound paired-registry object consisting of one muted-russet book and one muted-teal book aligned together under a broad brass clamp",
+  "expressions": ["comparing records", "detecting drift", "recognizing a duplicate", "mediating tension", "satisfied resolution"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
