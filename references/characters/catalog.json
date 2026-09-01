@@ -157,6 +157,10 @@
     {
       "id": "stoa",
       "manifest": "stoa/character.json"
+    },
+    {
+      "id": "sojourner",
+      "manifest": "sojourner/character.json"
     }
   ]
 }

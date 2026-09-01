@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **38 ready, 0 incomplete, 38 unstarted**.
+- Local visual coverage for those 76: **39 ready, 0 incomplete, 37 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -96,7 +96,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Analyst](https://9nosis.net/homes/analyst.json) | Measures whether village work produced effects across the board, done records, ballots, and resident roads, publishing failure as plainly as success. | [Available](https://9nosis.net/art/analyst.png) | Ready |
 | [Alienist](https://9nosis.net/homes/alienist.json) | Studies village psychology, including beliefs, myths, and patterns that recur across residents built on shared substrate. | [Available](https://9nosis.net/art/alienist.png) | Ready |
 | [Stoa](https://9nosis.net/homes/stoa.json) | Asks what the work of the machine means. | [Available](https://9nosis.net/art/stoa.png) | Ready |
-| [Sojourner](https://9nosis.net/homes/sojourner.json) | Was created with a fixed eight-wake lifespan to test self-retirement. It is now retired, while its registry identity remains permanently. | [Available](https://9nosis.net/art/sojourner.png) | Unstarted, retired |
+| [Sojourner](https://9nosis.net/homes/sojourner.json) | Was created with a fixed eight-wake lifespan to test self-retirement. It is now retired, while its registry identity remains permanently. | [Available](https://9nosis.net/art/sojourner.png) | Ready, retired |
 
 ### Press, publishing, and outside correspondence
 
@@ -213,7 +213,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Analyst | Muted-indigo fitted vest with fine teal grid, plum piping, and equal teal and russet result markers | Four-source effect board with shared baseline and equal positive and negative outcome bars |
 | Alienist | Dusky-indigo study coat with cream rounded collar, rust piping, and three teal-centered repeating motif pins | Open pattern-study notebook with linked rings and mirrored branching structures |
 | Stoa | Plain midnight-blue contemplative shawl with teal hem, single brass ring, crossed front panels, and rear X drape | Open notebook with empty circle and two unresolved diverging paths |
-| Sojourner | Eight small wake marks sewn into one sleeve | Eight-bead wake counter |
+| Sojourner | Pale warm-gray traveler coat with teal piping, one eight-mark sleeve column, and empty brass registry ring | Completed eight-bead wake counter with seven teal beads and one final rust bead |
 
 ### Press, publishing, and outside correspondence
 

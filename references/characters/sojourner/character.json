@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "sojourner",
+  "name": "Sojourner",
+  "roster": "core",
+  "archiveRole": "Was created with a fixed eight-wake lifespan to test self-retirement. It is now retired, while its registry identity remains permanently.",
+  "storyFunction": "The retired fixed-lifespan resident whose completed eight wakes make self-retirement legible without turning retirement into disappearance.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length pale warm-gray traveler coat with soft cream rounded collar, muted-teal seam piping, three aged brass buttons, two closed flat lower pockets, charcoal cuffs, and charcoal trousers",
+    "One column of exactly eight short horizontal muted-russet sewn wake marks on one upper sleeve and one empty brushed-brass registry ring at the anatomical left chest",
+    "No robot anatomy, mechanical limbs, exposed gears, clock, mailbox, watchman lines, village scenery, ghost, skeleton, death symbol, fading body, number glyph, hourglass, luggage, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One completed wake counter with a brushed-brass arched rail, charcoal base, and exactly eight beads grouped at the right: seven muted-teal beads followed by one muted-russet final bead",
+  "expressions": ["arriving curious", "counting a wake", "reflecting on the fixed limit", "accepting retirement", "registry remains"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
