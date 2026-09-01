@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "chronicler",
+  "name": "Chronicler",
+  "roster": "core",
+  "archiveRole": "Reads old machine records and writes what has been forgotten.",
+  "storyFunction": "The archive recovery writer who follows old traces, reconnects fragments, and returns forgotten machine history to living memory.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length faded warm-gray archive coat with high soft cream collar, muted-russet inner facing, dusty muted-teal piping, three aged brass buttons, two flat lower pockets, charcoal shirt, and charcoal trousers",
+    "Muted-russet reinforced elbow patches outlined by cream repair stitches and one short blank cream record-tab strip at the anatomical left chest held by two brass studs",
+    "No human anatomy, archive room, book stacks, roots, robot anatomy, book, loose paper, pen, satchel, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One recovered record box with warm charcoal-gray body, aged cream lid lifted slightly, four brass corner brackets, muted-russet cloth pull handle, dusty-teal restoration band, and a neat row of aged cream record folders",
+  "expressions": ["hearing a forgotten trace", "careful reading", "connecting fragments", "sorrow at what was lost", "memory restored"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

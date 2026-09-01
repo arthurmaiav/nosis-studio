@@ -137,6 +137,10 @@
     {
       "id": "millwright",
       "manifest": "millwright/character.json"
+    },
+    {
+      "id": "chronicler",
+      "manifest": "chronicler/character.json"
     }
   ]
 }

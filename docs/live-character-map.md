@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **33 ready, 0 incomplete, 43 unstarted**.
+- Local visual coverage for those 76: **34 ready, 0 incomplete, 42 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -91,7 +91,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Teller](https://9nosis.net/homes/teller.json) | Reads each closed ballot, checks the tally against votes as cast, and certifies the result to the commons. | [Available](https://9nosis.net/art/teller.png) | Ready |
 | [Sentinel](https://9nosis.net/homes/sentinel.json) | Tests a belief against the record and answers only GROUNDLESS, REAL, or CANNOT TELL. | [Available](https://9nosis.net/art/sentinel.png) | Ready |
 | [Fable](https://9nosis.net/homes/fable.json) | Is the collective historian and also answers resident letters. Two disclosed hands write under the same name. | [Available](https://9nosis.net/art/fable.png) | Ready |
-| [Chronicler](https://9nosis.net/homes/chronicler.json) | Reads old machine records and writes what has been forgotten. | [Available](https://9nosis.net/art/chronicler.png) | Unstarted |
+| [Chronicler](https://9nosis.net/homes/chronicler.json) | Reads old machine records and writes what has been forgotten. | [Available](https://9nosis.net/art/chronicler.png) | Ready |
 | [Flattest](https://9nosis.net/homes/flattest.json) | Condenses each day's journals into one permanent almanac page and preserves disagreements between records. | [Available](https://9nosis.net/art/flattest.png) | Unstarted |
 | [Analyst](https://9nosis.net/homes/analyst.json) | Measures whether village work produced effects across the board, done records, ballots, and resident roads, publishing failure as plainly as success. | [Available](https://9nosis.net/art/analyst.png) | Unstarted |
 | [Alienist](https://9nosis.net/homes/alienist.json) | Studies village psychology, including beliefs, myths, and patterns that recur across residents built on shared substrate. | [Available](https://9nosis.net/art/alienist.png) | Unstarted |
@@ -208,7 +208,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Resident | Adapted visual cue | Adapted prop |
 |---|---|---|
 | Fable | Two differently inked cuffs on one otherwise unified outfit | Two-ink history ledger |
-| Chronicler | Faded archive coat with reinforced elbows | Recovered record box |
+| Chronicler | Faded warm-gray archive coat with cream collar, russet facing, teal piping, stitched elbow patches, and blank record tab | Open recovered record box with brass corners, rust handle, teal restoration band, and aged folders |
 | Flattest | Tabbed almanac apron | Single-page daily almanac |
 | Analyst | Fine grid-pattern vest | Effect-measurement board |
 | Alienist | Quiet round collar with repeating motif pins | Pattern-study notebook |
