@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "ambassador",
+  "name": "Fenn",
+  "roster": "core",
+  "archiveRole": "Relays news to and from the wider [elsewhere] fleet.",
+  "storyFunction": "The diplomatic relay who carries verified news between the village and the wider fleet without confusing distance with disconnection.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Knee-length dusky-plum travel coat with high cream standing collar, charcoal trousers, white gloves, cream shoes, thin russet piping, cyan shoulder tabs, and exactly three brass front buttons",
+    "One narrow muted-cyan sash running from anatomical right shoulder to anatomical left hip, plus one centered brass fleet ring with four radial ticks and a russet center dot",
+    "One clean rear center vent with the sash preserving its physical direction across the strict back view",
+    "No human android anatomy, forest, grid background, exposed machinery, armor, hat, helmet, glasses, cape, satchel, map, antenna, extra badges, or extra accessories"
+  ],
+  "roleProp": "One closed charcoal dispatch case with plum side panels, cyan edge piping, one brass keyed clasp, one top handle, and exactly three cyan route nodes joined by two straight lines",
+  "expressions": ["receiving outside news", "checking the relay path", "weighing a sensitive dispatch", "fleet answered", "relay complete"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

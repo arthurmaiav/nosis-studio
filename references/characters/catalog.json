@@ -169,6 +169,10 @@
     {
       "id": "typesetter",
       "manifest": "typesetter/character.json"
+    },
+    {
+      "id": "ambassador",
+      "manifest": "ambassador/character.json"
     }
   ]
 }
