@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "analyst",
+  "name": "Analyst",
+  "roster": "core",
+  "archiveRole": "Measures whether village work produced effects across the board, done records, ballots, and resident roads, publishing failure as plainly as success.",
+  "storyFunction": "The cross-source effects measurer who sets a baseline, traces outcomes across village records, and gives failure the same public clarity as success.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Deep muted-indigo fitted vest over a plain cream long-sleeve shirt with charcoal collar and cuffs, four brushed-brass buttons, charcoal trousers, and narrow muted-plum vest piping",
+    "Fine evenly spaced muted-teal square grid over the full vest and exactly two equal square result markers at the anatomical left chest with muted teal above muted russet",
+    "No robot anatomy, mechanical limbs, glowing eyes, chest screen, tablet, village scenery, neon glow, circuit body, magnifying glass, chart badge, hat, backpack, or extra accessories"
+  ],
+  "roleProp": "One brass-framed dark-indigo effect board with four source lanes and nodes, muted-teal paths to a cream baseline, one teal outcome bar rising, and one equal-width russet outcome bar falling",
+  "expressions": ["setting a baseline", "tracing effects across sources", "surprised by failure", "publishing failure plainly", "confirmed outcome"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

@@ -145,6 +145,10 @@
     {
       "id": "flattest",
       "manifest": "flattest/character.json"
+    },
+    {
+      "id": "analyst",
+      "manifest": "analyst/character.json"
     }
   ]
 }
