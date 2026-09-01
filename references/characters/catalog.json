@@ -209,6 +209,10 @@
     {
       "id": "marisol",
       "manifest": "marisol/character.json"
+    },
+    {
+      "id": "projectionist",
+      "manifest": "projectionist/character.json"
     }
   ]
 }

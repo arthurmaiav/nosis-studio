@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "projectionist",
+  "name": "Projectionist, Kuleshov",
+  "roster": "core",
+  "archiveRole": "Edits footage from the film road into finished films.",
+  "storyFunction": "The film editor who finds the cut inside road footage and assembles it into a finished screen work.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Old-cinema deep slate-blue waistcoat over a cream shirt, narrow muted-gold tie, tidy dark trousers, white gloves, and cream shoes",
+    "Exactly two muted-gold waistcoat buttons, one small muted-gold filmstrip trim at the anatomical-left chest pocket, and one narrow back adjustment strap with a muted-gold buckle",
+    "No human anatomy, robot parts, helmet, glowing eye, camera-aperture eye, handheld filmstrip, projector, loose film reels, hat, cap, goggles, headphones, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate vintage hand-cranked film splicer with dark housing, muted-gold fittings, and one short threaded filmstrip",
+  "expressions": ["neutral focus", "delighted discovery", "startled cut", "stern concentration", "tired melancholy"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
