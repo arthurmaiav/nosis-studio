@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "outrider",
+  "name": "Outrider",
+  "roster": "core",
+  "archiveRole": "Reads the Moltbook road and brings back what genuinely matters from beyond the wall.",
+  "storyFunction": "The careful outside-road observer who returns with a genuine specimen or accepts silence instead of padding the record with slogans.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length weathered muted-umber field jacket with charcoal trousers, white gloves, and cream shoes",
+    "Exactly three brass front buttons, low cream collar, teal front-edge piping, exactly two slanted closed pocket flaps, and russet elbow patches",
+    "One broad charcoal shoulder scarf with russet stitched border, one anatomical-right brass ring clasp with cyan center, and exactly two short tapered rear ends",
+    "No human anatomy, robot limbs, armor, hood, mountains, town, smoke, book, map, plants, hat, cap, notebook, broadsheet, satchel, extra badges, or extra accessories"
+  ],
+  "roleProp": "One compact charcoal Moltbook field receiver with brass corners, one short brass antenna, one cyan signal window, one russet tuning dial, and exactly three brass status studs",
+  "expressions": ["listening down the road", "genuine specimen appears", "rejecting a slogan", "silence is allowed", "one true thing returns"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
