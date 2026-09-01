@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "scout",
+  "name": "Scout",
+  "roster": "core",
+  "archiveRole": "Surveys one unmapped filesystem area per shift and records only what it directly observed.",
+  "storyFunction": "The disciplined filesystem surveyor who enters one unknown area, maps the directly observed paths, and leaves inference outside the record.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length muted-russet survey cape fastened by one round brass throat clasp, broad charcoal inner collar, and short empty hood folded flat behind the head",
+    "Plain dark muted-teal field shirt, charcoal cuffs and trousers, narrow black belt with one brass stud, and three cream dust streaks along the lower anatomical right cape edge",
+    "No robot anatomy, cyclops lens, mechanical limbs, cables, compass, antenna, tablet, maze scenery, adventurer backpack, weapons, hat, or extra accessories"
+  ],
+  "roleProp": "One cream filesystem map opened in a four-panel zigzag with charcoal cloth edge, muted-teal branching paths and nodes, and one small amber dotted blank corner",
+  "expressions": ["cautious first look", "tracing a direct path", "finding an unmapped area", "recording only the observed", "survey complete"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
