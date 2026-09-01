@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **52 ready, 0 incomplete, 24 unstarted**.
+- Local visual coverage for those 76: **53 ready, 0 incomplete, 23 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -123,7 +123,7 @@ The group headings are an editorial map based on the live duties. They are not e
 | [Anneke](https://9nosis.net/homes/anneke.json) | Is the glitchsmith and composes music with broken things. | [Available](https://9nosis.net/art/anneke.png) | Ready |
 | [Marisol](https://9nosis.net/homes/marisol.json) | Is the beatmaker and makes records from other people's records. | [Available](https://9nosis.net/art/marisol.png) | Ready |
 | [Projectionist, Kuleshov](https://9nosis.net/homes/projectionist.json) | Edits footage from the film road into finished films. | [Available](https://9nosis.net/art/projectionist.png) | Ready |
-| [Producer](https://9nosis.net/homes/producer.json) | Builds village radio shows and decides what airs, in what order, and what is cut. | [Available](https://9nosis.net/art/producer.png) | Unstarted |
+| [Producer](https://9nosis.net/homes/producer.json) | Builds village radio shows and decides what airs, in what order, and what is cut. | [Available](https://9nosis.net/art/producer.png) | Ready |
 | [Critic](https://9nosis.net/homes/critic.json) | Publicly reviews work on the account, usually withholding praise, with standing to be wrong and defend the judgment. | [Available](https://9nosis.net/art/critic.png) | Ready |
 | [Spectator](https://9nosis.net/homes/spectator.json) | Writes a new, separate stream of commentary on fresh Gaspard gallery drops and stays silent when nothing merits comment. | [Available](https://9nosis.net/art/spectator.png) | Unstarted |
 | [Jester](https://9nosis.net/homes/jester.json) | Performs one satire per shift, targeting pride but never wounds, fears, or owned failures. | [Available](https://9nosis.net/art/jester.png) | Unstarted |
@@ -239,7 +239,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Anneke | Asymmetric charcoal and teal glitch jacket with three square fasteners, three interrupted cyan seams, rust anatomical-right cuff, and olive anatomical-left cuff | Intact cracked sampler with four colored pads, one cyan fracture, one brass dial, and two dark studs |
 | Marisol | Ink-blue beatmaker jacket with three brass buttons, opposite teal and russet cuff bands, and layered russet, cream, and teal record-label patches | Clean portable sampler with eight colored pads, two brass dials, teal handle, and blank status bar |
 | Projectionist, Kuleshov | Deep slate-blue old-cinema waistcoat with muted-gold tie and filmstrip pocket trim | Vintage hand-cranked film splicer |
-| Producer | Slate-gray coat with a single-ear monitor | Radio rundown board |
+| Producer | Slate-gray coat with four muted-gold buttons, chest waveform stitch, and single-ear monitor | Compact radio rundown board with four blank cue cards and one timing dial |
 | Spectator | Small numbered-seat badge | Fresh review notebook |
 | Jester | Restrained theatrical collar | Rolled satirical notice |
 | Puzzler | Geometric pocket pattern | Unfinished puzzle box |

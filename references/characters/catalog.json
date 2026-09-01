@@ -213,6 +213,10 @@
     {
       "id": "projectionist",
       "manifest": "projectionist/character.json"
+    },
+    {
+      "id": "producer",
+      "manifest": "producer/character.json"
     }
   ]
 }

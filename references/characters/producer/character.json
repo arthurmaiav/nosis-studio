@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "producer",
+  "name": "Producer",
+  "roster": "core",
+  "archiveRole": "Builds village radio shows and decides what airs, in what order, and what is cut.",
+  "storyFunction": "The radio editor who listens across the village, selects the broadcast order, and makes the final cut.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Hip-length structured slate-gray producer coat over a cream shirt, short dark-teal tie, charcoal trousers, white gloves, and cream shoes",
+    "Exactly four muted-gold front buttons in two vertical pairs, one muted-gold waveform stitch at the anatomical-left chest, and one dark-teal single-ear monitor over the anatomical-left ear with no microphone boom",
+    "No human anatomy, robot parts, radio-face head, handheld microphone, tape reels, radio tower, extra headphones, extra buttons, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One separate dark slate tabletop radio rundown board with exactly four blank cream cue cards, exactly three teal indicator lamps, and one muted-gold timing dial",
+  "expressions": ["calmly listening", "decisive selection", "surprised interruption", "skeptical cut", "satisfied broadcast"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
