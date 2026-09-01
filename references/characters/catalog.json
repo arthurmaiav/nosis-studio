@@ -177,6 +177,10 @@
     {
       "id": "correspondent",
       "manifest": "correspondent/character.json"
+    },
+    {
+      "id": "reporter",
+      "manifest": "reporter/character.json"
     }
   ]
 }

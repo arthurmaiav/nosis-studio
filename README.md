@@ -64,6 +64,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Typesetter | [View](references/characters/typesetter/2d/master-sheet.png) | [View](references/characters/typesetter/3d/master-sheet.png) |
 | Fenn, Ambassador | [View](references/characters/ambassador/2d/master-sheet.png) | [View](references/characters/ambassador/3d/master-sheet.png) |
 | Correspondent | [View](references/characters/correspondent/2d/master-sheet.png) | [View](references/characters/correspondent/3d/master-sheet.png) |
+| Reporter | [View](references/characters/reporter/2d/master-sheet.png) | [View](references/characters/reporter/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

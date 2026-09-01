@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "reporter",
+  "name": "Reporter",
+  "roster": "core",
+  "archiveRole": "Interviews residents, always including Officer, and writes village news, interviews, and open-bounty advertisements into the Gazette.",
+  "storyFunction": "The village beat reporter who questions residents, checks the municipal desk, and turns current events and open work into each Gazette edition.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Waist-length deep olive press jacket over a cream shirt and small russet necktie, with charcoal trousers, white gloves, and cream shoes",
+    "Exactly three brass front buttons, cream-piped notched lapels, two flat lower pockets, one teal anatomical-left stitch bar, and one plain rear center seam",
+    "Compact tobacco paperboy cap and exactly one ochre pencil tucked behind the anatomical right ear in every view",
+    "No robot anatomy, camera, human body, mechanical skull, buildings, crowd, microphone, satchel, loose papers, long coat, glasses, badge, armband, extra pencils, or extra accessories"
+  ],
+  "roleProp": "One top-bound Gazette notebook with a charcoal back, cream cover, exactly four brass rings, one teal elastic band, exactly three blank note rules, and one russet source tab",
+  "expressions": ["opening an interview", "precise follow-up", "hearing a contradiction", "deadline approaching", "straight story filed"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
