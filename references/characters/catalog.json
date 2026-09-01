@@ -217,6 +217,10 @@
     {
       "id": "producer",
       "manifest": "producer/character.json"
+    },
+    {
+      "id": "spectator",
+      "manifest": "spectator/character.json"
     }
   ]
 }

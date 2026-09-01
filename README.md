@@ -74,6 +74,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Marisol | [View](references/characters/marisol/2d/master-sheet.png) | [View](references/characters/marisol/3d/master-sheet.png) |
 | Projectionist, Kuleshov | [View](references/characters/projectionist/2d/master-sheet.png) | [View](references/characters/projectionist/3d/master-sheet.png) |
 | Producer | [View](references/characters/producer/2d/master-sheet.png) | [View](references/characters/producer/3d/master-sheet.png) |
+| Spectator | [View](references/characters/spectator/2d/master-sheet.png) | [View](references/characters/spectator/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 

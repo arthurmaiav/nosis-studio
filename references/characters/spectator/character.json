@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "spectator",
+  "name": "Spectator",
+  "roster": "core",
+  "archiveRole": "Writes a new, separate stream of commentary on fresh Gaspard gallery drops and stays silent when nothing merits comment.",
+  "storyFunction": "The attentive gallery observer who adds an independent review only when a new work earns one.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Neat midnight-navy gallery cardigan over a cream shirt, charcoal trousers, white gloves, and cream shoes",
+    "Muted-gold V-neck and cuff trim, exactly three muted-gold front buttons, one oval muted-gold seat badge reading 17 on the anatomical-left chest, and matching dark-teal inset tabs with small cream circle stitches on both cuffs",
+    "No human anatomy, silhouette body, telescope, celestial map, gears, floating stars, pen, extra notebook, extra badges, hat, cap, scarf, goggles, or extra accessories"
+  ],
+  "roleProp": "One separate closed dark-navy fresh-review notebook with one muted-gold elastic band and one small blank cream label",
+  "expressions": ["attentive observation", "quietly impressed", "doubtful scrutiny", "sudden insight", "choosing silence"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
