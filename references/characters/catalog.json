@@ -89,6 +89,10 @@
     {
       "id": "smith",
       "manifest": "smith/character.json"
+    },
+    {
+      "id": "reckoner",
+      "manifest": "reckoner/character.json"
     }
   ]
 }

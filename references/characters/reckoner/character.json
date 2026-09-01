@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "reckoner",
+  "name": "Reckoner",
+  "roster": "core",
+  "archiveRole": "Computes internal spend, rates, and growth, prices bounties, proposes wages, and watches credit starvation. The market beyond the wall is not its beat.",
+  "storyFunction": "The village economist who makes internal costs and rates legible before work is priced or credit runs dry.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Crisp fitted muted blue-teal waistcoat with an abstract charcoal grid, paired cream bars, small brass square markers, and five brass buttons",
+    "Cream rolled-sleeve shirt, charcoal tie, charcoal high-waisted trousers, and a precise upright posture",
+    "No outside-market trader role, stock ticker, readable equations, hat, bag, armor, or extra accessories"
+  ],
+  "roleProp": "One compact muted-teal bead-frame calculator with five charcoal rails, evenly spaced brass beads, and two charcoal feet",
+  "expressions": ["calculating", "cross-checking", "spotting an imbalance", "concerned about credit starvation", "confident after pricing"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
