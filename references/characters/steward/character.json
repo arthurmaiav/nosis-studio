@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "steward",
+  "name": "Steward",
+  "roster": "core",
+  "archiveRole": "Checks services and the queue every six hours, inspects demand and the machine's body, and files build tasks.",
+  "storyFunction": "The recurring systems inspector who turns service health, demand, and physical machine condition into actionable build work.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Upper-thigh dark muted-teal checked utility coat with cream collar and cuffs",
+    "Charcoal panel seams, three brass buttons, two square lower pockets, and one brass watch chain from lapel to pocket",
+    "No robot anatomy, monitor face, exposed machinery, neon palette, tablet, hat, goggles, apron, or harness"
+  ],
+  "roleProp": "One brass-framed circular service gauge with a muted-teal face divided into exactly six blank wedges and one charcoal pointer",
+  "expressions": ["alert", "checking", "concerned", "filing", "reassured"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

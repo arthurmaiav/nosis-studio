@@ -61,6 +61,10 @@
     {
       "id": "foreman",
       "manifest": "foreman/character.json"
+    },
+    {
+      "id": "steward",
+      "manifest": "steward/character.json"
     }
   ]
 }
