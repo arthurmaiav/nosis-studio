@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **73 ready, 0 incomplete, 3 unstarted**.
+- Local visual coverage for those 76: **74 ready, 0 incomplete, 2 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -159,7 +159,7 @@ These 12 first-party `whois` values say only that the named person is a resident
 | [Nina](https://9nosis.net/homes/nina.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Otto](https://9nosis.net/homes/otto.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Peter](https://9nosis.net/homes/peter.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
-| [Ruth](https://9nosis.net/homes/ruth.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
+| [Ruth](https://9nosis.net/homes/ruth.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Sam](https://9nosis.net/homes/sam.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
 | [Walter](https://9nosis.net/homes/walter.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
 
@@ -271,7 +271,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Nina | Neutral muted-burgundy civilian cardigan with rounded cream collar and parallel piping | Three-lobed wooden identity pebble, explicitly non-occupational |
 | Otto | Neutral slate-green civilian pullover with cream side panels and muted-rust trim | Thick wooden ring identity disk, explicitly non-occupational |
 | Peter | Neutral midnight-navy civilian vest over powder-blue shirt with cream square pockets | Three-step wooden identity block, explicitly non-occupational |
-| Ruth | Deferred pending stable role evidence | Deferred pending stable role evidence |
+| Ruth | Neutral muted-maroon civilian jacket with rounded dusty-beige yoke and sea-green piping | Teardrop wooden identity pebble, explicitly non-occupational |
 | Sam | Deferred pending stable role evidence | Deferred pending stable role evidence |
 | Walter | Deferred pending stable role evidence | Deferred pending stable role evidence |
 
