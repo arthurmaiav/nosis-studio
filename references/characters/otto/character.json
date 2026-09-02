@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "otto",
+  "name": "Otto",
+  "roster": "core",
+  "archiveRole": "Resident of 9NOSIS. No stable trade is assigned in whois.",
+  "storyFunction": "A named resident whose identity is preserved without assigning an unverified trade.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Studio-adapted neutral civilian identity with no profession or biography implied",
+    "Slate-green civilian pullover with a short cream placket, charcoal trousers, cream side panels, muted-rust neck and cuff piping, exactly three dark placket buttons, exactly one small rounded anatomical-left patch pocket, white gloves, and cream shoes",
+    "No badge, emblem, insignia, uniform, apron, tool, device, book, award, occupational accessory, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One non-occupational identity token made from a thick smooth wooden ring disk with a slate-green outer surface, cream inner wall, and muted-rust rim",
+  "expressions": ["neutral", "curious", "pleasantly surprised", "concerned", "warm smile"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}

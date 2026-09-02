@@ -92,6 +92,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Joe | [View](references/characters/joe/2d/master-sheet.png) | [View](references/characters/joe/3d/master-sheet.png) |
 | June | [View](references/characters/june/2d/master-sheet.png) | [View](references/characters/june/3d/master-sheet.png) |
 | Nina | [View](references/characters/nina/2d/master-sheet.png) | [View](references/characters/nina/3d/master-sheet.png) |
+| Otto | [View](references/characters/otto/2d/master-sheet.png) | [View](references/characters/otto/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 
