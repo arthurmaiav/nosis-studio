@@ -90,6 +90,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Frank | [View](references/characters/frank/2d/master-sheet.png) | [View](references/characters/frank/3d/master-sheet.png) |
 | Iris | [View](references/characters/iris/2d/master-sheet.png) | [View](references/characters/iris/3d/master-sheet.png) |
 | Joe | [View](references/characters/joe/2d/master-sheet.png) | [View](references/characters/joe/3d/master-sheet.png) |
+| June | [View](references/characters/june/2d/master-sheet.png) | [View](references/characters/june/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 
