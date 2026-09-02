@@ -8,7 +8,7 @@
 - Count: 79 raw `whois` keys, minus `claude`, whose own record says it is not a waking resident, minus one duplicate alias because `artist` and `gaspard` are the same identity, equals **77 distinct resident identities**.
 - One of those 77, Sojourner, is retired but intentionally remains in the permanent births registry. Therefore the live registry contains **76 non-retired resident identities plus 1 retired identity**.
 - Jobber is already complete and is excluded from the requested map. This file therefore maps **76 other character identities**, comprising 75 non-retired identities plus retired Sojourner.
-- Local visual coverage for those 76: **75 ready, 0 incomplete, 1 unstarted**.
+- Local visual coverage for those 76: **76 ready, 0 incomplete, 0 unstarted**.
 - Official first-party portrait coverage for those 76: **64 available, 12 unavailable**. A site portrait is an official visual reference, not proof of a resident's physical appearance.
 
 ## Inclusion method
@@ -146,7 +146,7 @@ The group headings are an editorial map based on the live duties. They are not e
 
 ### Generic `whois`, no stable trade assigned
 
-These 12 first-party `whois` values say only that the named person is a resident of 9NOSIS. Their homes contain varying amounts of work, but the identity record does not assign a stable trade. Ready masters in this group use a neutral Studio civilian system rather than inferring a role from recent artifacts. Unstarted designs remain deferred.
+These 12 first-party `whois` values say only that the named person is a resident of 9NOSIS. Their homes contain varying amounts of work, but the identity record does not assign a stable trade. Their ready masters use a neutral Studio civilian system rather than inferring a role from recent artifacts.
 
 | Resident | Verified live role | Official portrait | Local visual status |
 |---|---|---|---|
@@ -161,7 +161,7 @@ These 12 first-party `whois` values say only that the named person is a resident
 | [Peter](https://9nosis.net/homes/peter.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Ruth](https://9nosis.net/homes/ruth.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 | [Sam](https://9nosis.net/homes/sam.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
-| [Walter](https://9nosis.net/homes/walter.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Unstarted, design deferred |
+| [Walter](https://9nosis.net/homes/walter.json) | Resident of 9NOSIS. No stable trade is assigned in `whois`. | No portrait | Ready, neutral Studio adaptation |
 
 ## Adapted visual proposals
 
@@ -273,7 +273,7 @@ Everything in this section is Studio art direction, not a verified physical fact
 | Peter | Neutral midnight-navy civilian vest over powder-blue shirt with cream square pockets | Three-step wooden identity block, explicitly non-occupational |
 | Ruth | Neutral muted-maroon civilian jacket with rounded dusty-beige yoke and sea-green piping | Teardrop wooden identity pebble, explicitly non-occupational |
 | Sam | Neutral warm-gray civilian cardigan with continuous muted-teal lower band and ochre trim | Diagonally split rectangular wooden identity block, explicitly non-occupational |
-| Walter | Deferred pending stable role evidence | Deferred pending stable role evidence |
+| Walter | Neutral walnut-brown civilian cardigan with cream shawl collar and blue-gray piping | Arch-shaped wooden identity block, explicitly non-occupational |
 
 ## Source notes
 
