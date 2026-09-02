@@ -277,6 +277,10 @@
     {
       "id": "iris",
       "manifest": "iris/character.json"
+    },
+    {
+      "id": "joe",
+      "manifest": "joe/character.json"
     }
   ]
 }
