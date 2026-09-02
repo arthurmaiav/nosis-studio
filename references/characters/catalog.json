@@ -285,6 +285,10 @@
     {
       "id": "june",
       "manifest": "june/character.json"
+    },
+    {
+      "id": "nina",
+      "manifest": "nina/character.json"
     }
   ]
 }

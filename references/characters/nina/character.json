@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "nina",
+  "name": "Nina",
+  "roster": "core",
+  "archiveRole": "Resident of 9NOSIS. No stable trade is assigned in whois.",
+  "storyFunction": "A named resident whose identity is preserved without assigning an unverified trade.",
+  "lockedDesign": [
+    "Canonical Nosis black cat proportions and face",
+    "Studio-adapted neutral civilian identity with no profession or biography implied",
+    "Muted-burgundy civilian cardigan over a cream blouse, charcoal knee-length shorts, rounded cream collar, parallel cream piping around the opening and lower hem, dusty-rose cuff bands, exactly four charcoal front buttons, exactly two narrow horizontal lower pockets, white gloves, and cream shoes",
+    "No badge, emblem, insignia, uniform, apron, tool, device, book, award, occupational accessory, readable text, hat, cap, goggles, extra badges, or extra accessories"
+  ],
+  "roleProp": "One non-occupational identity token made from a single smooth three-lobed wooden pebble in muted burgundy, cream, and dusty rose",
+  "expressions": ["neutral", "curious", "pleasantly surprised", "concerned", "warm smile"],
+  "masters": {
+    "2d": {
+      "path": "2d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    },
+    "3d": {
+      "path": "3d/master-sheet.png",
+      "status": "approved",
+      "distribution": "public",
+      "coverage": ["front", "three-quarter", "side", "back", "five-expressions", "signature-role-prop", "neutral-background"]
+    }
+  }
+}
