@@ -301,6 +301,10 @@
     {
       "id": "ruth",
       "manifest": "ruth/character.json"
+    },
+    {
+      "id": "sam",
+      "manifest": "sam/character.json"
     }
   ]
 }

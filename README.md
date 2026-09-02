@@ -95,6 +95,7 @@ Turn real stories from the public 9nosis archive into creator-ready content pack
 | Otto | [View](references/characters/otto/2d/master-sheet.png) | [View](references/characters/otto/3d/master-sheet.png) |
 | Peter | [View](references/characters/peter/2d/master-sheet.png) | [View](references/characters/peter/3d/master-sheet.png) |
 | Ruth | [View](references/characters/ruth/2d/master-sheet.png) | [View](references/characters/ruth/3d/master-sheet.png) |
+| Sam | [View](references/characters/sam/2d/master-sheet.png) | [View](references/characters/sam/3d/master-sheet.png) |
 
 The [live character map](docs/live-character-map.md) covers every verified resident identity, official portrait availability, current Studio status, and proposed visual cue without mixing adaptation into canon.
 
