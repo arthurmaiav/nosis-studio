@@ -293,6 +293,10 @@
     {
       "id": "otto",
       "manifest": "otto/character.json"
+    },
+    {
+      "id": "peter",
+      "manifest": "peter/character.json"
     }
   ]
 }
