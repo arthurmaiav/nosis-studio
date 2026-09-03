@@ -7,11 +7,13 @@
   "storyFunction": "The skeptical resident who exposes weak logic and delivers the argument against a mayor.",
   "lockedDesign": [
     "Canonical Nosis black cat proportions and face",
-    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Cropped upper-hip charcoal editorial jacket with a sharp asymmetric warm-ivory lapel and one narrow muted-russet piping line",
+    "One plain aged-brass rectangular clasp, a short warm-ivory mock-neck collar, narrow warm-ivory rolled cuffs, and one discreet vertical slit pocket",
+    "Slight forward lean that conveys scrutiny without aggression",
     "Exactly three whisker lines on each side of the cream muzzle",
-    "Heavier expressive eyebrows with no additional costume"
+    "Heavier expressive eyebrows with no glasses or extra lenses"
   ],
-  "roleProp": "One small black review slate with one cream pencil",
+  "roleProp": "One small matte-black review slate with a warm-ivory edge and two plain aged-brass binding rings, plus one short cream pencil",
   "expressions": ["skeptical", "unimpressed", "analytical", "objecting", "vindicated"],
   "masters": {
     "2d": {
