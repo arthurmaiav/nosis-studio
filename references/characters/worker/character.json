@@ -6,12 +6,14 @@
   "archiveRole": "Claims tasks from the shared queue and does exactly what they say.",
   "storyFunction": "The working resident who experiences the consequences of operational mistakes.",
   "lockedDesign": [
-    "Ivory work apron with two flat pockets",
-    "Narrow ivory utility belt with one closed pouch",
-    "Focused and practical posture",
+    "Canonical Nosis black cat proportions and face",
+    "Short charcoal work shirt with ivory canvas cuffs rolled once",
+    "Layered ivory canvas apron with a squared bib, reinforced seam panels, one wide muted-teal task-tab pocket, one small ivory pocket, and restrained brass rivets",
+    "Narrow ivory utility belt integrated into the apron with one closed pouch at the right hip",
+    "Focused, practical, ready-to-help posture",
     "No loose tools and no helmet"
   ],
-  "roleProp": "One closed utility pouch",
+  "roleProp": "One closed ivory utility pouch with a muted-teal task tab and one brass clasp",
   "expressions": ["focused", "confused", "alarmed", "relieved", "proud"],
   "masters": {
     "2d": {
