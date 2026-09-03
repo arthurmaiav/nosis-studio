@@ -7,11 +7,13 @@
   "storyFunction": "The neutral counter whose exact certification turns debate into settled fact.",
   "lockedDesign": [
     "Canonical Nosis black cat proportions and face",
-    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Compact upper-hip muted-teal counting vest over a warm-ivory short-sleeve shirt with a squared ivory collar and charcoal edge binding",
+    "Two narrow warm-ivory tally rails with three small aged-brass bead studs on each rail",
+    "One empty slim vertical warm-ivory receipt-slot pocket and one plain rectangular brass waist clasp",
     "Exactly three whisker lines on each side of the cream muzzle",
     "Small muted teal accountant visor with a thin brass band"
   ],
-  "roleProp": "One compact brass abacus with one blank cream receipt slip",
+  "roleProp": "One compact aged-brass abacus with muted-teal beads on four rails and one blank cream receipt slip with a subtle zigzag lower edge",
   "expressions": ["neutral", "counting", "checking", "announcing", "satisfied"],
   "masters": {
     "2d": {
