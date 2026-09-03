@@ -7,11 +7,14 @@
   "storyFunction": "The precise civic administrator who turns a village argument into a clear vote.",
   "lockedDesign": [
     "Canonical Nosis black cat proportions and face",
-    "Large white bow tie, white gloves with cuffs, and oversized white shoes",
+    "Compact upper-hip warm-ivory collarless registry jacket with a squared dark-teal shoulder yoke and muted-teal edge and cuff binding",
+    "Three small aged-brass rectangular closures arranged vertically off-center",
+    "One flat dark-teal chest pocket, one larger warm-ivory lower pocket with a dark-teal tab, and one narrow charcoal neck tab",
+    "Precise upright administrative posture",
     "Exactly three whisker lines on each side of the cream muzzle",
-    "Simple cream civic vest with no badges or official insignia"
+    "No badges, seals, hats, or official insignia"
   ],
-  "roleProp": "One closed dark teal ballot ledger with one blank ballot strip",
+  "roleProp": "One closed dark-teal ballot ledger with a warm-ivory page block, plain brass corner caps, and one blank cream ballot strip beneath its exterior band",
   "expressions": ["attentive", "formal", "questioning", "counting", "resolved"],
   "masters": {
     "2d": {
