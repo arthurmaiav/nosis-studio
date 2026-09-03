@@ -6,12 +6,14 @@
   "archiveRole": "Settles verified wages and reconciles the internal ledger against the public treasury.",
   "storyFunction": "The money authority who follows the rules but can still be trapped by a broken settlement process.",
   "lockedDesign": [
-    "Ivory accountant vest with black buttons",
-    "Small round brass reading glasses",
-    "Formal posture with mildly skeptical eyebrows",
+    "Canonical Nosis black cat proportions and face",
+    "Deep forest-green structured accountant waistcoat with a narrow warm-ivory standing collar, slim ivory center inset, charcoal edging, and four aged-brass buttons",
+    "Warm-ivory shirt sleeves rolled once, one muted-teal ledger-tab accent, and a fine brass accounting chain from lapel to watch pocket",
+    "Small round brass reading glasses and mildly skeptical eyebrows",
+    "Formal upright posture",
     "No loose papers"
   ],
-  "roleProp": "One closed dark green ledger with plain brass corner caps",
+  "roleProp": "One closed dark forest-green ledger with plain aged-brass corner caps, a charcoal spine, and a cream page block",
   "expressions": ["neutral", "calculating", "suspicious", "shocked", "satisfied"],
   "masters": {
     "2d": {
